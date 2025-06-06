@@ -24,12 +24,14 @@ cli_parser.add_argument('method', choices=['token', 'type'])
 args = cli_parser.parse_args()
 
 device = 0 if torch.cuda.is_available() else -1
+print("Load model:", args.checkpoint_path)
 tokenizer = AutoTokenizer.from_pretrained(args.checkpoint_path)
 model = AutoModelForSequenceClassification.from_pretrained(args.checkpoint_path)
 pipe = pipeline("text-classification", model=model, tokenizer=tokenizer, device=device)
 print("Pipe loaded on device", device)
 
 # Expected test file format: [label]\t[raw text]\t[pretokenized text]
+print("Load data:", args.dataset_path)
 test_data = pd.read_csv(args.dataset_path, sep="\t", names=['labels', 'raw', 'tok'], quoting=3)
 # assumes same set of labels as training data
 labels = sorted(test_data['labels'].unique())

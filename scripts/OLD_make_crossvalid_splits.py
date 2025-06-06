@@ -14,35 +14,58 @@ k = int(sys.argv[1])
 #infiles = ['setp_dev.csv', 'setp_test.csv', 'setp_train.csv']
 infiles = sys.argv[2:]
 data = {}
-counter = 0
-#seen = []
+dedup = {}
+short_counter = 0
+seen = []
+ori_size = 0
+
 for infile in infiles:
     print("Processing ", infile)
     with open(infile, 'r') as f:
-        lines = [line.rstrip() for line in f.readlines()]        
+        lines = [line.rstrip() for line in f.readlines()]      
+        ori_size += len(lines)        
+        for line in lines:
+            try:
+                label, raw, tok = line.split('\t') 
+            except ValueError:
+                print(line)
+            
+            tokens = tok.split(' ')
+            if len(tokens) < 3:
+                short_counter += 1
+                continue
+                
+            if not raw in dedup:
+                dedup[raw] = (label, tok)
+            else:
+                seen.append(raw)
 
-    for line in lines:
-        label, raw, tok = line.split('\t')
-        try:
-            data[label].append(line)
-        except KeyError:
-            data[label] = [line]
+print("Original dataset size:", ori_size)
+print("Instances with < 3 tokens:", short_counter)
 
-# remove duplicates within classes
-# NB: an instance is considered as duplicate
-# only if it carries the same label in both occurrences
-# because there can be legitimately ambiguous instances
-# between different varieties
+if len(seen) != 0:
+    start = len(dedup)
+    seen = set(seen)  
+    
+    for s in seen:
+        del dedup[s]
 
+    print("Duplicate types:", len(seen))
+    
+print("After deduplication:", len(dedup))
+
+# Reformat data dict
+for raw in dedup:
+    label, tok = dedup[raw]
+    try:
+        data[label].append('\t'.join((label, raw, tok)))
+    except KeyError:
+        data[label] = ['\t'.join((label, raw, tok))]
+
+
+# Shuffle data in each class
 for label in data:
-    ori_size = len(data[label])
-    data[label] = set(data[label])
-    data[label] = list(data[label])
-    new_size = len(data[label])
-    counter  += ori_size - new_size
-
-if counter != 0:
-    print("There were duplicates in the data. Instances removed:" , counter)
+    random.shuffle(data[label])
 
 def get_split_ranges(sizes):
     ranges = []
@@ -53,11 +76,6 @@ def get_split_ranges(sizes):
         i = j
     return ranges
 
-# Shuffle data in each class
-for label in data:
-    random.shuffle(data[label])
-
-# Determine data slices
 ranges = {}
 for label in data:
     print('Processing class:', label)
@@ -66,9 +84,8 @@ for label in data:
     remainder = total % k
     print('Basis for split size:', basic_split)
     print()
-    #print(basic_split, remainder)
-    split_sizes = []
     
+    split_sizes = []    
     for i in range(0, k):
         if remainder > 0:
             split_sizes.append(basic_split + 1)
@@ -79,9 +96,9 @@ for label in data:
     ranges[label] = get_split_ranges(split_sizes)  
 
 print('Data slices for each class')
-print(ranges)
+for r in ranges:
+    print(r, ranges[r])
 
-# Determine slice attribution for each fold
 for i in range(k):
     dev = i
     if dev == k - 1:
@@ -110,7 +127,6 @@ for i in range(k):
             test_out.append(instance)
         
         for r in train:
-            #print(label, r)
             train_s, train_e = ranges[label][r]
             for instance in data[label][train_s : train_e].copy():
                 train_out.append(instance)
@@ -137,3 +153,4 @@ for i in range(k):
             f.write(line + '\n')
 
 print("Done")
+
