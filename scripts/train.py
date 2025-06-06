@@ -1,4 +1,4 @@
-import sys
+import sys, json, os, pathlib
 from datasets import Dataset, DatasetDict
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer, DataCollatorWithPadding
 import evaluate
@@ -13,6 +13,7 @@ parser.add_argument("-valid", help="path to csv validation file")
 parser.add_argument("-outdir", help="path to directory for saved model files")
 parser.add_argument("-column", help="'raw' for untokenized data (2nd column), 'tok' for tokenized data (3rd column)")
 parser.add_argument("-shuffle", action="store_true")
+parser.add_argument("-epochs", type=int, default=10)
 args = parser.parse_args()
 
 # previous data formats contained a header row - not supported at the moment
@@ -64,7 +65,7 @@ training_args = TrainingArguments(
 	learning_rate=2e-5,
 	per_device_train_batch_size=16,
 	per_device_eval_batch_size=16,
-	num_train_epochs=10,
+	num_train_epochs=args.epochs,
 	weight_decay=0.01,
 	eval_strategy="epoch",
 	save_strategy="epoch",
@@ -92,3 +93,23 @@ trainer = Trainer(
 )
 
 trainer.train()
+
+print("Select best checkpoint")
+checkpoints = os.listdir(args.outdir)
+checkpoints = [x for x in checkpoints if x.startswith("checkpoint-")]
+best_model_checkpoint = ""
+best_metric = 0
+for checkpoint in checkpoints:
+	if "trainer_state.json" in os.listdir(args.outdir + "/" + checkpoint):
+		state = json.load(open(args.outdir + "/" + checkpoint + "/trainer_state.json", "r"))
+		if state["best_metric"] > best_metric:
+			best_metric = state["best_metric"]
+			best_model_checkpoint = state["best_model_checkpoint"].split("/")[-1]
+print("Best checkpoint:", best_model_checkpoint, best_metric)
+fd = os.open(args.outdir, os.O_RDONLY)
+os.symlink(best_model_checkpoint, "best", dir_fd=fd)
+
+for checkpoint in checkpoints:
+	if checkpoint != best_checkpoint:
+		path = pathlib.Path(checkpoint_folder + "/" + checkpoint)
+		path.unlink()
