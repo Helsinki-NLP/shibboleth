@@ -44,21 +44,20 @@ dataset = DatasetDict()
 dataset['train'] = train_ds
 dataset['test'] = valid_ds
 
-if "GysBERT" in args.model or "ScandiBERT" in args.model or "EstBERT" in args.model:
-    tokenizer = AutoTokenizer.from_pretrained(args.model, model_max_length=512)
-else:
-    tokenizer = AutoTokenizer.from_pretrained(args.model)
+model = AutoModelForSequenceClassification.from_pretrained(modelid)
+tokenizer = AutoTokenizer.from_pretrained(modelid)
+# make sure model_max_length is set to a reasonable value
+if tokenizer.model_max_length > model.config.max_position_embeddings:
+	tokenizer = AutoTokenizer.from_pretrained(modelid, model_max_length=model.config.max_position_embeddings)
+# try to avoid saving errors with fine-tuned Bertic
+if "bertic" in args.model:
+	for param in model.parameters():
+		param.data = param.data.contiguous()
 
 def tokenize_function(instances):
 	return tokenizer(instances["text"], padding="max_length", truncation=True)
 
 tokenized_datasets = dataset.map(tokenize_function, batched=True)
-
-model = AutoModelForSequenceClassification.from_pretrained(args.model, num_labels=len(labels))
-# try to avoid saving errors with fine-tuned Bertic
-if "bertic" in args.model:
-	for param in model.parameters():
-		param.data = param.data.contiguous()
 
 training_args = TrainingArguments(
 	output_dir=args.outdir,
@@ -93,6 +92,9 @@ trainer = Trainer(
 )
 
 trainer.train()
+
+with open(f"{args.outdir}/labels.json", "w") as labelfile:
+	json.dump(label2id, labelfile)
 
 print("Select best checkpoint")
 checkpoints = os.listdir(args.outdir)
