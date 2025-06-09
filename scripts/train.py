@@ -1,4 +1,4 @@
-import sys, json, os, pathlib
+import sys, json, os, pathlib, shutil
 from datasets import Dataset, DatasetDict
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer, DataCollatorWithPadding
 import evaluate
@@ -110,6 +110,6 @@ fd = os.open(args.outdir, os.O_RDONLY)
 os.symlink(best_model_checkpoint, "best", dir_fd=fd)
 
 for checkpoint in checkpoints:
-	if checkpoint != best_checkpoint:
-		path = pathlib.Path(checkpoint_folder + "/" + checkpoint)
-		path.unlink()
+	if checkpoint != best_model_checkpoint:
+		path = pathlib.Path(args.outdir + "/" + checkpoint)
+		shutil.rmtree(path)
