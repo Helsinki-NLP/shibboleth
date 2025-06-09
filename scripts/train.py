@@ -44,11 +44,11 @@ dataset = DatasetDict()
 dataset['train'] = train_ds
 dataset['test'] = valid_ds
 
-model = AutoModelForSequenceClassification.from_pretrained(modelid)
-tokenizer = AutoTokenizer.from_pretrained(modelid)
+model = AutoModelForSequenceClassification.from_pretrained(args.model, num_labels=len(labels))
+tokenizer = AutoTokenizer.from_pretrained(args.model)
 # make sure model_max_length is set to a reasonable value
 if tokenizer.model_max_length > model.config.max_position_embeddings:
-	tokenizer = AutoTokenizer.from_pretrained(modelid, model_max_length=model.config.max_position_embeddings)
+	tokenizer = AutoTokenizer.from_pretrained(args.model, model_max_length=model.config.max_position_embeddings)
 # try to avoid saving errors with fine-tuned Bertic
 if "bertic" in args.model:
 	for param in model.parameters():

@@ -30,15 +30,16 @@ model = AutoModelForSequenceClassification.from_pretrained(args.checkpoint_path)
 pipe = pipeline("text-classification", model=model, tokenizer=tokenizer, device=device)
 print("Pipe loaded on device", device)
 
+print("Load labels")
+label2id, id2label = {}, {}
+with open(f"{args.checkpoint_path}/../labels.json") as labelfile:
+    label2id = json.load(labelfile)
+    id2label = {label2id[label]: label for label in label2id}
+print(label2id, id2label)
+
 # Expected test file format: [label]\t[raw text]\t[pretokenized text]
 print("Load data:", args.dataset_path)
 test_data = pd.read_csv(args.dataset_path, sep="\t", names=['labels', 'raw', 'tok'], quoting=3)
-# assumes same set of labels as training data
-labels = sorted(test_data['labels'].unique())
-id2label = {idx:label for idx, label in enumerate(labels)}
-label2id = {label:idx for idx, label in enumerate(labels)}
-print(id2label)
-print(label2id)
 test_data["labels"] = test_data["labels"].map(label2id)
 
 try:
