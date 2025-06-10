@@ -17,10 +17,10 @@ import json
 
 def main(args):
     data = pd.read_csv(args.dataset_path, sep="\t", names=['labels', 'raw', 'tok'], quoting=3)
-    # assumes same set of labels as training data
-    labels = sorted(data['labels'].unique())
-    id2label = {idx:label for idx, label in enumerate(labels)}
-    label2id = {label:idx for idx, label in enumerate(labels)}
+    label2id, id2label = {}, {}
+    with open(f"{args.checkpoint_path}/../labels.json") as labelfile:
+        label2id = json.load(labelfile)
+        id2label = {label2id[label]: label for label in label2id}
     data["labels"] = data["labels"].map(label2id)
 
     device  = 'cuda' if torch.cuda.is_available() else 'cpu'

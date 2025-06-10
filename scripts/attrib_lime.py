@@ -20,8 +20,10 @@ import collections
 def main(args):
     data = pd.read_csv(args.dataset_path, sep="\t", names=['labels', 'raw', 'tok'], quoting=3)
     labels = sorted(data['labels'].unique())
-    id2label = {idx:label for idx, label in enumerate(labels)}
-    label2id = {label:idx for idx, label in enumerate(labels)}
+    label2id, id2label = {}, {}
+    with open(f"{args.checkpoint_path}/../labels.json") as labelfile:
+        label2id = json.load(labelfile)
+        id2label = {label2id[label]: label for label in label2id}
     data["labels"] = data["labels"].map(label2id)
 
     device  = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -34,7 +36,7 @@ def main(args):
         model=model,
         tokenizer=tokenizer,
         device=0,
-        return_all_scores=True,
+        top_k=None,
         batch_size=32,
     )
     data['predicted_labels'] = predictor(data[args.instance_type].to_list())
