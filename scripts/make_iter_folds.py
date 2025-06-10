@@ -30,12 +30,12 @@ ori_size = 0
 for infile in infiles:
     print("Processing ", infile)
     with open(infile, 'r') as f:
-        lines = [line.rstrip() for line in f.readlines()]      
-        ori_size += len(lines)        
+        lines = [line.rstrip('\n\r ') for line in f.readlines()]
+        ori_size += len(lines)
         for line in lines:
-            label, raw, tok = line.split('\t') 
+            label, raw, tok = line.split('\t')
             
-            tokens = tok.split(' ')
+            tokens = tok.strip().split(' ') if tok.strip() != "" else raw.strip().split(' ')
             if len(tokens) < 3:
                 short_counter += 1
                 continue
