@@ -24,7 +24,7 @@ TOK=raw
 
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export TOKENIZERS_PARALLELISM=false
-export HF_HOME=$TRAINDIR/cache
+export HF_HOME=$TRAINDIR/../cache
 
 ITER=$(( (SLURM_ARRAY_TASK_ID / 10) + 1 ))
 FOLD=$(( (SLURM_ARRAY_TASK_ID % 10) + 1 ))

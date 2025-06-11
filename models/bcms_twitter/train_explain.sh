@@ -1,8 +1,8 @@
 #! /bin/bash -l
 
-#SBATCH -J shib_scand
-#SBATCH -o shib_scand.%a.%j.out
-#SBATCH -e shib_scand.%a.%j.err
+#SBATCH -J shib_bcmstw
+#SBATCH -o shib_bcmstw.%a.%j.out
+#SBATCH -e shib_bcmstw.%a.%j.err
 #SBATCH --mem=64G
 #SBATCH -p gpu
 #SBATCH --gres=gpu:v100:1
@@ -14,12 +14,12 @@
 
 module load pytorch
 
-DATADIR=/scratch/project_2005047/shibboleth/data/scandinavian/iter_folds
+DATADIR=/scratch/project_2005047/explainability/data_groundtruth/bcms/twitter/iter_folds
 SCRIPTDIR=/scratch/project_2005047/shibboleth/scripts
-TRAINDIR=/scratch/project_2005047/shibboleth/models/scandinavian
-#TRAINDIR=/scratch/project_2006235/shibboleth/models/scandinavian
+TRAINDIR=/scratch/project_2005047/shibboleth/models/bcms_twitter
+#TRAINDIR=/scratch/project_2006235/shibboleth/models/bcms_twitter
 
-BASEMODEL=vesteinn/ScandiBERT
+BASEMODEL=classla/bcms-bertic
 TOK=raw
 
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
