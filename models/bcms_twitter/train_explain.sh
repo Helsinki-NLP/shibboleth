@@ -10,7 +10,7 @@
 #SBATCH -N 1
 #SBATCH --array=0-99:1
 #SBATCH -A project_2005047
-#SBATCH -t 48:00:00
+#SBATCH -t 71:00:00
 
 module load pytorch
 
@@ -19,7 +19,7 @@ SCRIPTDIR=/scratch/project_2005047/shibboleth/scripts
 TRAINDIR=/scratch/project_2005047/shibboleth/models/bcms_twitter
 #TRAINDIR=/scratch/project_2006235/shibboleth/models/bcms_twitter
 
-BASEMODEL=classla/bcms-bertic
+BASEMODEL=xlm-roberta-base
 TOK=raw
 
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True

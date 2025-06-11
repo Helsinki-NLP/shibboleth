@@ -10,7 +10,7 @@
 #SBATCH -N 1
 #SBATCH --array=0-99:1
 #SBATCH -A project_2005047
-#SBATCH -t 48:00:00
+#SBATCH -t 71:00:00
 
 module load pytorch
 

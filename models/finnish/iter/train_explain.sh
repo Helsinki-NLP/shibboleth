@@ -8,23 +8,23 @@
 #SBATCH --gres=gpu:v100:1
 #SBATCH -n 1
 #SBATCH -N 1
-#SBATCH --array=0-99:5
+#SBATCH --array=0-99:1
 #SBATCH -A project_2005047
-#SBATCH -t 8:00:00
+#SBATCH -t 71:00:00
 
 module load pytorch
 
 DATADIR=/scratch/project_2005047/shibboleth/data/finnish/iter_folds
 SCRIPTDIR=/scratch/project_2005047/shibboleth/scripts
 TRAINDIR=/scratch/project_2005047/shibboleth/models/finnish/iter
-#TRAINDIR=/scratch/project_2006235/shibboleth/models/estonian_voro
+#TRAINDIR=/scratch/project_2006235/shibboleth/models/finnish/iter
 
-BASEMODEL=TurkuNLP/bert-base-finnish-cased-v1
+BASEMODEL=xlm-roberta-base
 TOK=raw
 
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export TOKENIZERS_PARALLELISM=false
-export HF_HOME=$TRAINDIR/cache
+export HF_HOME=$TRAINDIR/../../cache
 
 ITER=$(( (SLURM_ARRAY_TASK_ID / 10) + 1 ))
 FOLD=$(( (SLURM_ARRAY_TASK_ID % 10) + 1 ))
