@@ -23,5 +23,13 @@ python3 merge_lexicons.py
 # create 10 iterations of 10-fold cross-validation sets
 python3 $SCRIPTDIR/make_iter_folds.py 10 10 pkev_all_tok.csv
 
-# TODO: add feature annotation:
-#python3 $SCRIPTDIR/annotate_with_lexicon.py -wl filtered_whitelist.txt -bl filtered_blacklist.txt -i crossvalid/"$SPLIT"_fold"$FOLD".csv -o crossvalid/"$SPLIT"_fold"$FOLD"_features.jsonl
+# add feature annotation:
+for ITER in {1..10}; do
+	for FOLD in {1..10}; do
+		python3 $SCRIPTDIR/annotate_with_lexicon.py \
+			-wl filtered_whitelist.txt \
+			-bl filtered_blacklist.txt \
+			-i iter_folds/iter"$ITER"/dev_iter"$ITER"_fold"$FOLD".tsv \
+			-o iter_folds/iter"$ITER"/dev_iter"$ITER"_fold"$FOLD"_features.jsonl
+	done
+done
