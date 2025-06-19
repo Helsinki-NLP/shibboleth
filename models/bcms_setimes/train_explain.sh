@@ -10,14 +10,14 @@
 #SBATCH -N 1
 #SBATCH --array=0-99:1
 #SBATCH -A project_2005047
-#SBATCH -t 71:00:00
+#SBATCH -t 72:00:00
 
 module load pytorch
 
 DATADIR=/scratch/project_2005047/explainability/data_groundtruth/bcms/setimes_large/iter_folds
 SCRIPTDIR=/scratch/project_2005047/shibboleth/scripts
-TRAINDIR=/scratch/project_2005047/shibboleth/models/bcms_setimes
-#TRAINDIR=/scratch/project_2006235/shibboleth/models/bcms_setimes
+#TRAINDIR=/scratch/project_2005047/shibboleth/models/bcms_setimes
+TRAINDIR=/scratch/project_2006235/shibboleth/models/bcms_setimes
 
 BASEMODEL=xlm-roberta-base
 TOK=raw

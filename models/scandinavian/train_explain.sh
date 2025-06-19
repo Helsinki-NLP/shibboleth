@@ -16,8 +16,8 @@ module load pytorch
 
 DATADIR=/scratch/project_2005047/shibboleth/data/scandinavian/iter_folds
 SCRIPTDIR=/scratch/project_2005047/shibboleth/scripts
-TRAINDIR=/scratch/project_2005047/shibboleth/models/scandinavian
-#TRAINDIR=/scratch/project_2006235/shibboleth/models/scandinavian
+# TRAINDIR=/scratch/project_2005047/shibboleth/models/scandinavian
+TRAINDIR=/scratch/project_2006235/shibboleth/models/scandinavian
 
 BASEMODEL=xlm-roberta-base
 TOK=raw

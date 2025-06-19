@@ -16,8 +16,8 @@ module load pytorch
 
 DATADIR=/scratch/project_2005047/shibboleth/data/middle_low_saxon/iter_folds
 SCRIPTDIR=/scratch/project_2005047/shibboleth/scripts
-TRAINDIR=/scratch/project_2005047/shibboleth/models/middle_low_saxon
-#TRAINDIR=/scratch/project_2006235/shibboleth/models/middle_low_saxon
+#TRAINDIR=/scratch/project_2005047/shibboleth/models/middle_low_saxon
+TRAINDIR=/scratch/project_2006235/shibboleth/models/middle_low_saxon
 
 BASEMODEL=xlm-roberta-base
 TOK=raw

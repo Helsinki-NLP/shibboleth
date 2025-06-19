@@ -1,3 +1,6 @@
 [submodule "data/scandinavian/slide"]
 	path = data/scandinavian/slide
 	url = git@github.com:ltgoslo/slide.git
+[submodule "data/greek/Greek_dialect_corpus"]
+	path = data/greek/Greek_dialect_corpus
+	url = git@github.com:StergiosCha/Greek_dialect_corpus.git
