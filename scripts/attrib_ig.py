@@ -36,7 +36,7 @@ def main(args):
             input_text = row[args.instance_type]
             true_label = row['labels']
             device_ = device
-            inputs = tokenizer(input_text, return_tensors='pt')
+            inputs = tokenizer(input_text, return_tensors='pt', truncation=True, max_length=tokenizer.model_max_length)
             if inputs.input_ids.numel() > 200: # a value of 176 seems to work with n_steps at 250
                 tqdm.tqdm.write(f'input is too large for GPU ({inputs.input_ids.numel()}) — offloading this datapoint to CPU, this will be slow.')
                 device_ = 'cpu'

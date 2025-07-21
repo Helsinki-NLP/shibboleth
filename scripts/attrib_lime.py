@@ -13,7 +13,7 @@ import argparse
 import gc
 import json
 import collections
-
+import re
 
 
 @torch.no_grad()
@@ -39,14 +39,14 @@ def main(args):
         top_k=None,
         batch_size=32,
     )
-    data['predicted_labels'] = predictor(data[args.instance_type].to_list())
+    data['predicted_labels'] = predictor(data[args.instance_type].to_list(), truncation=True, max_length=tokenizer.model_max_length)
     data['predicted_labels'] = data['predicted_labels'].apply(
         lambda lst: max(lst, key=lambda item:item['score'])['label']
     ).map({f'LABEL_{i}': i for i in range(len(labels))})
     data['correct'] = data['predicted_labels'] == data['labels']
 
     def split_into_words(text):
-        encoding = tokenizer(text, return_tensors='pt')
+        encoding = tokenizer(text, return_tensors='pt', truncation=True, max_length=tokenizer.model_max_length)
         word_ids = torch.tensor([[-1 if idx is None else idx for idx in encoding.word_ids()]])
         word_id_to_str = [
             tokenizer.decode(encoding.input_ids.masked_select(word_ids == idx))
@@ -64,12 +64,21 @@ def main(args):
     def lime_comp_pred(texts):
         return np.array([
             [p['score'] for p in sorted(pred, key=lambda item: int(item['label'].split('_')[1]))]
-            for pred in predictor(texts)
+            for pred in predictor(texts, truncation=True, max_length=tokenizer.model_max_length)
         ])
 
     with open(args.output_path, 'w') as ostr, tqdm.trange(len(data)) as pbar:
 
         def to_attrib_dict(row):
+            if re.search('[a-zA-Z0-9]', row[args.instance_type]) is None:
+                return {
+                    'ERROR': "Not parseable by LIME",
+                    'correct': row["correct"],
+                    'pred_label': id2label[row["predicted_labels"]],
+                    'gold_label': id2label[row["labels"]],
+                    'tokens': [],
+                    'attribs': [],
+                }
             lime_values = explainer.explain_instance(
                 row[args.instance_type],
                 lime_comp_pred,
@@ -79,11 +88,11 @@ def main(args):
 
             tokens, attribs = zip(*lime_values)
             attrib_dict = {
-                 'correct': row["correct"],
-                 'pred_label': id2label[row["predicted_labels"]],
-                 'gold_label': id2label[row["labels"]],
-                 'tokens': tokens,
-                 'attribs': attribs,
+                'correct': row["correct"],
+                'pred_label': id2label[row["predicted_labels"]],
+                'gold_label': id2label[row["labels"]],
+                'tokens': tokens,
+                'attribs': attribs,
             }
             pbar.update()
             return attrib_dict

@@ -27,13 +27,25 @@ def main(args):
 
     device  = 'cuda' if torch.cuda.is_available() else 'cpu'
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.checkpoint_path)
+    class tokenizer_force_truncate(tokenizer.__class__):
+        def __init__(self):
+            self.__dict__ = tokenizer.__dict__
+        def __call__(self, *args, **kwargs):
+            if 'truncation' in kwargs:
+                _ = kwargs.pop('truncation')
+            if 'max_length' in kwargs:
+                _ = kwargs.pop('max_length')
+            return tokenizer(*args, **kwargs, truncation=True, max_length=tokenizer.model_max_length)
+
+    tokenizer_ = tokenizer_force_truncate()
+
     model = transformers.AutoModelForSequenceClassification.from_pretrained(args.checkpoint_path).eval().to(device)
 
     # build a pipeline object to do predictions
     pred = transformers.pipeline(
         "text-classification",
         model=model,
-        tokenizer=tokenizer,
+        tokenizer=tokenizer_,
         device=0,
         top_k=None,
         batch_size=32,
@@ -51,10 +63,10 @@ def main(args):
 
     with open(args.output_path, 'w') as ostr:
         def remap_shaps_to_words(shap_data, shap_values, text, label):
-            encoding = tokenizer(text, return_tensors='pt')
+            encoding = tokenizer_(text, return_tensors='pt')
             word_ids = torch.tensor([[-1 if idx is None else idx for idx in encoding.word_ids()]])
             word_id_to_str = [
-               tokenizer.decode(encoding.input_ids.masked_select(word_ids == idx))
+               tokenizer_.decode(encoding.input_ids.masked_select(word_ids == idx))
                 for idx in range(word_ids.max() + 1)
             ]
             assert len(shap_data) ==  len(encoding.word_ids())
