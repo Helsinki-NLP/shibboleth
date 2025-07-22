@@ -20,6 +20,8 @@ parser.add_argument('--l2_normalize', action='store_true')
 parser.add_argument('--max_per_doc', type=int, default=None)
 parser.add_argument('--selection_threshold', type=float, default=0.6)
 parser.add_argument('--items_in_list', type=int, default=1000)
+parser.add_argument('--docnorm', action='store_true')
+parser.add_argument('--tfidf', action='store_true')
 args = parser.parse_args()
 
 
@@ -31,41 +33,58 @@ def normalize(s):
         return s
 
 
-def handle_instance(instance: dict):
-    if 'error' in instance:
-        return []
-    elif not instance['correct'] and not args.keep_incorrect:
-        return []
-
-    attribs = {}
-    tokens = map(normalize, instance['tokens'])
-    for tok, score in zip(tokens, instance['attribs']):
-        attribs[tok] = max(attribs.get(tok, -float('inf')), score)
-    if args.l2_normalize:
-        norm = sum(score ** 2 for score in attribs.values()) ** .5
-        attribs = {tok: score / norm for tok, score in attribs.items()}
-    selected = [
-        {
-            'token': tok,
-            'score':score,
-            'label': instance['gold_label'],
-        } 
-        for tok, score in sorted(
-            attribs.items(),
-            reverse=True,
-            key=lambda it: it[-1],
-        )[:args.max_per_doc]
-    ]
-    return selected
 
 
 def handle_predfile(predfile: str):
+    if args.tfidf:
+        dfreq = collections.defaultdict(int)
+    def handle_instance(instance: dict):
+        if 'error' in instance:
+            return []
+        elif not instance['correct'] and not args.keep_incorrect:
+            return []
+
+        attribs = {}
+        tokens = list(map(normalize, instance['tokens']))
+        if args.tfidf:
+            tfreq = {
+                k: v / len(tokens)
+                for k, v in collections.Counter(tokens).items()
+            }
+            for tok in tfreq:
+                dfreq[tok] += 1
+        for tok, score in zip(tokens, instance['attribs']):
+            attribs[tok] = max(attribs.get(tok, -float('inf')), score)
+        if args.tfidf:
+            for tok, score in zip(tokens, instance['attribs']):
+                attribs[tok] = attribs[tok] * tfreq[tok]
+        if args.l2_normalize:
+            norm = sum(score ** 2 for score in attribs.values()) ** .5
+            attribs = {tok: score / norm for tok, score in attribs.items()}
+        selected = [
+            {
+                'token': tok,
+                'score':score,
+                'label': instance['gold_label'],
+            } 
+            for tok, score in sorted(
+                attribs.items(),
+                reverse=True,
+                key=lambda it: it[-1],
+            )[:args.max_per_doc]
+        ]
+        return selected
+
     with open(predfile, 'r') as istr:
         instances = map(json.loads, istr)
         records = map(handle_instance, instances)
         records = itertools.chain.from_iterable(records)
         df = pd.DataFrame.from_records(records)
         df['source'] = predfile
+        if args.tfidf:
+            idf = (len(df) / df.token.map(dfreq))
+            idf = (idf + 1).apply(math.log) + 1
+            df['score'] *= idf
     return df
 
 
@@ -79,11 +98,13 @@ freq_data['selection_freq'] = freq_data['source'].apply(len) / len(args.explanat
 stable_tokens_data = freq_data[freq_data['selection_freq'] >= args.selection_threshold]
 stable_tokens = set(stable_tokens_data['token'].to_list())
 
-
 print('aggregating scores')
 # SACX defaults to a mean score per all instances of a word
 mean_attribs = data[data['token'].isin(stable_tokens)]
-mean_attribs = mean_attribs.groupby(['token', 'label'])['score'].mean().reset_index()
+if args.docnorm:
+    mean_attribs = mean_attribs.groupby(['token', 'label'])['score'].mean().reset_index()
+else:
+    mean_attribs = mean_attribs.groupby(['token', 'label'])['score'].sum().reset_index()
 mean_attribs = mean_attribs.merge(stable_tokens_data[['token', 'label', 'selection_freq']])
 
 if args.blacklist:
