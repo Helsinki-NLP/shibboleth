@@ -16,7 +16,7 @@ def main(args):
     model = transformers.AutoModelForSequenceClassification.from_pretrained(args.checkpoint_path).eval().to(device)
     pred = transformers.pipeline("text-classification", model=model, tokenizer=tokenizer, device=device, batch_size=32)
 
-    data['predictions'] = pred(data[args.instance_type].to_list())
+    data['predictions'] = pred(data[args.instance_type].to_list(), truncation=True, max_length=tokenizer.model_max_length)
     data['predictions'] = data['predictions'].apply(lambda x: id2label[int(x['label'].replace("LABEL_", ""))])
     report = classification_report(data['labels'], data['predictions'], digits=4)
     conf_matrix = pd.crosstab(data['labels'], data['predictions'], rownames=['Gold'], colnames=['Predicted'], margins=True)
