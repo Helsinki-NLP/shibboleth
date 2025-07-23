@@ -56,7 +56,7 @@ def read_corpus(infile):
     return list(dedup.values())
 
 corpus = read_corpus(args.corpus)
-corpus = collections.Counter(corpus)
+corpus = dict(collections.Counter(corpus))
 
 
 records = []
