@@ -29,11 +29,16 @@ def lens_from_corpus(infile):
             if not raw in dedup:
                 dedup[raw] = tuple(map(normalize, tokens))
     return np.array(list(map(len, dedup.values())))
-    
+
 fnames = {
     'estonian_voro': 'shibboleth/data/estonian_voro/pkev_all_tok.csv',
     'scandinavian': 'shibboleth/data/scandinavian/slide_sl_all_tok.csv',
     'BCMS setimes': 'explainability/data_groundtruth/bcms/setimes_large/all_tok.csv',
+    'BCMS twitter': 'explainability/data_groundtruth/bcms/twitter/all_tok.csv',
+    'finnish': 'explainability/data/finnish/murre24_may/s24_sent.tsv',
+    'greek': 'shibboleth/data/greek/grdc_all.csv',
+    'german': 'shibboleth/data/jodel/jodel_all_tok.csv',
+    'MLS': 'shibboleth/data/middle_low_saxon/ReN_northsaxon_all.txt',
 }
 
 lens = {k: lens_from_corpus(v) for k, v in fnames.items()}
