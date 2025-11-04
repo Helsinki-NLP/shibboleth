@@ -1,2 +1,0 @@
-- other variety column marks only if the shibboleth is INCORRECT for the variety
-- note marks if the shibboleth is not exclusive
