@@ -1,0 +1,401 @@
+id,token,label,score,selection_freq,in_blacklist,cognate_da,cognate_nb,cognate_nn,cognate_sv,NotShib,NotMinimal,Morph,Phon_Spell,NE,Typo_Unk,LexShib,Counterex,NonLexShib
+0,pen,da,0.4618026215747237,0.74,True,pen (N),pen (A),pen (A),,True,False,False,False,False,False,False,False,False
+1,søskende,da,0.4525798525171596,0.78,False,,søsken/lemma,"sysken, søsken/lemma",syskon/lemma,False,False,False,False,False,False,True,False,False
+2,grinede,da,0.4402977029188638,0.62,False,,grein,grein,grinade,False,False,False,True,False,False,False,False,True
+3,studerede,da,0.4294915236695627,0.64,False,,studerte,studerte,studerade,False,False,True,False,False,False,False,False,True
+4,tvivler,da,0.4175330275901365,0.76,False,,,,tvivlare,False,False,True,False,False,False,False,False,True
+5,skidt,da,0.4156621997841063,0.69,False,,skitt,"skit, skitt",skitt,False,False,False,True,False,False,False,False,True
+6,tilgav,da,0.3962544690549142,0.99,True,tilgav,tilgav,tilgav,,True,False,False,False,False,False,False,False,False
+7,landede,da,0.389666445620094,0.62,False,,,,landade,False,False,True,False,False,False,False,False,True
+8,sneet,da,0.3888544137183806,0.72,False,,snødd,"snødd, snøtt",snöat,False,False,False,False,False,False,True,False,False
+9,giftes,da,0.3807669954586574,0.72,True,noun,,,verb,True,False,False,False,False,False,False,False,False
+10,luftede,da,0.3747362066843762,0.88,False,,luftet,lufta,luftade,False,False,True,False,False,False,False,False,True
+11,besøgt,da,0.3746807081151627,0.72,False,,besøkt,,,False,False,False,True,False,False,False,False,True
+12,kuglepen,da,0.3673642300638003,0.81,False,,kulepenn,kulepenn,kulpenna,False,False,True,True,False,False,False,False,True
+13,julemanden,da,0.3640268626846441,0.82,False,,julenisse,,jultomte,False,False,False,False,False,False,True,False,False
+14,tilgivet,da,0.3626395191414346,1.0,False,,tilgitt,"tilgitt, tilgjeve",förlåta?/lemma,False,False,True,False,False,False,False,False,True
+15,nyheder,da,0.3592104687867225,0.89,False,,nyheter,,nyheter,False,False,False,True,False,False,False,False,True
+16,ventede,da,0.3585579999343514,0.99,False,,"venta, ventet",venta,väntade,False,False,True,True,False,False,False,False,True
+17,omfavnede,da,0.3538859252972842,0.61,False,,omfavnet,,omfamnade,False,False,True,True,False,False,False,False,True
+18,griner,da,0.3522559364175098,0.75,True,,griner,grin,grinar,True,False,False,False,False,False,False,False,False
+19,hovedpine,da,0.3509667350056013,0.82,False,,hodepine,hovudverk,huvudvärk,False,False,False,False,False,False,True,False,False
+20,modtog,da,0.3508447725067538,0.86,False,,mottok,,,False,False,False,True,False,False,False,False,True
+21,hænderne,da,0.3499509089569207,0.99,False,,hendene,hendene,händerna,False,False,True,True,False,False,False,False,True
+22,behandlede,da,0.3466959317019247,0.61,False,,behandlet,behandla,behandlade,False,False,True,False,False,False,False,False,True
+23,traf,da,0.3459222632154386,0.65,False,,traff,trefte,träffade ,False,False,True,True,False,False,False,False,True
+24,tørstig,da,0.3425936238202484,0.67,False,,tørst,"tørst, tyrst",törstig,False,False,False,True,False,False,False,False,True
+25,besøgte,da,0.3390071854895746,0.92,False,,besøkte,,,False,False,False,True,False,False,False,False,True
+26,græsk,da,0.3379992712951218,0.78,True,,gresk,gresk,grekisk,False,False,False,True,True,False,False,False,True
+27,cykle,da,0.3375570353168242,0.89,True,,sykle,sykle,cykla,False,False,True,True,False,False,False,False,True
+28,kuffert,da,0.3342451624791716,0.64,False,,koffert,koffert,koffert,False,False,False,False,False,False,True,False,False
+29,tilgiver,da,0.3329516204114511,0.66,False,,tilgir,"tilgir, tilgjev",förlåta?/lemma,False,False,True,False,False,False,False,False,True
+30,afskyr,da,0.3296666484111125,0.67,False,,avskyr,avskyr,avskyr,False,True,False,True,False,False,False,False,True
+31,finger,da,0.3277154905330325,0.67,True,,finger,finger,finger,True,False,False,False,False,False,False,True,False
+32,åbnede,da,0.3265507439921172,1.0,False,,åpnede,opna,,False,False,True,True,False,False,False,False,True
+33,løj,da,0.3260797410579775,0.94,False,,løy,løy,,False,False,False,True,False,False,False,False,True
+34,udstå,da,0.3230206723765561,0.7,False,,,, ut­stå ,False,True,False,True,False,False,False,False,True
+35,udmattet,da,0.3213358436806712,0.65,False,,utmatte/lemma,"utmatte, utmatta/lemma",utmatta/lemma,False,True,False,True,False,False,False,False,True
+36,deltager,da,0.3209577901577743,0.6,True,,deltager/cons,,,True,False,False,False,False,False,False,False,False
+37,dansede,da,0.3192982963325404,0.9,False,,danset,dansa,dansade,False,False,True,False,False,False,False,False,True
+38,tilbragte,da,0.3179435179660753,0.94,False,,tilbrakte,,tillbragte,False,False,False,True,False,False,False,False,True
+39,prøvet,da,0.315806613675068,0.67,False,,prøvd,prøvd,,False,False,True,False,False,False,False,False,True
+40,åbnet,da,0.3155253764455979,0.73,False,,åpnet,opna,,False,False,True,True,False,False,False,False,True
+41,taber,da,0.314843679476079,0.77,False,,taper,tapar,förlorare?,False,False,False,True,False,False,False,False,True
+42,snakkede,da,0.3104640494183333,0.69,False,,snakket,snakka,snackade,False,True,True,False,False,False,False,False,True
+43,arbejder,da,0.3087600980107344,1.0,False,,,,,False,False,False,True,False,False,False,False,True
+44,ændrede,da,0.308371825888016,0.77,False,,endrede,endra,ändra/lemma,False,False,True,True,False,False,False,False,True
+45,svømmede,da,0.3066380141548595,0.8,False,,svømte,"symje, svømme, symja, svømma/lemma",simmade,False,False,True,False,False,False,False,False,True
+46,malede,da,0.3057881046873218,0.93,False,,malte,,målade,False,False,True,False,False,False,False,False,True
+47,mødte,da,0.305626619326661,1.0,False,,møtte,,mötte,False,False,False,True,False,False,False,False,True
+48,undskyldning,da,0.302884739908706,0.69,False,,unnskyldning,,,False,False,False,True,False,False,False,False,True
+49,vandt,da,0.3001226497895412,0.95,False,,vandt,vant,,True,False,False,False,False,False,False,False,False
+50,druknede,da,0.2970652289855768,0.75,False,,druknet,drukna,,False,False,True,False,False,False,False,False,True
+51,morgenmaden,da,0.2955972884773979,0.81,False,,frokost,frukost,frukost,False,False,False,False,False,False,True,False,False
+52,billet,da,0.2955603511107258,0.82,False,,billett,,,False,False,False,True,False,False,False,False,True
+53,fordrage,da,0.2941993566309547,0.69,False,,,fordrage,,True,False,False,False,False,False,False,False,False
+54,indrømme,da,0.2928833634656043,0.73,False,,innrømme,innrømme,,False,False,False,True,False,False,False,False,True
+55,tænk,da,0.2926422293448834,0.85,False,,tenk,tenk,tänk,False,False,False,True,False,False,False,False,True
+56,spejl,da,0.2917535192033453,0.67,False,,speil,spegel,spegel,False,False,False,True,False,False,False,False,True
+57,kompliceret,da,0.2914916148297556,0.73,False,,komplisert,,komplicerad,False,False,True,True,False,False,False,False,True
+58,sneede,da,0.2898610561103693,0.73,False,,snødde,"snødde, snøa",snöade,False,False,False,False,False,False,True,False,False
+59,tilføjer,da,0.2897931281145144,0.8,False,,tilføyer,tilføyer,tilllägga?/lemma,False,False,False,True,False,False,False,False,True
+60,græd,da,0.2897734608295404,0.86,False,,grot,gret,grät,False,False,False,True,False,False,False,False,True
+61,computere,da,0.2895118573369116,0.82,False,,(datamaskin),,(dator),False,False,False,False,False,False,True,False,False
+62,byggede,da,0.285006357926354,0.79,False,,bygde,bygde,byggde,False,False,False,True,False,False,False,False,True
+63,cirkus,da,0.284863216721095,0.61,True,,,,cirkus,True,False,False,False,False,False,False,False,False
+64,kaldte,da,0.2842515344483809,0.84,False,,kalte,kalla,kallade,False,False,False,True,False,False,False,False,True
+65,hænder,da,0.2832817490210714,0.99,False,,hender,hender,händer,False,False,False,True,False,False,False,False,True
+66,indkøb,da,0.2832592841742543,0.63,False,,innkjøp,,inköp,False,False,False,True,False,False,False,False,True
+67,leger,da,0.2828234677695243,0.9,True,,leger (N),,,True,False,False,False,False,False,False,False,False
+68,vrede,da,0.2813817389462986,0.68,True,,,,vrede,True,False,False,False,False,False,False,False,False
+69,smag,da,0.2812465285496964,0.76,False,,smak,smak,smak,False,False,False,True,False,False,False,False,True
+70,træner,da,0.2809186548659925,0.92,False,,trener,trenar,,False,False,False,True,False,False,False,False,True
+71,håbet,da,0.2805406746942889,0.62,False,,håpet,håpet,,False,False,False,True,False,False,False,False,True
+72,kreditkort,da,0.2780212943527742,0.8,True,,,,kreditkort,True,False,False,False,False,False,False,False,False
+73,sner,da,0.2778755892141589,0.91,False,,snør,"snør, snøar",snöar,False,False,False,False,False,False,True,False,False
+74,fangede,da,0.276475164322588,0.83,False,,fanget,fanga,fångade,False,False,False,True,False,False,False,False,True
+75,taler,da,0.2764054894559356,1.0,True,,taler,taler,talar,True,False,False,False,False,False,False,False,False
+76,vejer,da,0.2762680064959417,0.86,False,,veier,vegar,väga/lemma,False,False,False,True,False,False,False,False,True
+77,fanden,da,0.2752881396253032,0.77,False,,faen,faen,fan,False,False,False,False,False,False,True,False,False
+78,vild,da,0.2742582918065431,0.84,True,,vill,,vild,True,False,False,False,False,False,False,False,False
+79,arbejdede,da,0.2739478228842517,0.97,False,,arbeidde/arbeidet,,,False,False,True,True,False,False,False,False,True
+80,bager,da,0.2737728229008581,0.64,True,,baker; bag-er,baker; bag-er,bagare,True,False,False,False,False,False,False,False,False
+81,lejede,da,0.273697005729196,0.62,False,,leide,leidde,,False,False,False,False,False,False,True,False,False
+82,tænder,da,0.2735440186001064,0.89,False,,tenner,,tänder,False,False,False,True,False,False,False,False,True
+83,vågnede,da,0.2735131343237159,0.9,False,,våknede,"vakne, vakna/lemma",vakna/lemma,False,False,True,True,False,False,False,False,True
+84,sjæl,da,0.2723747001609354,0.75,True,,sjel,sjel (nonstd sjæl),själ,False,False,False,True,False,False,False,False,True
+85,svin,da,0.2717722730278902,0.77,True,,svin,svin,svin,True,False,False,False,False,False,False,False,False
+86,strøg,da,0.2710494093919299,0.62,False,,strøk,,strög,False,False,False,True,False,False,False,False,True
+87,hader,da,0.2710221518615993,1.0,False,,har,har,har,False,False,False,False,False,False,True,False,False
+88,tak,da,0.2688390724735989,1.0,True,,tak,tak,tak,True,False,False,False,False,False,False,False,False
+89,udlænding,da,0.2684511520629307,0.63,False,,utlending,utlending,utlänning,False,True,False,True,False,False,False,False,True
+90,varede,da,0.2679253520417395,0.76,False,,varte,,varade,False,False,True,False,False,False,False,False,True
+91,aftale,da,0.2677196629439261,0.93,False,,avtale,avtale,avtal,False,False,False,True,False,False,False,False,True
+92,nysgerrig,da,0.2671665879567237,0.81,False,,nysgjerrig,nysgjerrig,,False,False,False,True,False,False,False,False,True
+93,læser,da,0.2663073573424243,1.0,True,,,(nonstd),,False,False,False,True,False,False,False,False,True
+94,skør,da,0.2658327301992308,0.9,False,,skjør,skøyr,skör,False,False,True,False,False,False,False,False,True
+95,skiftede,da,0.2655191815278817,0.8,False,,skiftet,skifta,,False,False,True,False,False,False,False,False,True
+96,keder,da,0.2654515253819346,0.6,True,keder,kjeder,,nonstd N,False,False,False,True,False,False,False,False,True
+97,arresterede,da,0.264056187018877,0.64,False,,arresterte,arresterte,,False,False,True,False,False,False,False,False,True
+98,hemmelighed,da,0.2632891006881245,0.79,False,,hemmelighet,,hemlighet,False,False,False,True,False,False,False,False,True
+99,standsede,da,0.2631553064291901,0.67,False,,"stanset, stansa",stansa,stansade,False,False,True,True,False,False,False,False,True
+100,drepte,nb,0.4502193280616633,0.77,False,dræbte,,drap,dräpte,False,False,True,True,False,False,False,False,True
+101,bodd,nb,0.4469513697286902,0.85,False,boede,,budd,bott,False,False,True,True,False,False,False,False,True
+102,fotballspiller,nb,0.3501608806120584,0.77,False,fodbold,,spelar,,True,True,False,False,False,False,False,False,False
+103,snakkes,nb,0.33326882672635,0.63,True,snakkes,,,,True,False,False,False,False,False,False,False,False
+104,smaker,nb,0.3311030164349317,0.65,True,,,smaker,smaker,True,False,False,False,False,False,False,False,False
+105,vakker,nb,0.3169327389522904,0.93,True,vakker,,vakker,,True,False,False,False,False,False,False,False,False
+106,kjeft,nb,0.3106955795120739,0.63,True,,,kjeft,,True,False,False,False,False,False,False,False,False
+107,vakkert,nb,0.305404191218138,0.71,True,vakkert,,vakkert,,True,False,False,False,False,False,False,False,False
+108,gråt,nb,0.2906074144257897,0.75,True,,,gråt,gråt,True,False,False,False,False,False,False,False,False
+109,besøkt,nb,0.2770943405705227,0.65,True,,,besøkt,,True,False,False,False,False,False,False,False,False
+110,trengte,nb,0.2734187006442865,0.9,False,trængte,,trong,behövde,False,False,True,True,False,False,False,False,True
+111,nyhetene,nb,0.269114381741061,0.63,False,,,nyheitene,nyheterna,False,False,True,True,False,False,False,False,True
+112,våren,nb,0.2622482067603516,0.64,True,våren,,våren,våren,True,False,False,False,False,False,False,True,False
+113,kjæreste,nb,0.2609500319835474,0.86,False,,,kjæraste,,False,False,False,True,False,False,False,False,True
+114,katt,nb,0.2518426937133307,0.62,True,kat,,katt,katt,True,False,False,False,False,False,False,False,False
+115,jenten,nb,0.2512592049184483,0.64,False,,,jenta,,False,False,False,False,False,False,True,False,False
+116,invitert,nb,0.2503280596080557,0.7,True,,,invitert,,True,False,False,False,False,False,False,False,False
+117,flott,nb,0.2475660960310458,0.81,True,flot,,flott,flott,True,False,False,False,False,False,False,False,False
+118,forsvunnet,nb,0.2457586728117431,0.65,False,,,,,False,False,True,True,False,False,False,False,True
+119,kjøpte,nb,0.2431330674030717,0.99,True,,,kjøpte,,True,False,False,False,False,False,False,False,False
+120,hater,nb,0.2405849781176625,0.99,False,hader,,hatar,hatar,False,False,False,True,False,False,False,False,True
+121,snill,nb,0.2400066420601051,0.91,True,snild,,snill,snäll,True,False,False,False,False,False,False,False,False
+122,husene,nb,0.2396951563006863,0.62,True,husene,,,,True,False,False,False,False,False,False,False,False
+123,vennen,nb,0.2381847648849011,0.75,True,,,vennen,,True,False,False,False,False,False,False,False,False
+124,trøtt,nb,0.2372636974426409,0.86,True,træt,,trøytt,trött,False,False,False,True,False,False,False,False,True
+125,røyker,nb,0.2348779575400665,0.65,True,,,røyker,,True,False,False,False,False,False,False,False,False
+126,klasserommet,nb,0.2347681085162822,0.63,True,,,klasserommet,,True,False,False,False,False,False,False,False,False
+127,vennligst,nb,0.233199794759136,0.85,False,venligst,,"venlegast, vennlegast",,False,False,True,True,False,False,False,False,True
+128,sliten,nb,0.2330591640190275,0.69,True,,,sliten,sliten,True,False,False,False,False,False,False,False,False
+129,eier,nb,0.2314888062351165,0.88,False,ejer,,eigar,ägar/ägare,False,False,False,True,False,False,False,False,True
+130,øyeblikket,nb,0.2312046657393365,0.83,False,øjeblikket,,"augeblink, augneblink",ögonblicket,False,False,False,True,False,False,False,False,True
+131,australia,nb,0.229876483232863,0.7,True,Australien,,Australia,Australien,True,False,False,False,True,False,False,False,False
+132,interessert,nb,0.2289211578292902,0.89,True,,,interessert,,True,False,False,False,False,False,False,False,False
+133,gull,nb,0.2265347868084746,0.72,True,,,gull,guld,True,False,False,False,False,False,False,False,False
+134,leser,nb,0.2242218573875438,0.95,True,,,"les (V), lesar (N)",,False,False,True,True,False,False,False,False,True
+135,datamaskinen,nb,0.2225389335236757,0.72,True,,,datamaskinen,,True,False,False,False,False,False,False,False,False
+136,kjøtt,nb,0.2221543581570213,0.67,True,,,kjøtt/radical,kött,True,False,False,False,False,False,False,False,False
+137,forferdelig,nb,0.2220112573934775,0.86,False,forfærdelig,,forferdeleg,,False,False,False,True,False,False,False,False,True
+138,sant,nb,0.2207853025854535,1.0,True,sandt,,sant,sant,True,False,False,False,False,False,False,False,False
+139,nøkkelen,nb,0.2199968736398371,0.68,True,nøglen,,nøkkelen,,True,False,False,False,False,False,False,False,False
+140,verneverdige,nb,0.2195892348349194,0.66,False,"værn, værdig",,verneverdige,"värna, verdig",True,False,False,False,False,False,False,False,False
+141,sjøen,nb,0.2180086413986633,0.62,True,,,sjøen,,True,False,False,False,False,False,False,False,False
+142,øyne,nb,0.2179862962134406,0.99,False,øjne,,,,False,False,False,True,False,False,False,False,True
+143,melk,nb,0.2171465478274578,0.85,False,mælk,,mjølk,mjölk,False,False,False,False,False,False,True,False,False
+144,snakker,nb,0.2169938316597219,1.0,True,snakker,,,,True,False,False,False,False,False,False,False,False
+145,skjøt,nb,0.2168051726026808,0.78,False,skød,,skaut,sköt,False,False,True,True,False,False,False,False,True
+146,hvit,nb,0.2166078503262815,0.84,False,hvid,,kvit,vit,False,False,False,True,False,False,False,False,True
+147,lege,nb,0.2154192392324116,0.83,True,lege (V),,lege,,True,False,False,False,False,False,False,False,False
+148,fryktelig,nb,0.213810954060883,0.75,False,frygtelig,,frykteleg,,False,False,False,True,False,False,False,False,True
+149,veggene,nb,0.2100201731553279,0.66,True,,,veggene,,True,False,False,False,False,False,False,False,False
+150,drakk,nb,0.2100074945872905,0.62,True,,,drakk,drack,True,False,False,False,False,False,False,False,False
+151,reglene,nb,0.2095670225837917,0.88,False,reglerne,,reglane,,False,False,True,False,False,False,False,False,True
+152,vennene,nb,0.2093715145142248,0.87,True,,,vennene,,True,False,False,False,False,False,False,False,False
+153,fornøyd,nb,0.2085479062288465,0.95,False,fornøjet,,nøgd,förnöjd,False,False,False,True,False,False,False,False,True
+154,kjøleskapet,nb,0.2071338256943503,0.72,True,køleskab,,kjøleskapet,kylskåpet,True,False,False,False,False,False,False,False,False
+155,grønnsaker,nb,0.20690749902488,0.64,False,grøntsag,,grønsaker,grönsaker,False,False,True,False,False,False,False,False,True
+156,selger,nb,0.2066969000963046,0.93,False,sælger,,seljar,säljare,False,False,False,True,False,False,False,False,True
+157,ansikt,nb,0.2055542429707847,0.69,True,ansigt,,ansikt,ansikte,True,False,False,False,False,False,False,False,False
+158,brøt,nb,0.20370017506205,0.67,False,,,braut,bröt,False,False,False,True,False,False,False,False,True
+159,møtet,nb,0.2026953687331659,0.94,True,,,møtet,,True,False,False,False,False,False,False,False,False
+160,natt,nb,0.2023383178891913,0.95,True,nat,,natt,natt,True,False,False,False,False,False,False,False,False
+161,liker,nb,0.2017014575640338,1.0,True,,,liker,,True,False,False,False,False,False,False,False,False
+162,merkelig,nb,0.2016415961742198,0.87,False,,,merkeleg,märklig,False,False,False,True,False,False,False,False,True
+163,stengt,nb,0.1986158453101824,0.64,True,,,stengt,,True,False,False,False,False,False,False,False,False
+164,sykkelen,nb,0.1983354106260764,0.79,True,cyklen,,sykkelen,cykeln,True,False,False,False,False,False,False,False,False
+165,jobber,nb,0.1971203946143045,1.0,True,jobber,,jobbar,jobbar,True,False,False,False,False,False,False,False,False
+166,blåser,nb,0.1966390744904919,0.79,True,,,,blåser,True,False,False,False,False,False,False,False,False
+167,boken,nb,0.1965252956327862,1.0,True,,,,boken,True,False,False,False,False,False,False,False,False
+168,leilighet,nb,0.1946593416068667,0.87,False,,,leilegheit,,False,False,False,True,False,False,False,False,True
+169,åpenhet,nb,0.1930139689821607,0.73,False,åbenhed,,openheit,öppenhet,False,True,False,False,False,False,False,False,True
+170,kart,nb,0.1928895904183592,0.63,True,kort?,,kart,kart,True,False,False,False,False,False,False,False,False
+171,øye,nb,0.1926101098818907,0.87,False,øje,,auge,öga,False,False,False,True,False,False,False,False,True
+172,kjærligheten,nb,0.1925807326577804,0.7,False,kærligheden,,,,False,False,False,True,False,False,False,False,True
+173,verdifull,nb,0.19167663096068,0.72,True,,,verdifull,,True,False,False,False,False,False,False,False,False
+174,ennå,nb,0.19102070545253,1.0,True,,,enno/ennå,,True,False,False,False,False,False,False,False,False
+175,flink,nb,0.1907338222879386,0.92,True,flink,,flink,flink,True,False,False,False,False,False,False,False,False
+176,utenom,nb,0.1895482306738649,0.62,False,udenom,,utanom,"utom, utanför",False,False,False,True,False,False,False,False,True
+177,øynene,nb,0.1881425720280972,1.0,False,øjnene,,,,False,False,False,True,False,False,False,False,True
+178,guttene,nb,0.1879263119366191,0.88,False,,,gutane,,False,False,False,False,False,False,True,False,False
+179,språket,nb,0.185656812035442,0.8,True,,,språket,språket,True,False,False,False,False,False,False,False,False
+180,sønn,nb,0.1847651572100084,0.93,False,søn ,,son,son,False,False,False,True,False,False,False,False,True
+181,brenner,nb,0.1843026823277515,0.67,True,,,brenner,,True,False,False,False,False,False,False,False,False
+182,snakk,nb,0.1826836671388884,0.76,True,snak,,snakk,,True,False,False,False,False,False,False,False,False
+183,foreldre,nb,0.1821309051386255,0.98,True,forældre,,foreldre,,True,False,False,False,False,False,False,False,False
+184,regnet,nb,0.1819832410599974,0.97,True,regnet (V),,regnet (N),regnet (N),True,False,False,False,False,False,False,False,False
+185,forslaget,nb,0.1815017287311941,0.61,True,forslaget,,forslaget,förslaget,True,False,False,False,False,False,False,False,False
+186,kjærlighet,nb,0.1812300573232017,0.99,False,kærlighed,,kjærleik,,False,False,False,True,False,False,False,False,True
+187,venn,nb,0.1789910239681207,1.0,True,ven,,venn,vän,True,False,False,False,False,False,False,False,False
+188,vanligvis,nb,0.1788802651420644,0.95,True,vanligvis,,vanlegvis,,True,False,False,False,False,False,False,False,False
+189,bodde,nb,0.1786682435966168,0.93,True,,,,bodde,True,False,False,False,False,False,False,False,False
+190,dere,nb,0.1782997789936956,1.0,True,,,(nonstd),,False,False,False,False,False,False,True,False,False
+191,oppfører,nb,0.1781121644737189,0.6,True,,,oppfører,,True,False,False,False,False,False,False,False,False
+192,bok,nb,0.1772609406116185,0.92,True,,,bok,bok,True,False,False,False,False,False,False,False,False
+193,løper,nb,0.1772554919015983,0.89,True,,,løper,,True,False,False,False,False,False,False,False,False
+194,likte,nb,0.1760676946815977,0.92,True,,,likte,,True,False,False,False,False,False,False,False,False
+195,teller,nb,0.1760271144031393,0.74,False,tæller,,tel,räkner,False,False,False,True,False,False,False,False,True
+196,trenger,nb,0.1747321980917059,1.0,True,trænger,,treng,behöver,False,False,True,True,False,False,False,False,True
+197,oppførte,nb,0.1744119392177888,0.6,True,,,oppførte,,True,False,False,False,False,False,False,False,False
+198,ringte,nb,0.1724284001682005,0.99,True,ringde,,ringde,ringde,False,False,True,False,False,False,False,False,True
+199,fant,nb,0.172402081352268,0.99,True,fandt,,noun,,True,False,False,False,False,False,False,False,False
+200,peppar,nn,0.4646440245575098,0.67,True,,,,peppar,True,False,False,False,False,False,False,False,False
+201,menneskelege,nn,0.2852350076949848,0.66,False,menneskelige,menneskelige,,,False,False,False,True,False,False,False,False,True
+202,spele,nn,0.2702377290043258,0.81,True,spille,spille,,spela,False,False,True,False,False,False,False,False,True
+203,grunngjevinga,nn,0.265103850743379,0.63,False,,begrunnelse,,motivering,False,False,False,False,False,False,True,False,False
+204,ungdommar,nn,0.2580247250381833,0.63,True,ungdommer,ungdommer,,ungdomar (missp),False,False,True,False,False,False,False,False,True
+205,døydde,nn,0.2458243634613715,0.9,False,døde,døde,,dödade,False,False,True,True,False,False,False,False,True
+206,elskar,nn,0.2421278067901722,0.72,False,elsker,elsker,,älskar,False,False,False,True,False,False,False,False,True
+207,jau,nn,0.2413963592413037,0.65,False,jo,jo,,jo,False,False,False,False,False,False,True,False,False
+208,underleg,nn,0.2413623816491586,0.61,False,,underlig,,underlig,False,False,True,False,False,False,False,False,True
+209,lukka,nn,0.2388000042701289,0.63,True,,lukka/radical,,,True,False,False,False,False,False,False,False,False
+210,søv,nn,0.2363002876194725,0.7,False,sover,sover,,sover,False,False,False,False,False,False,True,False,False
+211,fylgjer,nn,0.2303834593718894,0.6,False,følger,følge,,följer,False,False,False,True,False,False,False,False,True
+212,kvifor,nn,0.2201707800253395,1.0,False,,hvorfor,,,False,False,False,False,False,False,True,False,False
+213,leiarar,nn,0.2200892039428124,0.76,False,,ledere,,,False,False,False,False,False,False,True,False,False
+214,stogga,nn,0.2180164390476954,0.74,False,,stagga,,stanna?,False,False,False,False,False,False,True,False,False
+215,hendinga,nn,0.2140154831878745,0.63,False,,hendelsen,,händelsen,False,False,False,False,False,False,True,False,False
+216,vesentleg,nn,0.2139816447951183,0.62,False,,vesentlig,,,False,False,True,False,False,False,False,False,True
+217,kven,nn,0.2113294496327084,1.0,False,,hvem/kven,,kvän,True,False,False,False,True,False,False,False,False
+218,annleis,nn,0.200071294230037,0.92,False,,annleis/radical; annerledes,,,True,False,False,False,False,False,False,False,False
+219,kaffi,nn,0.1982423366504506,0.66,False,kaffe,kaffe,,kaffe,False,False,False,False,False,False,True,False,False
+220,heitte,nn,0.1980292218893649,0.83,False,,hetet,,hette,False,False,False,True,False,False,False,False,True
+221,ifrå,nn,0.1910911890938054,0.61,False,,ifra,,ifrån,False,False,False,False,False,False,True,False,False
+222,raudt,nn,0.1895589493911904,0.77,True,,nonstd,,,False,False,False,False,False,False,True,False,False
+223,filmar,nn,0.1838960282038355,0.71,True,,,noun,verb,True,False,False,False,False,False,False,False,False
+224,ressursar,nn,0.1821678016670693,0.91,False,,ressurser,,,False,False,True,False,False,False,False,False,True
+225,straum,nn,0.1788719739509955,0.68,False,strøm,strøm,,ström,False,False,False,True,False,False,False,False,True
+226,nærast,nn,0.1771145132701413,0.69,False,,nærest,,,False,False,False,True,False,False,False,False,True
+227,bombinga,nn,0.1747043113469657,0.64,True,,bombinga/radical,,,True,False,False,False,False,False,False,False,False
+228,spel,nn,0.1742523468256432,0.61,True,,spill,,spel,True,False,False,False,False,False,False,False,False
+229,amerikanarane,nn,0.1690375475721502,0.62,False,,amerikanerne,,amerikanarna,False,False,True,False,True,False,False,False,True
+230,bileta,nn,0.1689481131757648,0.77,False,billeder,bilda,,,False,False,False,False,False,False,True,False,False
+231,vestlege,nn,0.1681652183072582,0.87,False,,vestlige,,,False,False,True,False,False,False,False,False,True
+232,raud,nn,0.1675870351667897,0.72,True,,nonstd,,,False,False,False,False,False,False,True,False,False
+233,vitja,nn,0.1672205211450156,0.75,False,,"vitje, vitja",,,True,False,False,False,False,False,False,False,False
+234,eg,nn,0.1663427028289745,1.0,True,,,,(nonstd <ega),False,False,False,False,False,False,True,False,False
+235,kjærleik,nn,0.1644698885835515,0.75,True,,kjærleik/radical,,kärlek,True,False,False,False,False,False,False,False,False
+236,allereie,nn,0.1641525334427695,0.98,False,,,,,False,False,False,False,False,False,True,False,False
+237,lesa,nn,0.1641061830561356,0.67,False,,lese,,läsa,False,False,False,True,False,False,False,False,True
+238,gammal,nn,0.1638248749623926,0.76,True,,,,gammal,True,False,False,False,False,False,False,False,False
+239,vanleg,nn,0.1633872996654211,0.98,False,,vanlig,,,False,False,True,False,False,False,False,False,True
+240,vatn,nn,0.1631885507384389,0.93,True,,vatn/radical,,,True,False,False,False,False,False,False,False,False
+241,stadfestar,nn,0.1618946327800355,0.64,False,stadfæste/lemma,stadfester,,stadfästa/lemma,False,False,True,False,False,False,False,False,True
+242,samrøystes,nn,0.1615493874518608,0.64,False,enstemmig/lemma,enstemmig/lemma,,enhälligt,False,False,False,False,False,False,True,False,False
+243,innbyggjarar,nn,0.1609203304304302,0.61,False,,innbyggere,,innbyggare,False,False,False,False,False,False,True,False,False
+244,vald,nn,0.1601547116415791,0.84,True,,,,vald,True,False,False,False,False,False,False,False,False
+245,førarkort,nn,0.1588536955744761,0.61,False,(kørekort),førerkort,,(körkort),False,False,False,True,False,False,False,False,True
+246,følgde,nn,0.1582580416182993,0.79,False,,fulgte,,följde,False,False,False,True,False,False,False,False,True
+247,søkjer,nn,0.15733498955036,0.63,False,søge/lemma,søke/lemma,,söka/lemma,False,False,False,True,False,False,False,False,True
+248,typar,nn,0.1556146914141626,0.6,False,,typer,,,False,False,True,False,False,False,False,False,True
+249,kalla,nn,0.1534194545593001,0.94,True,,,,kalla,True,False,False,False,False,False,False,False,False
+250,gløyme,nn,0.152970260527595,0.64,False,,glemme,,glömma,False,False,False,False,False,False,True,False,False
+251,verkeleg,nn,0.1525687641991869,1.0,False,,virkelig,,,False,False,True,True,False,False,False,False,True
+252,heim,nn,0.1520241389259576,1.0,True,,heim/radical,,,True,False,False,False,False,False,False,False,False
+253,likar,nn,0.1493911216623243,0.99,True,,,,likar,True,False,False,False,False,False,False,False,False
+254,henta,nn,0.1484823416906319,0.78,True,,henta/radical,,,True,False,False,False,False,False,False,False,False
+255,hausten,nn,0.1484764742912674,0.96,True,,(nonstd),,,False,False,False,False,False,False,True,False,False
+256,laurdag,nn,0.1481827845819184,0.96,False,,lørdag,,,False,False,False,True,False,False,False,False,True
+257,braut,nn,0.1480125221164547,0.65,True,,<braute,<bryte,,True,False,False,False,False,False,False,False,False
+258,høyrt,nn,0.1478063494204836,0.74,False,,hørt,,,False,False,False,False,False,False,True,False,False
+259,minuttar,nn,0.1467753445212134,0.61,False,minutter,minutter,,,False,False,False,True,False,False,False,False,True
+260,utruleg,nn,0.1465732824772889,0.88,False,,"utrolig, utrulig",,otrolig,False,False,True,True,False,False,False,False,True
+261,vedkommande,nn,0.1465168243256746,0.6,False,vedkommende,vedkommende,,berörd?,False,False,False,True,False,False,False,False,True
+262,røynda,nn,0.146272514018456,0.73,False,,i virkeligheten,,,False,False,False,False,False,False,True,False,False
+263,forfattar,nn,0.145903584486337,0.76,False,,forfatter,,,False,False,False,True,False,False,False,False,True
+264,tydelegare,nn,0.1456365202000925,0.61,False,,tydelig/lemma,,,False,False,True,False,False,False,False,False,True
+265,sjeldan,nn,0.1445572408953111,0.77,False,,sjelden ,,,False,False,False,True,False,False,False,False,True
+266,inga,nn,0.1443205111634642,0.68,True,,inga/radical,,inga,True,False,False,False,False,False,False,False,False
+267,sommar,nn,0.1433833220290842,0.89,True,,,,sommar,True,False,False,False,False,False,False,False,False
+268,politikarar,nn,0.1428180721192665,0.96,False,,politikere,,,False,False,True,False,False,False,False,False,True
+269,sjukefråværet,nn,0.1421410615249217,0.6,False,sygeorlov,"sykefravær, sjukefravær",,sjukfrånvaro,False,True,False,True,False,False,False,False,True
+270,endra,nn,0.1412124948876673,0.97,False,,endra/radical,,,True,False,False,False,False,False,False,False,False
+271,bilar,nn,0.1407839833138439,0.8,True,,,,bilar,True,False,False,False,False,False,False,False,False
+272,peika,nn,0.14060403709092,0.75,False,,peke,,,False,False,False,False,False,False,True,False,False
+273,dreg,nn,0.1396114602658546,0.9,False,drager,drar,,drar,False,False,False,False,False,False,True,False,False
+274,jorda,nn,0.1395113694321694,0.71,True,,jorda,,jorda (V),True,False,False,False,False,False,False,False,False
+275,høg,nn,0.138886035865924,0.98,True,høg (N),høg/radical,,,True,False,False,False,False,False,False,False,False
+276,hjelpa,nn,0.1386053914315142,0.83,True,,hjelpa/radical,,,True,False,False,False,False,False,False,False,False
+277,spelar,nn,0.1385732370200434,0.67,True,spiller,"spiller, speller",,spelare,False,False,True,False,False,False,False,False,True
+278,skriv,nn,0.1363625677160165,1.0,True,skriv,skriv,,skriv,True,False,False,False,False,False,False,False,False
+279,fyrst,nn,0.1344035439094806,0.99,True,,fyrst,,,True,False,False,False,False,False,False,False,False
+280,mi,nn,0.1340637679229209,0.99,True,,mi/radical,,,True,False,False,False,False,False,False,False,False
+281,innom,nn,0.133938469080349,0.87,True,,innom,,,True,False,False,False,False,False,False,False,False
+282,biletet,nn,0.1333424261264178,0.95,False,billedet,bildet,,,False,False,False,False,False,False,True,False,False
+283,kvar,nn,0.1329199233736447,1.0,True,,,,kvar,True,False,False,False,False,False,False,False,False
+284,ressursane,nn,0.1320001960744023,0.64,False,,ressursene,,,False,False,True,False,False,False,False,False,True
+285,konsekvensar,nn,0.131561456496226,0.87,False,er,er,,er,False,False,True,False,False,False,False,False,True
+286,kvardagen,nn,0.1311587131492625,0.62,False,,hverdagen,,vardagen,False,True,False,False,False,False,True,False,False
+287,kva,nn,0.1311198047265782,1.0,False,hvad,hva,,vad,False,False,False,False,False,False,True,False,False
+288,hamna,nn,0.1310047481961504,0.93,True,,,,hamna,True,False,False,False,False,False,False,False,False
+289,opnar,nn,0.1306031959803906,0.85,False,åbner,åpner,,öppnar,False,False,False,False,False,False,True,False,False
+290,avgjerande,nn,0.1303909065031034,0.88,False,afgørende,avgjørende,,,False,False,False,True,False,False,False,False,True
+291,augo,nn,0.1299473167116341,0.69,False,,,,,False,False,False,False,False,False,True,False,False
+292,veke,nn,0.1291363594223507,0.93,True,,uke,,vecka,False,False,False,False,False,False,True,False,False
+293,helga,nn,0.1289988695333091,0.94,True,,helga/radical,,helga (V),True,False,False,False,False,False,False,False,False
+294,treng,nn,0.1283897035130038,1.0,True,,trenger,,,False,False,True,False,False,False,False,False,True
+295,føremiddag,nn,0.1276952000088789,0.63,False,,formiddag,,förmiddag,False,False,False,False,False,False,True,False,False
+296,uvanleg,nn,0.1275832710266368,0.66,False,uvanlig,uvanlig,,,False,False,True,False,False,False,False,False,True
+297,hersoug,nn,0.1264074969479707,0.7,False,,,,,False,False,False,False,False,True,False,False,False
+298,timar,nn,0.126193273710036,0.96,True,,timer,,timer,False,False,True,False,False,False,False,False,True
+299,framleis,nn,0.1260110817251484,1.0,False,,framleis/radical,,,True,False,False,False,False,False,False,False,False
+300,klarade,sv,0.4593230481727914,0.66,False,klarede,klarte,,,False,False,True,False,False,False,False,False,True
+301,skadade,sv,0.4278646333049655,0.65,False,,skadede,skadd,,False,False,True,False,False,False,False,False,True
+302,klä,sv,0.3685441973407461,0.63,False,klæde,kle,,,False,False,False,True,False,False,False,False,True
+303,brinner,sv,0.3490496055635101,0.65,False,brænder,brenner,brenn,,False,False,False,False,False,False,True,False,False
+304,skynda,sv,0.3434828052244399,0.86,True,,skynde,skunda,,False,False,True,False,False,False,False,False,True
+305,släpp,sv,0.3392231147846788,0.87,False,,slepp,slepp,,False,False,False,True,False,False,False,False,True
+306,saknas,sv,0.3333596413274664,0.74,False,,savnet/savner?,saknast,,False,False,True,False,False,False,False,False,True
+307,stäng,sv,0.3135216950338464,0.87,False,,steng,steng,,False,False,False,True,False,False,False,False,True
+308,drick,sv,0.2867759928891056,0.74,False,drikk,drikk,drikk,,False,False,False,True,False,False,False,False,True
+309,svarade,sv,0.2815002121544555,0.85,False,svarede,svarte,svarte,,False,False,True,False,False,False,False,False,True
+310,rita,sv,0.2508298306592542,0.63,True,,,rita,,True,False,False,False,False,False,False,False,False
+311,röker,sv,0.2505076765123408,0.81,False,,røker,,,False,False,False,True,False,False,False,False,True
+312,liknar,sv,0.244554961121748,0.8,True,,,liknar,,True,False,False,False,False,False,False,False,False
+313,skrattar,sv,0.2445491486948644,0.84,True,,,skrattar,,True,False,False,False,False,False,False,False,False
+314,skakade,sv,0.2398278057591222,0.67,False,ryste?,skakede,skaka,,False,False,True,False,False,False,False,False,True
+315,följ,sv,0.2392918033635427,0.86,False,,følg,følg/fylg,,False,False,False,True,False,False,False,False,True
+316,lita,sv,0.2378794895472817,0.92,True,,lita (A)/radical,lita,,True,False,False,False,False,False,False,False,False
+317,sköt,sv,0.2375702788430425,0.76,False,,skjøt,,,False,False,False,True,False,False,False,False,True
+318,upprörd,sv,0.2371541728738448,0.62,False,,opprørt,opprørt,,False,False,True,True,False,False,False,False,True
+319,berusad,sv,0.2370650315827004,0.64,False,beruset,beruset,,,False,False,False,True,False,False,False,False,True
+320,lyssnar,sv,0.2346764506832795,0.98,False,lytter,lytter,lyttar,,False,False,False,False,False,False,True,False,False
+321,lyckades,sv,0.2338741509252191,0.72,False,lykkedes,lyktes,,,False,False,True,True,False,False,False,False,True
+322,lyssnade,sv,0.2310121701350827,0.65,False,lyttede,lyttet,lytta,,False,False,False,False,False,False,True,False,False
+323,lugnt,sv,0.2251998698421465,0.68,False,,lugnt,,,True,False,False,False,False,False,False,False,False
+324,stör,sv,0.2242024888485335,0.79,False,stør,stør,stør,,False,False,False,True,False,False,False,False,True
+325,säljer,sv,0.2235562322024211,0.87,False,sælger,selger,"selje, selja/lemma",,False,False,False,True,False,False,False,False,True
+326,kör,sv,0.2180663584166665,0.97,False,kor,kor,kor,,False,False,False,False,False,False,True,False,False
+327,fara,sv,0.217068703213135,0.8,True,,,fara,,True,False,False,False,False,False,False,False,False
+328,betalade,sv,0.2155089975660295,0.76,False,,betalte,betalte,,False,False,False,True,False,False,False,False,True
+329,tvättar,sv,0.2148367209290763,0.71,False,tvætte/lemma,tvette/lemma,"tvette, tvetta/lemma",,False,False,False,False,False,False,True,False,False
+330,följde,sv,0.2143396250368908,0.83,False,,,,,False,False,False,True,False,False,False,False,True
+331,varnade,sv,0.2141185308056663,0.62,False,advarede,advarte,,,False,False,False,False,False,False,True,False,False
+332,kollade,sv,0.2121534592246033,0.64,False,,,,(to check),False,False,False,False,False,False,True,False,False
+333,träffades,sv,0.2053277360411306,0.63,False,træffe/lemma,treffe/lemma,"treffe, treffa/lemma",,False,False,True,True,False,False,False,False,True
+334,lämna,sv,0.2052118088007119,1.0,False,efterlade,etterlate,,,False,False,False,False,False,False,True,False,False
+335,tittar,sv,0.2045255465493622,0.95,False,titte/lemma,titte/lemma,tittar,,True,False,False,False,False,False,False,False,False
+336,promenad,sv,0.2027207173886333,0.92,False,,promenade,promenade,,False,False,False,False,False,False,True,False,False
+337,föddes,sv,0.2023024805161467,0.93,False,fødes,føddes,,,False,False,True,True,False,False,False,False,True
+338,hatade,sv,0.2004849154120673,0.81,False,,hatet,hata,,False,False,True,False,False,False,False,False,True
+339,dödade,sv,0.2001738851159322,0.98,False,døde,døde,døydde,,False,False,True,True,False,False,False,False,True
+340,fångade,sv,0.1970724487747794,0.76,False,fangede,fanget,fanga,,False,False,False,True,False,False,False,False,True
+341,ge,sv,0.1965196127902105,1.0,False,give,gi,gje,,False,False,False,True,False,False,False,False,True
+342,dricker,sv,0.195731223835703,0.99,False,drikker,drikker,drikk,,False,False,True,True,False,False,False,False,True
+343,vit,sv,0.1921856365903911,0.8,True,hvid,hvit,kvit,vit,False,False,False,True,False,False,False,False,True
+344,överlevde,sv,0.191928158754829,0.67,False,overlevede,overlevde,overlevde,,False,False,True,True,False,False,False,False,True
+345,förtjänar,sv,0.1919091994726051,0.6,False,,fortjener,fortener,,False,False,False,True,False,False,False,False,True
+346,ljuger,sv,0.1899610556782999,0.93,False,,ljuger/radical,lyg,,True,False,False,False,False,False,False,False,False
+347,lögn,sv,0.1892644253974894,0.71,False,,løgn,løgn,,False,False,False,True,False,False,False,False,True
+348,ställ,sv,0.1887989180202719,0.84,False,,stell,stell,,False,False,False,True,False,False,False,False,True
+349,kastade,sv,0.1885265145861562,0.6,False,kastede,kastet,kasta,,False,False,False,True,False,False,False,False,True
+350,bär,sv,0.1870998476078381,0.95,False,bær,bær,bær,,False,False,False,True,False,False,False,False,True
+351,spelade,sv,0.1860449488809614,0.97,False,spille/lemma,"spille, spelle/lemma","spelte, spela",,False,False,True,False,False,False,False,False,True
+352,bröt,sv,0.1851720213366495,0.9,False,,brøt,braut,,False,False,False,True,False,False,False,False,True
+353,stack,sv,0.1847200987274065,0.72,False,stak,stakk,stakk,,False,False,False,True,False,False,False,False,True
+354,upptäckte,sv,0.1839709123177257,0.62,False,optog,oppdaget,,,False,True,False,False,False,False,False,False,True
+355,skydda,sv,0.1837722722448335,0.68,False,beskytte?,beskytte?,"beskytte, beskytta?",,False,False,False,False,False,False,True,False,False
+356,kysste,sv,0.1822775485462055,0.84,False,kyssde,kysste,kyssa,,True,False,False,False,False,False,False,False,False
+357,tänk,sv,0.1813013077114058,0.71,False,"tanke, tænkning","tanke, tenkning","tanke, tenking",,False,False,False,False,False,False,True,False,False
+358,fundera,sv,0.179550170043015,0.7,False,fundere,fundere,fundere,,False,False,False,True,False,False,False,False,True
+359,skada,sv,0.1795454066346926,0.95,True,,skade,skada,,True,False,False,False,False,False,False,False,False
+360,studerade,sv,0.1793522237746784,0.75,False,studerede,studerte,studerte,,False,False,True,False,False,False,False,False,True
+361,fortsätt,sv,0.1781932559437021,0.82,False,,fortsett,,,False,False,False,True,False,False,False,False,True
+362,skadad,sv,0.1776859713706985,0.8,False,,skadet,,,False,False,True,False,False,False,False,False,True
+363,mörkt,sv,0.1769995480467465,0.84,False,,mørkt,mørkt,,False,False,False,True,False,False,False,False,True
+364,ring,sv,0.1758087876414001,0.95,True,ring,ring,ring,,True,False,False,False,False,False,False,True,False
+365,trädgården,sv,0.1732142935920478,0.86,False,have,hage,hage,,False,False,False,False,False,False,True,False,False
+366,förbi,sv,0.172747261303841,0.69,False,,forbi,forbi,,False,False,False,True,False,False,False,False,True
+367,rörde,sv,0.1726528342273947,0.64,False,,rørte,rørte,,False,False,True,False,False,False,False,False,True
+368,jobbade,sv,0.1726143695320247,0.61,False,,jobbet,jobba,,False,False,True,False,False,False,False,False,True
+369,förlorade,sv,0.1716338555939888,0.83,False,forlist,forlist/tapt,forlist,,False,False,False,False,False,False,True,False,False
+370,håll,sv,0.171453122641457,1.0,False,,hold,,(direction; stitch),False,False,False,False,False,False,True,False,False
+371,rösta,sv,0.1712998347896081,0.79,False,,stemme,røysta,,False,False,False,False,False,False,True,False,False
+372,ringde,sv,0.1704999830099997,0.99,True,ringde,,ringde,,True,False,False,False,False,False,False,False,False
+373,drömmer,sv,0.1699163406942748,0.68,False,drømmer,drømmer,,,False,False,False,True,False,False,False,False,True
+374,brödet,sv,0.1691087990779984,0.65,False,brødet,brødet,brødet,,False,True,False,True,False,False,False,False,True
+375,älskade,sv,0.1690434802373157,0.93,False,elskede,elsket,"elske, elska/lemma",,False,False,True,True,False,False,False,False,True
+376,räddade,sv,0.1676223519713952,0.6,False,,reddet,redda,,False,False,True,True,False,False,False,False,True
+377,tittade,sv,0.1670149072272554,0.99,False,titte/lemma,tittet,titta,,False,False,True,False,False,False,False,False,True
+378,hoppade,sv,0.166776057317747,0.75,False,hoppede,hoppet,hoppa,,False,False,False,True,False,False,False,False,True
+379,litar,sv,0.1666961347350225,0.96,False,,liter,lit,,False,False,True,True,False,False,False,False,True
+380,slutade,sv,0.1654582972437069,0.96,False,sluttede,"slutta, sluttet",slutta,,False,False,False,False,False,False,True,False,False
+381,pratade,sv,0.1635925300152964,1.0,False,,pratet,prata,,False,False,True,False,False,False,False,False,True
+382,köpte,sv,0.1615348141023518,1.0,False,købte,kjøpte,,,False,False,False,True,False,False,False,False,True
+383,tyst,sv,0.1612389066337039,0.97,True,tyst,,,,True,False,False,False,False,False,False,False,False
+384,älskar,sv,0.1598879231897233,1.0,False,elsker,elsker,"elske, elska/lemma",,False,False,True,True,False,False,False,False,True
+385,skrattade,sv,0.1592717688966117,0.86,False,skratte/lemma,skrattede,skratte/lemma,,False,False,True,False,False,False,False,False,True
+386,grät,sv,0.1591156922247801,0.66,False,græd,grot,gret,,False,False,False,True,False,False,False,False,True
+387,luktar,sv,0.1589436449108585,0.77,True,,,luktar,,True,False,False,False,False,False,False,False,False
+388,kompis,sv,0.158602358949607,0.73,True,,kompis,kompis,,True,False,False,False,False,False,False,False,False
+389,hoppa,sv,0.1581645759043453,0.64,True,,hoppa/radical,hoppa,,True,False,False,False,False,False,False,False,False
+390,sängen,sv,0.1581164530756746,0.74,False,seng/lemma,seng/lemma,seng/lemma,,False,False,False,True,False,False,False,False,True
+391,stängde,sv,0.1578754761630886,0.81,False,stangde,stengte,stengde,,False,False,False,True,False,False,False,False,True
+392,ursäkta,sv,0.1577609467965292,0.89,False,undskylde,unnskylde,"unnskylde, unnskylda",,False,False,False,False,False,False,True,False,False
+393,hemlighet,sv,0.1574497993562076,0.81,False,hemmelighed,hemmelighet,,,False,False,False,True,False,False,False,False,True
+394,förklarade,sv,0.1562907592034582,0.67,False,,forklarte,,,False,False,True,True,False,False,False,False,True
+395,lämnade,sv,0.1557216073202385,0.98,False,efterlod,etterlot,,,False,False,False,False,False,False,True,False,False
+396,färdiga,sv,0.1549723408010715,0.75,False,,ferdige,ferdige,,False,False,False,True,False,False,False,False,True
+397,väntar,sv,0.154829847610886,1.0,False,venter,venter,ventar,,False,False,True,True,False,False,False,False,True
+398,förändras,sv,0.154672325295012,0.77,False,,forandre,forandre,,False,False,True,True,False,False,False,False,True
+399,lägg,sv,0.1541863504230537,0.96,False,,legg,legg,,False,False,False,True,False,False,False,False,True
