@@ -27,9 +27,11 @@ with open(LIST_PATH + "filtered_blacklist.txt") as bl:
 	# Precision and recall of the blacklist with respect to the manual evaluation
 	prec = c_true_positive / c_annotated_as_notshib
 	rec = c_true_positive / c_in_blacklist
+	f1 = 2 * prec * rec / (prec + rec)
 	print("BLACKLIST")
 	print(f"Precision: {100*prec:.2f}%")
 	print(f"Recall:    {100*rec:.2f}%")
+	print(f"F1-score:  {100*f1:.2f}%")
 
 with open(LIST_PATH + "filtered_whitelist.txt") as wl:
 	whitelist = [tuple(x.strip().split("\t")) for x in wl.readlines()]
@@ -46,6 +48,8 @@ with open(LIST_PATH + "filtered_whitelist.txt") as wl:
 	# Precision and recall of the whitelist with respect to the manual evaluation
 	prec = c_true_positive / c_annotated_as_shib
 	rec = c_true_positive / c_in_whitelist
+	f1 = 2 * prec * rec / (prec + rec)
 	print("WHITELIST")
 	print(f"Precision: {100*prec:.2f}%")
 	print(f"Recall:    {100*rec:.2f}%")
+	print(f"F1-score:  {100*f1:.2f}%")
