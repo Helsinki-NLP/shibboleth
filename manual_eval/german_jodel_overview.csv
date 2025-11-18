@@ -1,0 +1,10 @@
+method,shibboleths: lexical,shibboleths: other,non shibboleths
+average,7.9,14.1,78.0
+ig_0.1,14.2,13.5,72.2
+ig_0.6,5.0,17.2,77.8
+lime_0.1,11.0,14.2,74.8
+lime_0.6,5.8,12.5,81.8
+loo_0.1,7.2,15.0,77.8
+loo_0.6,5.2,10.5,84.2
+shap_0.1,10.0,14.8,75.2
+shap_0.6,4.8,14.8,80.5
