@@ -1,0 +1,201 @@
+token	base form	cognate	label	Phon-Morph-infl-Morph-der-Spelling	Lexicon	NE	Other	Unmarked	Unknown	Comment
+tõuseb	tõusma	!= nõsõma	est	x	x					
+vaatame	vaatama	!= kaema	est	x	x					
+käisid	käima	käümä	est	xx						
+võiksid	võima	võima	est	x						
+veab	vedama	vidämä	est	xx						
+läksid	minema	minemä	est	x						
+tõusis	tõusma	!= nõsõma	est		x					
+tütarlaps	tütarlaps	tütäŕlatś	est	x						
+jookseb	jooksma	ju̬u̬skma	est	x						
+andis	andma	andma	est					x		(andis andma = andeks andma)
+sõitis	sõitma	sõitma	est	x						
+maksab	maksma	masma	est	xx						
+vaatas	vaatama	!= kaema	est		x					
+hakkasid	hakkama	!= nakkama	est	x	x					
+kannab	kandma	kandma	est	x						
+vaatab	vaatama	!= kaema	est	x	x					
+vastab	vastama	vastama	est	x						
+paistab	paistma	paistma	est	x						
+hakati	hakkama	!= nakkama	est		x					
+nõuab	nõudma	nõudma	est	x						
+püüab	püüdma	püü(n)dmä	est	x						
+tunneb	tundma	tundma	est	x						
+käisin	käima	käümä	est	xx						
+valitses	valitsema	valitsõma	est	x						
+lähme	minema	minemä	est	x						
+seisab	seisma	saisma	est	xx						
+küsib	küsima	küsümä	est	xx						
+läksime	minema	minemä	est	xx						
+kipub	kippuma	~kippama?	est	x						
+tahaksin	tahtma	tahtma	est	x						
+voodis	voodi	!= säng	est		x					
+kasvavad	kasvama	kasuma	est							
+niikaua	niikaua	niikavva	est	x						
+tõmbab	tõmbama	tõ̭mbama	est	x						
+pannakse	panema	pandma	est	x						
+kiiremini	kiiremini	!= kipõmbahe	est		x					
+kasvab	kasvama	kasuma	est	x						
+näitas	näitama	näütämä	est	x						
+näen	nägema	nägemä	est	x						
+hoiab	hoidma	hoitma	est	x						
+hakkavad	hakkama	!= nakkama	est	x	x					
+jõuab	jõudma	joudma	est	x						
+ajab	ajama	ajama	est	x						
+läksin	minema	minemä	est	xx						
+ohustavad	ohustama	!= ohos olõma	est		x					
+toetavad	toetama	tugõhõma	est	x						
+oodatud	ootama	u̬u̬tma	est	x						
+jätkub	jätkuma	jakkuma	est	xx						
+selliseid	selline	~sääne?	est	x	x					
+hakkasin	hakkama	!= nakkama	est		x					
+tehtud	tegema	tegemä	est	xx						
+ostis	ostma	ostma	est	x						
+ahju	ahi	aho > ahjo	est	x						
+liigub	liikuma	liikma	est	x						
+õhku	õhk	(h)õhk	est					x		
+istub	istuma	istma	est	x						
+lähen	minema	minemä	est	x						
+lähed	minema	minemä	est	xx						
+sajab	ajama	ajama	est	xx						
+asub	asuma	!= olõma	est	x	x					
+õpilased	õpilane	opilanõ	est	x						
+kevad	kevad	kevväi	est	x						
+ostsin	ostma	ostma	est	x						
+jõgi	jõgi	jõgi	est					x		
+kuulsin	kuulma	kuuldma	est	x						
+mõtleb	mõtlema	mõtlõma	est	xx						
+puhtaks	puhas	puhas	est	x						
+tulevad	tulema	tulõma	est	xx						
+tekkis	tekkima	tekkümä	est	x						
+magab	magama	maga(ha)ma	est	x						
+lähevad	minema	minemä	est	x						
+tulin	tulema	tulõma	est					x		 (as an inflected form of 'tuli')
+magada	magama	maga(ha)ma	est	x						
+tõusnud	tõusma	!= nõsõma	est	x	x					
+kartulid	kartul	kartoľ 	est	x						
+mõtlesin	mõtlema	mõtlõma	est	xx						
+nägid	nägema	nägemä	est	x						
+hobust	hobune	hobõnõ	est	x						
+ajaleht	ajaleht	aolehť	est	x						
+hobuse	hobune	hobõnõ	est	x						
+häälega	hääl	!= helü (= heli)	est		x			x		(shouldn't be possible in Võro, but occurs in the synaq corpus)
+tahtsin	tahtma	tahtma	est	x						
+võtavad	võtma	võtma	est	x						
+olid	olema	olõma	est	x						
+surnud	surema	!= ku̬u̬lma	est		x					
+koer	koer	!= pini	est		x					
+teeb	tegema	tegemä	est	xx						
+elasid	elama	elämä	est	x						
+hakkame	hakkama	!= nakkama	est	x	x					
+elavad	elama	elämä	est	xx						
+paneb	panema	pandma	est	x						
+pakub	pakkuma	pakma	est	x						
+tehti	tegema	tegemä	est	x						
+pean	pidama	pidämä	est	xx						
+toob	tooma	tu̬u̬ma	est	x						
+nägin	nägema	nägemä	est	xx						
+suutnud	suutma	sutma	est	x						
+kuuluvad	kuuluma	!= kokko käümä	est		x					
+hakkab	hakkama	!= nakkama	est	x	x					
+suitsusaunade	suitsusaun	suidsusann	est	x						
+tii-iq	tegemä	tegema	vro	xx						
+pall'o	palľo	palju	vro	x						
+tsusas	tsuskama	!= pistma	vro		x					
+tüküs	tüküs	tükk	vro	x						
+timahavva	timahavva	tänavu	vro		x					
+ütskõik	ütśkyiḱ	ükskõik	vro	x						
+savvusann	savvusann	!= suitsusaun	vro	x	x					
+ütli	ütlemä	ütlema	vro	x						
+üüse	ü̬ü̬se	öösel	vro	x						
+peräle	peräle	pärale	vro	x						
+üü	üü	öö	vro	x						
+üts	ütś	üks	vro	x						
+panda	pandma	panema	vro					x		
+õkvalt	õkvalt	!= kohe	vro		x					
+süümä	süümä	sööma	vro	x						
+miildüs	miildümä	meeldima	vro	x						
+ütskõrd	ütśkõrd	ükskord	vro	x						
+löüdä	löüdmä	leidma	vro	x						
+kiäkiq	kiäkiq	keegi	vro	x						
+peräkõrd	peräkõrd	!= lõpuks	vro		x					
+kirändüse	kirändüs	kirjandus	vro	x						
+kõrrast	kõrd	kord	vro	x						
+pallo	palľo	palju	vro	x						
+pite	pite	pidi	vro	x						
+õnnõs	õ̭nń	õnn	vro	x						
+tüügaq	tü̬ü̬	töö	vro	x						
+supp	supṕ	supp	vro					x		
+järgmäne	järǵmäne	järgmine	vro	x						
+lugõminõ	lugõminõ	lugemine	vro	x						
+tahtmist	tahtminõ	tahtmine	vro					x		
+peräst	peräst	pärast	vro	x						
+olõ-iq	olõma	olema	vro	xx						
+löüt	löüt	leid	vro	x						
+üttegiq	ütś	üks	vro	x						
+näütüses	näütüs	näitus	vro	x						
+savvusanna	savvusann	!= suitsusaun	vro		x					
+tüü	tü̬ü̬	töö	vro					x		
+kõrraga	kõrragaq	korraga	vro					x		
+kõrvuisi	kõrvuisi	kõrvuti	vro		x					derivation
+anna	andma	andma	vro					x		
+viirde	vi̬i̬rde < vi̬i̬ŕ	!= äärde / = veer > veerde	vro	x						
+süüq	sü̬ü̬mä	sööma	vro	xx						
+vaiht	vaihtama	vahetama	vro	x						
+parhillaq	parhillaq	!= praegu	vro	x	x					
+põlvan	Põlva?	Põlva?	vro			?				
+üüd	ü̬ü̬	öö	vro	x						
+mõtsa	mõts	mets	vro	x						
+jt	jt	jt	vro					x		 (jonkin sortin lyhenne)
+eläjä	elläi	!= loom	vro	x	x					
+mõista-iq	mõistma	mõistatama	vro	xx						
+lövvüs	lövvüs	!= leiutasu	vro	x	x					
+tiiä-iq	ti̬i̬dmä	teadma	vro	xx						
+periselt	periselt	päriselt	vro	x						
+ainukõnõ	ainukõnõ	ainukene	vro	x						
+kiäki	kiäki	= keegi?	vro	x						
+taha-iq	tahtma	tahtma	vro	xx						
+määntseq	määne	= mädane?	vro	x						
+tähendäs	tähendämä	tähendama	vro	xx						
+sõbõr	sõbõr	sõber	vro	x						
+täämbä	täämbä	täna	vro	x?						
+igäväne	igäväne	igavene	vro	x						
+tüütäs	tüütämä	töötama	vro	xx						
+ülepää	ülepää	ülepea	vro	x						
+tii	tii	tee	vro	x						
+teedä	tegemä?	tegema?	vro	x						
+massa-iq	masma?	maksma?	vro	xx						
+latsilõ	latś	laps	vro	x						
+edimält	edimält	esmalt	vro	x						
+õkva	õkva	!= kohe	vro		x					
+kiä	kiä	= kes?	vro	x						
+teedüst	teedüs	teadus	vro	x						
+latsõl	lats	laps	vro	x						
+lugõ	lugõma	lugema	vro	x						
+sääntse	sääne	säärane? siinne?	vro	x	x					
+tunnõ	tunń	tund	vro	x						
+tiiät	ti̬i̬dmä	teadma	vro	x						
+perädü	perädü	päratu	vro	x						
+mäng	mäng	mäng	vro					x		
+tsirkõ	tsirk	!= lind	vro		x					
+väits	väitś	!= nuga / väits (mentioned as "rahvapärane" in the dictionary)	vro	x						
+sõpro	sõbõr	sõber	vro	x						
+miä	miä	ma	vro	x						
+puud	puu	puu	vro					x		
+käüti	käümä	käima	vro	x						
+vihm	vihm	vihm	vro					x		
+säält	säält	sealt	vro	x						
+lüü	lüümä	lööma	vro	x						
+latskõnõ	latśkõnõ	!= tüdruk	vro	x	x					
+mõtsast	mõts	mets	vro	x						
+kävvüq	käümä	käima	vro	x						
+lääväq	minemä	minema	vro	x						
+mäe	mägi	mägi	vro					x		
+hallus	hallus	!= valus	vro		x					
+sõnno	sōna	sõna	vro	x						
+õigõ	õigõ	õige	vro	x						
+tähtsä	tähtsä	tähtis	vro	x						
+tiiäq	ti̬i̬dmä	teadma	vro	xx						
+tervüs	tervüs	tervis	vro	x						
+niisamatõ	niisamatõ	niisamuti	vro	x?						
+päämidselt	päämidselt	peamiselt	vro	x						
