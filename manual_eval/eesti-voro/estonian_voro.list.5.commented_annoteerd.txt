@@ -1,0 +1,201 @@
+token	base form	cognate	label	Phon-Morph-infl-Morph-der-Spelling	Lexicon	NE	Other	Unmarked	Unknown	Comment
+parimale	parim	parõmb	est	x						
+eemaldatakse	eemaldama	!= ärq võtma	est	x	x					
+kõhualusega	kõhualune	kõtualunõ	est	x						
+õlg	õlg	olg	est	x						
+hõljutab	hõljutama	hõĺotama	est	xx						
+eputad	eputama	hepotama	est	xx						
+surnuaiale	surnuaed	surnuaid	est	x						
+kasutate	kasutama	!= pruuḱma	est	x	x					
+lõngutab	lõngutama	lõngutama	est	x						
+pardikese	pardikene	pardsikõnõ?	est	xx						
+prääksatab	prääksatama	!= präägähtämä	est	xxx	x					derivation
+sorgib	sorkima	tsurḱma	est	xx						
+lühikirjeldus	lühikirjeldus	?	est	x						
+muliseb	mulisema	molisõma	est	xx						
+hõõgab	hõõgama	hõ̭õ̭gama	est	x						
+jahtudes	jahtuma	ja(a)htuma	est	x						
+õppetegevused	õppetegevus	Opitegevüse´	est	x						
+persetab	persetama	persetäs	est	x						
+sobiks	sobima	sobima (in a different meaning though)	est	x						
+nurkadega	nurk	nukk	est	xx						
+õppetulemused	õppetulemus	Opmisõ tulõmusõ´	est	x	x					 (minor difference in composition)
+müüte	müüt	müüť	est					x		
+õilmitsevad	õilmitsema	!= häitsemä	est	xx	x					
+lennutab	lennutama	linnutama	est	xx						
+saputab	saputama	soputama	est	xx						
+vilistab	vilistama	vilistämä	est	xx						
+vanuseaste	vanuseaste	vannusõastõq (based on the occurrences of "vannusõastmõ" and vannusõastõlõ" in the corpus)	est	xx						
+vastupanuta	vastapanu	!=? vastapandminõ	est	x	x					derivation
+vedelikku	vedelik	vedelik	est					x		
+lõugad	lõugama	lõugama	est	x						
+kaherealised	kaherealine	katõrialinõ (based on the base form "nelä-rialinõ" in the corpus)	est	xx						
+kindasse	kinnas	kinnas	est	x						
+heategevuskontsert	heategevuskontsert	!=? häätegemiskontsõrť	est	xx	x					derivation
+viljeldakse	viljelema	!= kasutama	est	x	x					
+katusega	katus	katus	est	xx						
+algupärane	algupärane	!= umaperäline	est	xx	x					
+võõrandati	võõrandama	!= käest andma	est		x					
+sirgelt	sirge	sirgõ	est	x						
+blokkimised	blokkima	blokiirminõ?	est	x	x					derivation
+kaebu	kaebu(-punn)	kitupunn, kaivatś	est		x		x			tokenisation problem
+küsingi	küsima	küsümä	est	xx						
+õppematerjalid	õppematerjal	opimátõrjaaĺ	est	xx						
+tarretab	tarretama	!= kallõrdama	est	xx	x					
+käiseid	käis	käü(s)s	est	xx						
+kase-kuuse	kask- kuusk	!= kõiv- kuuś	est	x	x					
+seadusandliku	seadusandlik	!= säädüsandja	est	xx						
+piirimaade	piirimaa	piirimaa	est	x						
+ilmutab	ilmutama	ilmutama	est	x						
+jalgadele	jalg	jalg	est	xx						
+sarjab	sarjama	sarjama	est	x						
+põrnitsed	põrnitsema	!= vahťma	est	x	x					
+vasardab	vasardama	!= vasaragaq pesmä	est	x	x					derivation
+seisneb	seisnema	olõma	est	x	x					
+udusulgedega	udusulg	udsusulǵ	est	x						
+leevendama	leevendama	!= ker(g)endämä	est	x	x					
+kõrgeimad	kõrge	korgõ	est	xx						
+juurikad	juurikas	juurik	est	xx						
+logiseb	logisema	logisõma	est	xx						
+alustasite	alustama	alostama	est	xx						
+peanäitejuht	peanäitejuht	!= ülemb näütevidonik	est		x					
+õõtsutab	õõtsutama	!= hõĺotama	est	x	x					
+lähengi	minema	minemä	est	xx						
+kirsipuine	kirsipuine	!= (kirsipuu = vislapuu)	est	x	x					
+televaatajad	televaataja	!= telekaeja	est	x	x					
+korrutatud	korrutama	!=? kõrdama	est	x	x					derivation
+oikumeeniline	oikumeeniline	!= üleilmalinõ	est		x					
+vastupidavaks	vastupidav	!= vastupidäjä	est	xx	x					derivation
+hunnikutes	hunnik	unik ?	est	xx						
+õppekirjandus	õppekirjandus	opikirändüs	est	x						
+loodetakse	lootma	lu̬u̬tma	est	xx						
+tabamuse	tabamus	!= tabahus	est	xx						
+õppesisu	õppesisu	Opmise jüvä	est	x	x					
+tänitavad	tänitama	tänitämä	est	xx						
+õpitulemused	õpitulemus	Opmisõ tulõmusõ´	est	xx	x					 (minor difference in composition)
+õppevara	õppevara	?	est	x						
+kosutuseks	kosutus	kosutus ? (such a word is in the corpus)	est	xx						
+konksudega	konks	konkś	est	x?						
+ilukirjandusliku	ilukirjanduslik	!= (kuntś)kirändüslik	est	xx	x					
+otsekui	otsekui	!= õkva kui	est		x					
+kuumsuitsu	kuumsuits	suitsutõt	est		x					
+pagan	pagan	pakań	est	x						
+pistvad	pistma	!= tuskama (but the corpus contains "pistmä")	est	x	?					
+mäsleb	mäslema	mässelemä	est	xx						
+uuristunud	uuristuma	!= uurduma	est	xx	x					derivation
+külastasite	külastama	!= küla(h)n käümä	est	xx	x					
+nukrutsed	nukrutsema	!= norotama	est	xx	x					
+targemaks	tark	tark	est	x						
+rääksub	rääksuma	!=? rääḱmä	est	xxx	x					derivation
+ärritusega	ärritus	!=? härgütüs	est	x						
+raksub	raksuma	(p)raksma	est	x						
+niidumarid	niidumari	!= niidümarikõnõ	est	xxx	x					derivation
+laulusõbrad	laulusõber	laulusõbõr	est	xx						
+piilud	piilu	piiĺo	est	xx						
+piimapäev	piimapäev	piimäpäiv	est	x						
+paisutatud	paisutama	paisutama	est	x						
+vanapaarile	vanapaar	vanapaar	est	xx						
+peoseltskond	peoseltskond	pidoseltśkund	est	x						
+jäätise/vahukoorega	jäätis/vahukoor	i(j)ätüs/vatuku̬u̬ŕ	est	x						
+pelgad	pelgama	pelgämä	est	xx						
+paljundatakse	paljundama	!= manotama / saias manoq	est	xx	x					
+inämbläisi	inämbläne	enamlane	vro	x						
+liiguq	liikma	liikuma	vro	x						
+tialanõ	ti(h)alanõ	!= tihane	vro	xx						
+iholinõ	iholinõ	ihuline	vro	x						
+köhhä	köhä	köha	vro	x						
+ütsindüs	ütsindüs	üksindus ?	vro	x						
+essüq	essümä	eksima	vro	xx						
+järgarvoq	järgarv	järgarv	vro	xx						
+norinagaq	norrin	norin	vro	x						
+hüvihüs	hüvähüs	headus	vro	x						
+lürpäs	lürṕmä	!= luristama	vro	x	x					
+kitit	kitmä	kiitma	vro	x						
+küündümine	küündümä	küündima	vro	x						
+hapnõkoorõga	hapnõku̬u̬ŕ	hapukoor	vro	x						(hapu, gen. hapnõ)
+lausmaldaq	lausma	lausuma	vro	xx						
+suhtõst	suhtõ ?	suhe ?	vro	x						
+jäigiq	jäämä	jääma	vro	x						
+kalolõ	kala	kala	vro	x						
+tsõih	tsõih	!= hass	vro		x					
+tulligiq	tulõma	tulema	vro	x						
+aigruumi	aigruuḿ	aegruum	vro	x						
+nooligaq	nu̬u̬ľ	nool	vro	xx						
+küläliisikeskus	küläliisikeskus	külalistekeskus	vro	x						
+katsõtusõ	katsõtus	katsetus ?	vro	x						
+õhupüssä	õhupüss	õhupüss	vro	x						
+selehtüs	selehtümä	seletuma	vro	x						
+olku-uiq	olõma	olema	vro	xx						
+mõtusõ	mõtus	metsis	vro	x						
+tandsotükk	tandsotükk	tantsutükk	vro	x						
+passmisõst	?	?	vro	x					x	
+tamkanuppõgaq	tamkanupp	!= kabenupp	vro	xx	x					
+innõ	ynnõ	ainult	vro	x	x				x	
+pendsini	pendsini	bensiini	vro	x						
+aopuudusõ	aopuudus	ajapuudus	vro	x						
+pitsitä	pitsitämä	pitsitama	vro	x						
+puhkaq	puhkama	puhkama	vro	x						
+ussõkell	ussõkell	uksekell	vro	x						
+laivanõna	laivanõ̭na	laevanina	vro	x						
+mõstuisi	mõskma ?	!= pesema	vro		x					
+hüpüt	hüpütämä	hüpitama	vro	x						
+tohho	tohho(q)	tohoh	vro	x						
+nalamiis	naľami̬i̬ś	naljamees	vro	x						
+tehkäq	tehkämä	!= välja tegema	vro		x					derivation
+jahudaq	ja(a)hutama	jahutama	vro	x						
+põhamaa	Põḣamaaq	Põhjamaad	vro	x		x				
+festivalile	festival ?	festival	vro					x		
+häötüst	häötüs	hävitus	vro	x						
+karigaq	kari	!= kord	vro	xx	x					
+kapudaq	kaput	!= kapukas	vro	x	x					derivation
+pidulavva	pidulaud / pidolaud	peopaud	vro	x						
+mustasitikõ	?	?	vro	x					x	
+viisõ	viis	viisk	vro	x						
+sälätükk	sälätükk	seljatükk	vro	x						
+pitä-pätä	?	?	vro	x						
+umblõq	umblõma	õmblema	vro	xx						
+veivä	viimä	viima	vro	x						
+korvpallin	korv́palĺ	korvpall	vro	x						
+pommihiitjä	pommihiitjä	pommitaja 	vro		x					derivation
+käorüä	käorügä	!= karusammal	vro		x					
+hällüdäq	hällütämä	hällitama	vro	x						
+ülekuvvõkümne	ülekuvvõkümne	üle kuuekümne	vro	x			x			virhe?
+ütelüst	ütelüs	ütlus	vro	x						
+usotaganõjit	usotaganõja	usutaganega	vro	x						
+sapakunõ	sapakunõ	!= pehkinud	vro	x	x					
+padaq	padi	padi	vro	xx						
+paatjanõ	paatjanõ	!= paatjas	vro	xx						
+trehväme	trehvämä	!= kohtama	vro		x					
+aoraamat	aoraamat	ajaraamat	vro	x						
+tsipudaq	tsiputama	!= raputama	vro		x					
+mälehtüst	mälehtüs	mälestus	vro	x						
+kiudutaminõ	kiudutama	küüditama	vro	x						
+teedäqandmisõ	teedäqandminõ	teadaandmine	vro	x						
+raa	rada	rada	vro					x		
+vehverkuukõga	vehveŕku̬u̬ḱ	piparkook	vro	x	x					(although the word "vehverkook" exists in Estonian as well, it's just considered outdated)
+autolõ	auto	auto	vro	x						
+sülgämä	sülgämä	sülgama	vro	x						
+rõivagaq	rõivas	rõivas	vro	x						
+herevüs	herevüs	elevus	vro	x						
+annimiq	andma	andma	vro	x						
+veevä	vi̬i̬mä	viima	vro	x						
+pritsiq	pritś	prits	vro	x						
+kroonigaq	kru̬u̬ń	kroon	vro	xx						
+olõmah	olõma	olema	vro	x						
+õiq	?	?	vro	x					x	
+tölläkil	tölläkil	töllakil	vro	x						
+aiaviljo	aiavili	aevili	vro	x						
+kaoq	kado	kadu	vro	x						
+uinudi	uinuma	uinuma	vro	x						
+laitõn	laitõn	!= laitvalt	vro		x					
+tiidläne	ti̬i̬dläne	teadlane	vro	x						
+vandminõ	vandma	vanduma	vro	x						
+pruhvõgaq	pruhv́	!= (püksi)viik	vro		x					
+tüüjäre	tü̬ü̬järǵ	tööjärg	vro	x						
+päälenakkaminõ	päälenakkaminõ	!= pealehakkamine	vro	x	x					
+toimõndustõ	toimõndus	toimetus	vro		x					derivation
+pildigaq	pilt́	pilt	vro	x						
+bioluug	bioluuǵ	bioloog	vro	x						
+saibagaq	saivas	!= teivas	vro		x					
+külvikätt	külvikätt	vastupäeva	vro		x					
+kistutami	kistutama ?	kustutama	vro	x						

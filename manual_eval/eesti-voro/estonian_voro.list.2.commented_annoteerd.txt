@@ -1,0 +1,201 @@
+token	base form	cognate	label	Phon-Morph-infl-Morph-der-Spelling	Lexicon	NE	Other	Unmarked	Unknown	Comment
+jäätise/vahukoorega	jäätis/vahukoor	i(j)ätüs/vatuku̬u̬ŕ	est	x						
+naiseks/meheks	naine/mees	naanõ/mi̬i̬ś	est	x						
+koduperenaine	koduperenaine	kodopernaanõ	est	x						
+inimväärikust	inimväärikus	!= inemis(e)perisüs	est		x					
+budausuline	budausuline	budausulinõ	est	x						
+kõrvitsaseemnetega	kõrvitsaseeme	? ("kürvitsäseemeń"? "kürvitsäsiimnidega" in the parallel corpus)	est	x						
+matemaatikaülesannetega	matemaatikaülesanne	matõmaatigamärk	est	x	x					
+peenutsed	peenutsema	!= ilostama	est		x					
+võidujooks	võidujooks	!=? võikiju̬u̬skminõ	est		x					derivation
+lünktekstide	lünktekst	!= (no cognate for "lünk"?)	est		x					
+kuumsuitsu	kuumsuits	suitsutõt	est		x					
+viinakompressi	viinakompress	viinakompress	est					x		
+lähiümbruse	lähiümbrus	!= ligistü / ümbrekund	est		x					
+iseseisvumise	iseseisvumine	hindäperi saaminõ	est		x					
+kunstiteadlane	kunstiteadlane	kunstitiidläne	est	x						
+päästeoperatsioon	päästeoperatsioon	pästmiseopõratsiuun	est		x					derivation
+resolutsiooniga	resolutsioon	tihtsüs	est		x					
+kirmased	kirmas	kirmas	est	x						
+päiksepaisteline	päiksepaisteline	!= päivlik	est		x					
+pruudikodu	pruudikodu	!= pruudimõisa	est		x					
+suitsusaunapäeva	suitsusaunapäev	!= savvusannapäiv	est	x	x					 (but no particular reason why 'suidsusannapäiv' wouldn't exist, if 'suidsusannakommõq' does...)
+teravamaitseline	teravamaitseline	!= krehvtine	est		x					
+jalarauad	jalaraud	!= jalg(h)ahhil	est		x					
+seinapraod	seinapragu	?	est							
+tõelusega	tõelus	!= tõtõ	est		x					
+piinlesin	piinlema	!= vaivlõma	est		x					
+anekdoodid	anekdoot	anekdoot	est	x?						
+draamanäitleja	draamanäitleja	draamanäütlejä	est	x						
+suurtükkidest	suurtükk	suuŕtükk	est	x						
+kirsipuine	kirsipuine	!= (kirsipuu = vislapuu)	est	x	x					
+mekkimine	mekkima	meḱmä	est	x						
+ähvardavad	ähvardama	ähvärdämä	est	x						
+küüslauguleivad	küüslauguleib	!= (the translation of "küüslauk" = "kuruslauk" garlic does not use the cognate of "küüs")	est		x					
+munakollasega	munakollane	munakõllanõ	est	x						
+neljapäev	neljapäev	ne(l)läpäiv	est	x						
+televaatajad	televaataja	!= telekaeja	est	x	x					
+kirjandus/keel	kirjandus/keel	kirändüs/ki̬i̬ľ 	est	x						
+lahingumüra	lahingumüra	lahengularmi	est		x					
+lühikirjeldus	lühikirjeldus	?	est	x						
+suitsusaunakommetest	suitsusaunakomme	suidsusannakommõq	est	x						
+eriarvamusele	eriarvamus	uma manoq	est		x					
+aknaklaasid	aknaklaas	aknõklaaś	est	x						
+ülemöödunud	ülemöödunud	!= üleminnev	est		x					
+luulelugemisvõistluse	luulelugemisvõistlus	!=? luulõlugõmisõ võistlus / luulõlugõmisvõigõlusõl	est	x	x					derivation
+30.oktoober	30.oktoober	30.ókto(o)bri	est	x						
+reeotsale	reeotsale	riiperä pääle	est		x					
+mehenaine/naisemees	mehenaine/naisemees	mehenaanõ/naasõmi̬i̬ś	est	x						
+sirgjoones	sirgjoon	!= õgõvju̬u̬ń	est		x					
+majoneeskastmega	majoneeskaste	majoneesihämmätüs	est		x					
+põhijooned	põhijoon	põhiju̬u̬ń	est	x						
+kolhoosnikele	kolhoosnik	kolhoosnik	est	x						
+haagisega	haagis	haagits	est	x						
+surnuaiapühal	surnuaiapüha	surnuaiapühä	est	x						
+kitsejuustuga	kitsejuust	kitsõjuust	est	x						
+seltskonnale	seltskond	seltśkund	est	x						
+torbikutäie	torbikutäis	torbigutäüs	est	x						
+suitsujoom	suitsujoom	savvujutť ?	est		x					
+arheoloog	arheoloog	arkeolu̬u̬ǵ	est	x						
+kontaktisik	kontaktisik	kontaktisik	est	x				x		
+metsaminekuks	metsaminek	mõtsamineḱ	est	x						
+hunnikutes	hunnik	unik ?	est	xx						
+õunalõigud	õunalõik	!= ubinakiil	est		x					
+kase-kuuse	kask- kuusk	!= kõiv- kuuś	est	x	x					
+tegusõnad	tegusõna	tegosõ̭na	est	x						
+majandusteadlane	majandusteadlane	majandusti̬i̬dläne	est	x						
+alusmetsaga	alusmets	alosmõts	est	x						
+tarretab	tarretama	!= kallõrdama	est	xx	x					
+vaenlasele	vaenlane	vainlanõ	est	x						
+lattaiaga	lattaed	!= roelmuaid	est		x					
+lüüasaamisega	lüüasaamine	lüvväqsaaminõ	est	x						
+ebaõiglaselt	ebaõiglane	!= ülekohtulinõ (according to the dictionary, but the corpus contains the inflected form "ebaõiglasõlt")	est	x						
+kõhu-peavalu	kõht- peavalu	kõtt- päävalu	est	x						
+fookusest	fookus	fu̬u̬kus	est	x						
+otsatult	otsatult	ilmlõpmaldaq	est		x					
+ajaloosündmuste	ajaloosündmus	aoluusündmüs	est	x						
+haljendavad	haljendama	ha(l)ĺõtama	est	x						
+laulusõbrad	laulusõber	laulusõbõr	est	xx						
+vaenulikud	vaenulik	!=? vainolinõ	est		x					derivation
+õlg	õlg	olg	est	x						
+tühjeneb	tühjenema	!= tühäs minemä	est	x	x					
+foonil	foon	!= (taga)põhi	est		x					
+kaardimängus	kaardimäng	kaardimäng	est					x		
+meesterõivad	meesterõivas	poissa ryiva´	est		x					
+marihuaanat	marihuaana	!= kańõṕ	est		x					
+liivotshka	liivotshka	Liivotška	est	x		x				
+taguotsa	taguots	tagaots	est	x						
+käsitöötraditsioonide	käsitöötraditsioon	? (likely "käsitüütraditsioon", "käsitüütraditsiuunõ" in the parallel corpus)	est	x						
+jultumus	jultumus	!= häbemäldäq olõḱ	est		x					
+õppematerjalid	õppematerjal	opimátõrjaaĺ	est	xx						
+üleküpsetaud	üleküpsetaud?	Ahun küdsedüq	est	x	x					
+kääksub	kääksuma	käätsmä	est	x						
+pärastlõunane	pärastlõunane	päälelõunanõ	est		x					
+otstarbekas	otstarbekas	mõistlik? (the corpus contains a noun "otstarvõ(t)")	est		x					
+eelteade	eelteade	?-teedüs?	est		x					
+rühmaviisi	rühmaviisi	rühmäviisi	est	x						
+joostes	jooksma	ju̬u̬skma	est	x						
+laadalistega	laadaline	laadulinõ	est	x						
+emasõisikud	emasõisik	imäninniq?	est		x					
+laagriplatsidel	laagriplats	laagriplatś	est	x						
+varrepoolne	varrepoolne	?	est						x	
+raudtii-ehitüse	raudti̬i̬-ehitüs	raudtee-ehitus	vro	x						
+ütstõõsõl	ütśtõ(õ)sõ	üksteise	vro	x						
+pidopaiga	pidopaik	pidupaik	vro	x						
+välätüülise	välätü̬ü̬line	välitööline	vro	x						
+häälits	häälitsemä	!= meelitama	vro	x						
+tii-s	tegemä	tegema	vro	x						
+panõ-iq	pandma (?)	panema	vro	x						
+ütsvaheq	ütśvaheq	üksvahe	vro	x						
+suuperätsüs	suuperätsüs (?)	suupärasus	vro	x						
+sõajovvu	sõajoud (?)	sõjajõud	vro	x						
+kõrvõs	kõrbõma	kõrbema	vro	x						
+hapnõpiimä	hapnõpiim	!=? hapupiim	vro	x						
+tinotas	tinotama	tinutama	vro	x						
+plärdsähtiq	plärdsähtämä	plärtsahtama	vro	x						
+vaniljeijätüs	vaniljeijätüs	vaniljejäätus	vro	x						
+kullõmast	kullõma	kuulama	vro	x						
+papridõ	papõŕ	paber	vro	x						
+sõpruskunna	sõpruskund	sõpruskond	vro	x						
+folkloorilähküist	folkloorilähküs	!= folkloorilähedus	vro		x					derivation
+pallõlgõq	pallõma	!= palvetama	vro	x	x					
+savvusannakombõ	savvusannakommõq	!= suitsusaunakomme	vro		x					
+poodõt	pu̬u̬tma	puuduma ?	vro	x						
+põlõ-iq	põlgma	põlgama	vro	x						
+üüsiskaq	ü̬ü̬sisas	!= nahkhiir	vro		x					
+mill'onaid	milĺoń ?	miljon	vro	x						
+tüüotsjaq	tüüotsja(q) ?	tööotsija	vro	x						
+seltsiq	seltśmä	seltsima	vro	x						
+ütsüisis	ütsüs	üksus	vro	x						
+rottõ	rotť	rott	vro	x						
+mürähtü	mürähtümä	!=? mürtsatama	vro		x					
+minkagiqperäst	minkagiqperäst	millegipärast	vro	x	x					derivation
+karvapäält	karvapäält	karvapealt	vro	x						
+liivahavva	liivahaud	!= liivaauk	vro		x					
+savvusannamakett	savvusannamaketť	!= suitsusauna...	vro		x					
+hooli-iq	hu̬u̬ľma	hoolima	vro	x						
+väsü-s	väsümä	väsima	vro	x						
+kireldüisiga	kireldüs??	kirjeldus?	vro	x						
+määrüs	määrüs	määrus	vro	x						
+savvusannapäivä	savvusannapäiv	!= suitsusaunapäev	vro		x					
+suhtlusprogrammõ	suhtlusprogramḿ	suhtlusprogramm	vro	s						
+seltskunnast	seltśkund	seltskond	vro	x						
+võsudsõ	?	< võsa	vro	x					x	
+õlidsõq	õlinõ	õline	vro	x						
+hõds'usuu	hõdśosuu	õõtsiksoo	vro	x					x	(hõtsk, gen. hõdso)
+välläkaibmisõ	välläkaibminõ	väljakaevamine	vro	x						
+tähtpäävä	tähťpäiv	tähtpäev	vro	x						
+indikaatri-tsirk	indikaatri-tsirk	!= indikaatorlind	vro		x					
+viilindlaisi	?	== veelendlasi	vro	x						
+üüelo	üüelo	ööelu	vro	x						
+lahkminõ	lahkminõ	lõhkumine	vro	x						
+ravvapallo	ravvapala	!= rauatükk (according to dictionary, but "rauapala" can be found on search engines)	vro	x						
+juvvakiq	ju̬u̬ma	jooma	vro	x						
+silmäpilguskiq	silmäpilk	silmapilk	vro	x						
+rusikit	rusik	rusikas	vro		x					derivation
+pritsimiihiga	pritsimi̬i̬ś	!= tuletõrjuja	vro		x					
+saisku-iq	saisma	seisma	vro	x						
+päätsiht	päätsihť	!= domineeriv suund	vro		x					
+tähtsüsega	tähtsüs	tähtsus	vro	x						
+rattilõ	rattaq	!= vanker; auto	vro		x					
+vagatsõmbalt	vagatsõmbalt	!= rahulikumalt	vro	x	x					
+ütskorgu	ütśkorgu	!=? ühekõrgune	vro	x	x					derivation
+kuivustõ	kuivus	!= kuivati	vro		x					
+393			vro							
+ütsütte	ütśütte	üksühe ?	vro	x						
+tiiparandusõ	ti̬i̬parandus	teeparandus	vro	x						
+igätsüs	igätsüs	igatsus	vro	x						
+tsokõrdaja	tśokõrdama	? (in dictionary only explanation "metsaveotraktori taha palke haakima")	vro							
+tsukrumakus	tsuhkrumakus	suhkrumagus	vro	x						
+keebätsis	keebätś	!= kõhn	vro		x					
+loosiga	lu̬u̬ś	loos	vro					x		
+hengäs	hengämä	hingama	vro	x						
+sepikut	?	sepik	vro					x		 (identical form in the võro corpus although not mentioned in the dictionary)
+tii-iq	tegemä	tegema	vro	xx						
+tsehkendüstunnin	< tsehkendämä	!= < joonestama	vro		x					
+teedüspaprit	teedüspapõŕ	teaduspaber	vro	x						
+pedäjät	petäi	!= mänd (but dictionaries mention the cognates "pedajas", "pedak" and "pedakas" as dialectal)	vro		?					
+pluusõnöpsiq	pluusõnöpś	!=? pluusinööb	vro		x					derivation
+taheta-iq	tahtma	tahtma	vro	x						
+uarmit	uarm	!= lumehang	vro		x					
+tulogaq	tulogaq	!= tulusalt	vro	x	x					
+kaldõhe	kallõq	kallak	vro	x						
+sõaväeparaati	sõ̭aväeparaať	sõjaväeparaad	vro	x						
+tsuhaht	tśuhahtama	!= turtsatama	vro		x					
+ütistegevüst	ütistegevüs	ühistegevus	vro	x						
+korgõrõuhkus	korgõrõuhkus	!=? kõrgrõhk	vro		x					
+kinnütäs	kinnütämä	kinnitama	vro	x						
+rassõmbas	rassõ	raske	vro	x						
+igäväs	ikäv	igav	vro	x						
+turundusraadio	turundusraadio	turundusraadio	vro					x		
+teedüstahvli	teedüstahvli (= teedüssetahvli?)	(teadetetahvel?)	vro		x					derivation
+juusksõ	ju̬u̬skma	jooksma	vro	x						
+püürdmä	pü̬ü̬rdmä	pöörama	vro	x						
+üükülmäq	üükülm	öökülm	vro	x						
+valmispannusõgaq	valmispannus	!= preparaat (a different dictionary also knows "valmispanek", but this is a different derivation)	vro		x					derivation
+kaalarihm	kaalarihm	kaelarihm	vro	x						
+vöie	vüü	vöö	vro	x						
+käänüskõrd	käänüskõrd	!= paradigma	vro		x					
+sainapapõr	sainapapõŕ	!= tapeet	vro		x					
+paljodõn	palľo	palju	vro	x						
+täht	tähť	täht	vro					x		

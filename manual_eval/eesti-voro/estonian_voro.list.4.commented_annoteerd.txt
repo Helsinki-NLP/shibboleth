@@ -1,0 +1,201 @@
+token	base form	cognate	label	Phon-Morph-infl-Morph-der-Spelling	Lexicon	NE	Other	Unmarked	Unknown	Comment
+jookseb	jooksma	ju̬u̬skma	est	x						
+jooksis	jooksma	ju̬u̬skma	est	x						
+veab	vedama	vidämä	est	xx						
+tõmbab	tõmbama	tõ̭mbama	est	x						
+õunad	õun	!=? upin	est	x	x					
+selga	selg	sälg	est	x						
+tütarlaps	tütarlaps	tütäŕlatś	est	x						
+puhtaks	puhas	puhas	est	x						
+tõusis	tõusma	!= nõsõma	est		x					
+tõuseb	tõusma	!= nõsõma	est	x	x					
+vajunud	vajuma	vaoma	est	xx						
+vaikselt	vaikselt	!= vaikligult	est	x	x					derivation
+lööb	lööma	lü̬ü̬mä	est	x						
+toetavad	toetama	tugõhõma	est	x						
+sõitis	sõitma	sõitma	est	x						
+kukkus	kukkuma	kukma	est	x						
+ostsin	ostma	ostma	est	x						
+käin	käima	käümä	est	xx						
+sajab	ajama	ajama	est	xx						
+jalga	jalg	jalg	est					x		
+kannab	kandma	kandma	est	x						
+magada	magama	maga(ha)ma	est	x						
+maksab	maksma	masma	est	xx						
+sündis	sündima	sündümä	est	x						
+kiiremini	kiiremini	!= kipõmbahe	est		x					
+mõtleb	mõtlema	mõtlõma	est	xx						
+pannakse	panema	pandma	est	x						
+vaatame	vaatama	!= kaema	est	x	x					
+ajab	ajama	ajama	est	x						
+küsib	küsima	küsümä	est	xx						
+vaenlase	vaenlane	vainlanõ	est	x						
+kevad	kevad	kevväi	est	x						
+tulen	tulema	tulõma	est	xx						
+läksin	minema	minemä	est	xx						
+nägin	nägema	nägemä	est	xx						
+perenaine	perenaine	perna(a)nõ	est	x						
+käisid	käima	käümä	est	xx						
+näitas	näitama	näütämä	est	x						
+häälega	hääl	!= helü (= heli)	est		x			x		(shouldn't be possible in Võro, but occurs in the synaq corpus)
+tõusnud	tõusma	!= nõsõma	est	x	x					
+rahulikult	rahulik	rahulik	est					x		
+aeglaselt	aeglaselt	aiglasõlt	est	x						
+tehtud	tegema	tegemä	est	xx						
+ajas	ajama	ajama	est					x		
+kasvanud	kasvama	kasuma	est	xx						
+tekitas	tekitama	!= sünnütämä	est		x					
+kasvas	kasvama	kasuma	est	x						
+tuled	tulema	tulõma	est	xx						
+seisab	seisma	saisma	est	xx						
+püüab	püüdma	püü(n)dmä	est	x						
+lähed	minema	minemä	est	xx						
+paneb	panema	pandma	est	x						
+korraks	korraks	kõrras	est	xx						
+noormees	noormees	nu̬u̬ŕmi̬i̬ś	est	x						
+vanamees	vanamees	vanami̬i̬ś	est	x						
+niikaua	niikaua	niikavva	est	x						
+kergesti	kergesti	!=? kergüisi	est	xx	x					derivation
+töötab	töötama	tü̬ü̬tämä	est	x						
+lapsele	laps	latś	est	x						
+asub	asuma	!= olõma	est	x	x					
+vaata	vaatama	!= kaema	est		x					
+väsinud	väsima	väsüma	est	xx						
+käisime	käima	käümä	est	xx						
+mõtlesin	mõtlema	mõtlõma	est	xx						
+kurjategija	kurjategija	kuŕategijä	est	x						
+juuksed	juuksed	hiu(s)sõq	est	xx						
+tahaksin	tahtma	tahtma	est	x						
+hakkame	hakkama	!= nakkama	est	x	x					
+kasvab	kasvama	kasuma	est	x						
+selliseid	selline	~sääne?	est	x	x					
+jätkub	jätkuma	jakkuma	est	xx						
+käisin	käima	käümä	est	xx						
+keedetud	keetma	ki̬i̬tmä	est	xx						
+käima	käima	käümä	est	x						
+naine	naine	naanõ	est	x						
+sööma	sööma	sü̬ü̬mä	est	x						
+sülle	süli	!= üsk	est		x					
+võtavad	võtma	võtma	est	x						
+panema	panema	pandma	est	x						
+elavad	elama	elämä	est	xx						
+taevas	taevas	taivas	est	x						
+läksime	minema	minemä	est	xx						
+vahele	vahele	vaihõlõ	est	x						
+inimesele	inimene	inemine	est	x						
+soola	sool	su̬u̬l	est					x		
+õnnelik	õnnelik	õ̭nnõlik	est	x						
+läks	minema	minemä	est	x						
+sõidab	sõitma	sõitma	est	x						
+valge	valge	valgõ	est	x						
+leili	leil	!= lõunaq	est		x					
+magama	magama	maga(ha)ma	est					x		
+tüdrukud	tüdruk	tütrik	est	xx						
+peremees	peremees	perremi̬i̬ś	est	x						
+hakati	hakkama	!= nakkama	est		x					
+nõuab	nõudma	nõudma	est	x						
+oled	olema	olõma	est	xx						
+hakkas	hakkama	!= nakkama	est		x					
+lapsel	laps	latś	est	x						
+koer	koer	!= pini	est		x					
+külalised	külaline	küläline	est	xx						
+armõdu	armõdu	armetu	vro	x						
+putuq	putma	!= huvitama	vro	x	x					
+süüq	sü̬ü̬mä	sööma	vro	xx						
+süä	süä	süda	vro	x						
+massaq	masma	maksma	vro	xx						
+võtaq	võtma	võtma	vro	xx						
+tühäs	tühi	tühi	vro	x						
+nal	? tokenisation mistakenly splitting nal´alt?	?	vro							
+võtkõq	võtma ?	võtma	vro	x						
+perädü	perädü	päratu	vro	x						
+näogaq	nägo	nägu	vro	xx						
+piäq	pidämä	pidama	vro	xx						
+miihi	mi̬i̬ś	mees	vro	x						
+panniq	pandma	panema	vro	xx						
+laiv	laiv	laev	vro					x		
+kellä	kell	kell	vro	x						
+ütleq	ütlemä	ütlema	vro	xx						
+taivas	taivas	taevas	vro	x						
+mant	mant	!= juurest	vro		x					
+annaq	andma	andma	vro	xx						
+mitund	mitu	mitu	vro	x						
+võiq	võima	võima	vro	x						
+lääq	minemä	minema	vro	x						
+panti	pandma	panema	vro					x		
+saimiq	saama	saama	vro	xx						
+mängmä	mänǵmä	mängima	vro	x						
+kergehe	kergehe	!= kergesti	vro		x					 (seems to be derivational morphology)
+tulli	tulõma	tulema	vro					x		
+tõisilõ	tõõnõ	teine	vro	x						
+olõq	olõma	olema	vro	xx						
+süüdü	süüdü	süüdi	vro	x						
+umalõ	uma	oma	vro	x						
+vaio	vaoma	vajuma	vro	xx						
+küsü	küsümä	küsima	vro	x						
+süü	sü̬ü̬mä	sööma	vro					x		
+vähä	vähä	vähe	vro	x						
+tulkõq	tulõma	tulema	vro	xx						
+ai	ajama	ajama	vro					x		
+ots	ots	ots	vro					x		
+vii	vi̬i̬mä	viima	vro					x		
+lei	lü̬ü̬mä	lööma	vro	x						
+ekä	egä	iga	vro	x						
+maalõ	maa	maa	vro	x						
+mineq	minemä	minema	vro	xx						
+vidä	vidämä	vedama	vro	x						
+miist	mi̬i̬ś	mees	vro	x						
+parõmbahe	parõmbahe	perimini	vro	xx						
+jalgo	jalg	jalg	vro	x						
+umbõ	umbõ	umbe	vro	x						
+kats	katś	kaks	vro	x						
+hüvvä	hüvä	hea	vro	x						
+tiiäq	ti̬i̬dmä	teadma	vro	xx						
+jakku	jakkuma	jätkuma	vro					x		 (as an inflected form of 'jagu')
+ostaq	ostma	ostma	vro	xx						
+tüküs	tüküs	tükk	vro	x						
+tulõq	tulõma	tulema	vro	xx						
+otsaniq	ots	ots	vro	x						
+pilt	pilt́	pilt	vro					x		
+naati	nakkama	!= hakkama	vro					x		(as an inflected form of 'naat')
+vei	vidämä	vedama	vro	x						
+esi	esi	esi	vro					x		
+oodõtas	u̬u̬tma	ootama	vro	x						
+pandma	pandma	panema	vro	x						
+naard	naardma	naerma	vro	x						
+sanna	sann	saun	vro	x						
+latsõ	latś	laps	vro	x						
+iä	igä	iga	vro	x						
+iin	i̬i̬(h)n	ees	vro	x						
+miilt	mi̬i̬ľ	meel	vro	x						
+käüq	käümä	käima	vro	xx						
+hääd	hää/hüvä	hea/hää	vro					x		
+pand	pandma	panema	vro					x		
+sattõ	sado	sadu	vro	x						
+kalaq	kala	kala	vro	x						
+lummõ	lumi	lumi	vro	x						
+latsi	latś	laps	vro	x						
+võet	võtma	võtma	vro	x						
+lavva	laud	laud	vro	x						
+kotussõ	kotus	!=? koht	vro	x						
+luulõ	lugu	lugu	vro	x						
+sis	sis	siis	vro	s						
+kõnõlõq	kõnõlõma	kõnelema	vro	x						
+tei	tegemä	tegema	vro	x						
+pääd	pää	pea	vro					x		
+läts	minemä	minema	vro					x		
+mii	miiq	meie	vro	x						
+tassa	tassa	tasa	vro	x						
+tahaq	tahtma	tahtma	vro	x						
+käänd	käändmä	käänama	vro					x		
+umma	uma	oma	vro	x						
+piten	pite(h)n	pidi	vro	x						
+kõnõl	kõnõlõma	kõnelema	vro	x						
+sündü	sündümä	sündima	vro	x						
+ussõ	usś	uks	vro	x						
+ilosahe	ilosahe	!= ilusasti	vro		x					(seems to be derivational morphology)
+pandas	pandma	panema	vro					x		
+puult	puu	puu	vro					x		
+tõist	tõõnõ	teine	vro	x						
+kuq	ku(q)	kui	vro	x						
+sinno	sa(q)	s(in)a	vro	x						
