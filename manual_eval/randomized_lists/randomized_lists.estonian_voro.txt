@@ -1,0 +1,8 @@
+lists/estonian_voro/list.estonian_voro.attrib=ig_mpd=4_thresh=0.6_docnorm=T_tfidf=F.csv
+lists/estonian_voro/list.estonian_voro.attrib=ig_mpd=4_thresh=0.1_docnorm=T_tfidf=F.csv
+lists/estonian_voro/list.estonian_voro.attrib=loo_mpd=4_thresh=0.1_docnorm=T_tfidf=F.csv
+lists/estonian_voro/list.estonian_voro.attrib=shap_mpd=4_thresh=0.6_docnorm=T_tfidf=F.csv
+lists/estonian_voro/list.estonian_voro.attrib=shap_mpd=4_thresh=0.1_docnorm=T_tfidf=F.csv
+lists/estonian_voro/list.estonian_voro.attrib=loo_mpd=4_thresh=0.6_docnorm=T_tfidf=F.csv
+lists/estonian_voro/list.estonian_voro.attrib=lime_mpd=4_thresh=0.6_docnorm=T_tfidf=F.csv
+lists/estonian_voro/list.estonian_voro.attrib=lime_mpd=4_thresh=0.1_docnorm=T_tfidf=F.csv
