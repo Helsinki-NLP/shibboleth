@@ -1,0 +1,201 @@
+token,label,score,selection_freq,in_blacklist,shibboleth,feature,feature2,note
+svjedoci“,hr,0.999292856214197,0.1,False,no,phon,NA,jek
+cjelovita“,hr,0.997933305929473,0.1,False,yes,lex,NA,NA
+kosovizira,hr,0.992659897843987,0.1,False,yes,morph-d,NA,NA
+pripaziti,hr,0.992420096138994,0.1,True,no,unm,NA,NA
+ceyhanskog,hr,0.984465492730305,0.1,False,no,named entity,NA,NA
+utječemo,hr,0.983209628859186,0.1,False,no,phon,NA,jek
+osmjehivala,hr,0.982433424088231,0.1,True,no,phon,NA,jek
+yesilkoy,hr,0.980212871070398,0.1,False,no,named entity,NA,NA
+mjesto”,hr,0.978759090566927,0.1,False,no,phon,NA,jek
+mjesečari,hr,0.962967099292109,0.1,False,no,phon,NA,jek
+premlaćivati,hr,0.957457538047129,0.1,False,no,unm,NA,NA
+namješteno,hr,0.947201323986519,0.1,False,no,phon,NA,jek
+spasiteljski,hr,0.94697028781593,0.1,True,yes,morph-d,NA,NA
+hoxhin,hr,0.939428165339632,0.1,False,no,named entity,NA,NA
+al-qamishlia,hr,0.938141899439506,0.1,False,no,named entity,NA,NA
+prijetile,hr,0.930546932219295,0.1,True,no,phon,NA,jek
+promjeri,hr,0.91264693471021,0.1,True,no,phon,NA,jek
+kovachkog,hr,0.910449846507981,0.1,False,no,named entity,NA,NA
+letjelo,hr,0.909643927967409,0.1,False,no,phon,NA,jek
+motiviraju,hr,0.901780007861089,0.1,False,yes,morph-d,NA,NA
+utjelovljuje,hr,0.89387650836652,0.1,False,yes,lex,NA,NA
+zaživjeli,hr,0.886725206277333,0.1,True,no,phon,NA,jek
+ljetovali,hr,0.886675988137722,0.1,False,no,phon,NA,jek
+sjedim,hr,0.883775029100434,0.1,True,no,phon,NA,jek
+panayiota,hr,0.879398158987897,0.1,False,no,named entity,NA,NA
+ustat,hr,0.879196001293894,0.1,False,yes,morph-f,NA,NA
+craiga,hr,0.875467720740562,0.1,False,no,named entity,NA,NA
+uhićenicima,hr,0.864235483389348,0.1,False,yes,lex,NA,NA
+uspješnoj,hr,0.856688025119365,0.1,False,no,phon,NA,jek
+orijentiraju,hr,0.852367128944024,0.1,False,yes,morph-d,NA,NA
+neprocjenjive,hr,0.843663717259187,0.1,False,no,phon,NA,jek
+nevjerici,hr,0.84275520395895,0.1,False,no,phon,NA,jek
+laodicee,hr,0.838961038945126,0.1,False,unknown,unknown,NA,NA
+ljetovanju,hr,0.836735209620019,0.1,False,no,phon,NA,jek
+sjeverno-središnjoj,hr,0.824736706673866,0.1,False,no,phon,nonminimal,jek
+gershmana,hr,0.822531275614165,0.1,False,no,named entity,NA,NA
+prijeđen,hr,0.821654548868537,0.1,False,no,phon,NA,jek
+otcjepljenje,hr,0.818706810067852,0.12,False,no,phon,NA,jek
+prokomentirajte,hr,0.802283730618001,0.1,False,yes,morph-d,NA,NA
+opstat,hr,0.798093911389879,0.1,False,yes,morph-f,NA,NA
+stječemo,hr,0.792827978613786,0.1,True,no,phon,NA,jek
+modigliani,hr,0.790865767060313,0.1,False,no,named entity,NA,NA
+karakousis,hr,0.790791817498393,0.1,False,no,named entity,NA,NA
+atticusa,hr,0.789570606908637,0.1,False,no,named entity,NA,NA
+telefonirati,hr,0.788660613349521,0.15,True,no,unm,NA,NA
+neprimjerenom,hr,0.772920490972683,0.1,False,no,phon,NA,jek
+oklijevala,hr,0.766923206753563,0.1,True,no,phon,NA,jek
+predsjedatelje,hr,0.766521652892698,0.1,False,yes,morph-d,NA,NA
+windhoeku,hr,0.765484753929741,0.1,False,no,named entity,NA,NA
+poduzetničku,hr,0.754627436894589,0.1,True,yes,morph-d,NA,NA
+connollyja,hr,0.749785284945392,0.1,False,no,named entity,NA,NA
+odigrat,hr,0.747797245444627,0.12,False,yes,morph-f,NA,NA
+prijeporna,hr,0.739062639020491,0.13,True,yes,lex,NA,NA
+neozlijeđen,hr,0.730580582536641,0.1,True,yes,lex,NA,NA
+bojala,hr,0.730013659369433,0.1,True,no,unm,NA,NA
+vjerojatnijim,hr,0.729671087667763,0.12,True,yes,phon,NA,NA
+rocku,hr,0.721032836614177,0.1,True,yes,spel,NA,NA
+coppola,hr,0.719850927551306,0.1,False,no,named entity,NA,NA
+njemačko-albanska,hr,0.7141847630759,0.1,False,no,phon,nonminimal,jek
+dekriminilizirana,hr,0.711379516031593,0.1,False,yes,morph-d,NA,NA
+kucukyali,hr,0.709233023118941,0.1,False,no,named entity,NA,NA
+sinclairu,hr,0.703852046723478,0.1,False,no,named entity,NA,NA
+tariceanuovi,hr,0.696479290242926,0.11,False,no,named entity,NA,NA
+hangzhou,hr,0.695135722169653,0.1,False,no,named entity,NA,NA
+osmjeha,hr,0.694532835419613,0.1,False,no,phon,NA,jek
+izbjeglički,hr,0.692572201395576,0.13,False,no,phon,NA,jek
+tecuceanu,hr,0.692198447613555,0.1,False,no,named entity,NA,NA
+chameleon,hr,0.692045876631164,0.1,False,no,foreign,NA,NA
+uhićenik,hr,0.69049991487409,0.1,False,yes,lex,NA,NA
+pristizati,hr,0.688747499464365,0.14,True,no,unm,NA,NA
+stagnirati,hr,0.687126512878072,0.12,True,no,unm,NA,NA
+premješteni,hr,0.685463407128555,0.1,False,no,phon,NA,jek
+djetata,hr,0.682527025602758,0.1,False,unknown,unknown,NA,NA
+rastjerali,hr,0.681589227449149,0.1,False,no,phon,NA,jek
+presjekle,hr,0.679901111021172,0.1,False,no,phon,NA,jek
+doprinio,hr,0.676013857073849,0.1,True,no,phon,NA,jek
+pomiješalo,hr,0.673260178696364,0.1,True,no,phon,NA,jek
+priljevima,hr,0.663473237416474,0.1,False,no,phon,NA,jek
+shekaxhiu,hr,0.659453574337931,0.1,False,no,named entity,NA,NA
+diktirati,hr,0.65797202977119,0.1,True,no,unm,NA,NA
+naposljetku,hr,0.655522776483569,0.35,False,no,phon,NA,jek
+hoxhinih,hr,0.653812983143143,0.1,False,no,named entity,NA,NA
+iritirati,hr,0.653055900467249,0.14,True,no,unm,NA,NA
+sjevernobalkanska,hr,0.649797650933033,0.1,False,no,phon,nonminimal,jek
+joppya,hr,0.648488414230227,0.13,False,no,named entity,NA,NA
+smijenili,hr,0.646718229306862,0.1,True,no,phon,NA,jek
+pauw,hr,0.643940031351425,0.12,False,unknown,unknown,NA,NA
+usredotočujem,hr,0.63055109300185,0.1,True,yes,lex,NA,NA
+avioprijevozniku,hr,0.626958782598376,0.1,False,no,phon,nonminimal,jek
+promatrale,hr,0.624526167474687,0.1,True,yes,phon,morph-d,NA
+očitovati,hr,0.620760865763259,0.15,True,yes,lex,NA,NA
+čelnih,hr,0.617158112934373,0.11,True,yes,phon,NA,NA
+glazbeniku,hr,0.616238001435704,0.14,True,yes,lex,NA,NA
+unaprijeđeno,hr,0.614806743140798,0.1,True,no,phon,NA,jek
+hecegovina,hr,0.608126206397587,0.11,False,no,named entity,NA,NA
+pogriješili,hr,0.607225146575365,0.1,True,no,phon,NA,jek
+razvitci,hr,0.601998435138194,0.1,False,no,morph-d,morph-f,NA
+yutubea,hr,0.601734730182216,0.1,False,yes,spel,NA,NA
+sinhroniziranim,hr,0.597746959665528,0.1,False,yes,morph-d,NA,NA
+jadati,hr,0.596249331792933,0.19,True,no,unm,NA,NA
+„krasnići,sr,0.999254055862002,0.1,False,no,named entity,NA,NA
+mesece,sr,0.995328461983406,0.18,False,yes,phon,NA,NA
+čina'“,sr,0.995165079009348,0.1,False,no,unm,NA,NA
+bezbedniju,sr,0.993299721162475,0.1,False,yes,lex,NA,NA
+„su,sr,0.992691800375905,0.1,False,no,unm,NA,NA
+promene»,sr,0.99266896499903,0.1,False,yes,phon,NA,NA
+čudno“,sr,0.98568128868028,0.1,False,no,unm,NA,NA
+„sramota!“,sr,0.985373740609793,0.1,False,no,unm,NA,NA
+„odvratan,sr,0.981509090051986,0.1,False,no,unm,NA,NA
+bezuslovni,sr,0.980524831861839,0.1,False,yes,lex,NA,NA
+„kinezi,sr,0.980038532711114,0.1,False,no,named entity,NA,NA
+bitaka“,sr,0.979901150768274,0.1,False,no,unm,NA,NA
+„pozicije,sr,0.978436456719646,0.1,False,no,unm,NA,NA
+licemerni,sr,0.977952222595923,0.1,False,yes,phon,NA,NA
+pobeđivale,sr,0.974820020460902,0.1,False,yes,phon,NA,NA
+„granica,sr,0.973002320645173,0.1,False,no,unm,NA,NA
+grupisana,sr,0.968344565090956,0.1,False,yes,morph-d,NA,NA
+pokreti“,sr,0.965450914410758,0.1,False,no,unm,NA,NA
+celodnevnog,sr,0.963339214015286,0.1,False,yes,phon,nonminimal,NA
+pobeđujemo,sr,0.957415691000642,0.1,False,yes,phon,NA,NA
+„nelagodno,sr,0.953052180050508,0.1,False,no,unm,NA,NA
+provosudnu,sr,0.95140713355504,0.1,False,unknown,unknown,NA,NA
+viševerska,sr,0.951285614666995,0.1,False,yes,phon,nonminimal,NA
+„svestan,sr,0.948898755200207,0.1,False,yes,phon,NA,NA
+rumunijo,sr,0.946697035653051,0.1,False,no,named entity,NA,NA
+„pravda,sr,0.943047082542034,0.1,False,no,unm,NA,NA
+samoubistvo“,sr,0.94146008194075,0.1,False,yes,morph-d,nonminimal,NA
+šterpče,sr,0.936767574671916,0.17,False,unknown,unknown,NA,NA
+„nepristojnu“,sr,0.93550121113658,0.1,False,no,unm,NA,NA
+zavisan,sr,0.932308598107193,0.1,True,no,unm,NA,NA
+„pristalice,sr,0.928617611229129,0.1,False,no,unm,NA,NA
+„kosovsko-turski,sr,0.927668940310832,0.1,False,no,named entity,NA,NA
+3.000“,sr,0.918419107107911,0.1,False,no,unm,NA,NA
+„preuzimanje,sr,0.918139959126711,0.1,False,no,unm,NA,NA
+mavra,sr,0.911586401425302,0.1,True,yes,lex,NA,NA
+„nepotrebno,sr,0.907966956589371,0.1,False,no,unm,NA,NA
+„trenutak,sr,0.902738901332486,0.1,False,yes,lex,NA,NA
+„dala,sr,0.896483393735252,0.1,False,no,unm,NA,NA
+istoremeno,sr,0.891979820877896,0.1,False,unknown,unknown,NA,NA
+„uvredljive“,sr,0.891038063215092,0.1,False,yes,phon,NA,NA
+sufinansiraće,sr,0.888522649367224,0.1,False,yes,morph-f,phon,NA
+prepirku“,sr,0.886899485295726,0.1,False,no,unm,NA,NA
+srpskoj“,sr,0.885520161571913,0.1,False,no,unm,NA,NA
+nameštenog,sr,0.885475757492532,0.1,False,yes,phon,NA,NA
+„kreditori,sr,0.885352653548762,0.1,False,no,unm,NA,NA
+„razlozi,sr,0.882637983057066,0.1,False,no,unm,NA,NA
+imali“,sr,0.881177042913623,0.1,False,no,unm,NA,NA
+"stvari,“",sr,0.880209002937772,0.1,False,no,unm,NA,NA
+konkurisao,sr,0.876454137568362,0.1,False,yes,morph-d,NA,NA
+„džepovi“,sr,0.874654552641368,0.1,False,no,unm,NA,NA
+turistu“,sr,0.871485442626909,0.1,False,no,unm,NA,NA
+„davanjem,sr,0.868542473577145,0.1,False,no,unm,NA,NA
+primenjivana,sr,0.861374128330499,0.1,False,yes,phon,NA,NA
+nepobedivosti,sr,0.860401847306639,0.1,False,yes,phon,NA,NA
+zaključka“,sr,0.853579934166919,0.1,False,no,unm,NA,NA
+„investicije,sr,0.848042492207605,0.1,False,no,unm,NA,NA
+nevažeće“,sr,0.845793738315842,0.1,False,no,unm,NA,NA
+„neobjavljivanje,sr,0.837284074886702,0.1,False,no,unm,NA,NA
+neuspešnim,sr,0.834133277586079,0.1,False,yes,phon,NA,NA
+„salihu,sr,0.832344594990718,0.1,False,no,named entity,NA,NA
+stolicu“,sr,0.830889791424852,0.1,False,no,unm,NA,NA
+„jako,sr,0.828767238929868,0.1,False,no,unm,NA,NA
+minimalizovane,sr,0.827952303273196,0.1,False,yes,morph-d,NA,NA
+„poslovi,sr,0.824383312632563,0.1,False,no,unm,NA,NA
+„stalno,sr,0.809897314017871,0.1,False,no,unm,NA,NA
+potražnju“,sr,0.80751746520109,0.1,False,no,unm,NA,NA
+„baza,sr,0.805972843422205,0.1,False,no,unm,NA,NA
+mreži“,sr,0.804770665602064,0.1,False,no,unknown,NA,NA
+„upoznala,sr,0.802329383834149,0.1,False,no,unm,NA,NA
+kombinovana,sr,0.802040243588272,0.1,False,yes,morph-d,NA,NA
+„mesta,sr,0.801511170284357,0.1,False,yes,phon,NA,NA
+celogodišnji,sr,0.801281420874875,0.1,False,yes,phon,NA,NA
+sedištima,sr,0.799025820851966,0.1,False,yes,phon,NA,NA
+diverzifikovane,sr,0.797890960215591,0.1,False,yes,morph-d,NA,NA
+moto.“,sr,0.795219925616402,0.1,False,no,unm,NA,NA
+uslovljavaju,sr,0.792273086111527,0.1,False,yes,lex,NA,NA
+„sinoćna,sr,0.79196828585118,0.1,False,no,unm,NA,NA
+patnje“,sr,0.789231744998688,0.1,False,no,unm,NA,NA
+komora“,sr,0.788441544002853,0.1,False,no,unm,NA,NA
+traumatizovani,sr,0.787722740742174,0.1,False,yes,morph-d,NA,NA
+hrvatima“,sr,0.78754899942287,0.1,False,no,unm,NA,NA
+„stvara,sr,0.783358520487673,0.1,False,no,unm,NA,NA
+„osuđujem,sr,0.779007303249091,0.1,False,no,unm,NA,NA
+„egipat,sr,0.777563491719775,0.1,False,no,named entity,NA,NA
+„barem,sr,0.776254297373816,0.1,False,no,unm,NA,NA
+„nametanje,sr,0.771309373667464,0.1,False,yes,phon,NA,NA
+pomognemo“,sr,0.765661566366634,0.1,False,no,unm,NA,NA
+registrovanu,sr,0.762430259672692,0.1,False,yes,morph-d,NA,NA
+levim,sr,0.756912502832711,0.1,False,yes,phon,NA,NA
+„institucionalno,sr,0.741639734775526,0.1,False,yes,morph-d,NA,NA
+„odustao,sr,0.741511555375109,0.1,False,no,unm,NA,NA
+smo“,sr,0.739243507804349,0.1,False,no,unm,NA,NA
+glasali“,sr,0.738049230724573,0.1,False,yes,morph-d,NA,NA
+„gledamo,sr,0.733733398467302,0.1,False,no,unm,NA,NA
+dekorisana,sr,0.729032651084708,0.1,False,yes,morph-d,NA,NA
+„doznake,sr,0.727025042148307,0.1,False,no,unm,NA,NA
+pribegava,sr,0.719314953535187,0.11,False,yes,phon,NA,NA
+ignorišu“,sr,0.702565588351354,0.1,False,yes,morph-d,NA,NA
+apoeni,sr,0.701967036711721,0.1,True,no,unm,NA,NA
+"topila,“",sr,0.701406347751617,0.1,False,no,unm,NA,NA

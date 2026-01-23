@@ -1,0 +1,201 @@
+token,label,score,selection_freq,in_blacklist,shibboleth,feature,feature2,note
+http://www.setimes.com/audio/setimes/podcast/2010/08/06/08062010-hr.mp3,hr,1.21064562213724,0.1,False,no,foreign,NA,NA
+euro-atlantske,hr,1.14388895540033,0.1,False,yes,phon,nonminimal,NA
+siječanj-ožujak,hr,1.09813072739635,0.1,False,yes,lex,NA,NA
+svjedočeći,hr,1.0236890465432,0.17,False,no,phon,NA,jek
+izvješćujemo,hr,0.98216980304569,0.1,False,yes,phon,NA,NA
+bezuvjetni,hr,0.974997978750616,0.1,False,yes,lex,NA,NA
+najvjerojatnijim,hr,0.962382001744118,0.1,True,no,phon,NA,jek
+euroatlanstke,hr,0.95970123144798,0.1,False,yes,phon,nonminimal,NA
+debitirati,hr,0.945524168282282,0.1,False,yes,morph-d,NA,NA
+protupješačkih,hr,0.930390249053016,0.1,False,yes,phon,NA,NA
+suschitzkyu,hr,0.918392727710307,0.1,False,no,named entity,NA,NA
+svibanjski,hr,0.918357887060847,0.24,False,yes,lex,NA,NA
+osmjehuje,hr,0.915177337208297,0.1,True,no,phon,NA,jek
+pješačkih,hr,0.914145802128284,0.17,False,no,phon,NA,jek
+mješovitosti,hr,0.910598963336088,0.1,False,no,phon,NA,jek
+pješačkoj,hr,0.907843226468877,0.17,False,no,phon,NA,jek
+philadelphie,hr,0.907014187872846,0.1,False,no,named entity,NA,NA
+vukovarsko-srijemske,hr,0.905931795795914,0.1,True,no,phon,nonminimal,jek
+pobjeđivati,hr,0.902785233501345,0.1,False,no,phon,NA,jek
+izmješajte,hr,0.902158455876634,0.1,False,no,phon,NA,jek
+ogoljelih,hr,0.888231899926904,0.1,True,no,phon,NA,jek
+bravo,hr,0.888230997975916,0.1,True,no,unm,NA,NA
+dioničarske,hr,0.885543736233376,0.1,False,no,phon,NA,jek
+odmjeren,hr,0.878385470807552,0.1,False,no,phon,NA,jek
+pješaštva,hr,0.87755534662782,0.26,False,yes,lex,NA,NA
+mcloughney,hr,0.876428263219168,0.16,False,no,named entity,NA,NA
+opsjednutost,hr,0.874740083061624,0.1,False,no,phon,NA,jek
+raspodijeljena,hr,0.864425212602328,0.25,True,no,phon,NA,jek
+opsjedali,hr,0.864202771149576,0.1,False,no,phon,NA,jek
+predsjednikovih,hr,0.864126326826226,0.1,False,no,phon,NA,jek
+euro-skeptičnom,hr,0.862418331607478,0.1,False,yes,phon,nonminimal,NA
+dobronamjerna,hr,0.862097002431983,0.19,False,no,phon,NA,jek
+utjeha,hr,0.860932830073095,0.26,False,no,phon,NA,jek
+lož-ulje,hr,0.859188224887475,0.1,True,no,unm,NA,NA
+razmješteno,hr,0.856858856976032,0.1,False,no,phon,NA,jek
+najutjecajniji,hr,0.856690141381114,0.1,False,yes,phon,NA,NA
+pjenušavih,hr,0.849430515337735,0.1,False,no,phon,NA,jek
+obraćenje,hr,0.846346195758088,0.1,True,yes,phon,NA,NA
+pješačke,hr,0.845073052273316,0.42,False,no,phon,NA,jek
+dobrosusjedsku,hr,0.844815335385072,0.17,False,no,phon,nonminimal,jek
+potpredsjednik,hr,0.844751578899423,1,False,no,phon,NA,jek
+obljetnica,hr,0.843308933097763,0.45,True,yes,lex,NA,NA
+objelodanio,hr,0.842418766848584,0.16,False,no,phon,NA,jek
+svjedočanstvom,hr,0.839641351351747,0.1,False,no,phon,NA,jek
+izvjesni,hr,0.838119935616851,0.1,False,no,phon,NA,jek
+supredsjedatelj,hr,0.837884374418683,0.48,False,yes,lex,NA,NA
+višedesetljetnih,hr,0.837368966056965,0.1,False,yes,lex,NA,NA
+dodijelili,hr,0.836561171588631,0.28,True,no,phon,NA,jek
+razdijeljeno,hr,0.833714287541807,0.1,True,no,phon,NA,jek
+nejedinstvo,hr,0.829609834984876,0.1,True,no,unm,NA,NA
+slijed,hr,0.828905706871301,0.24,True,no,phon,NA,jek
+utjelovljivao,hr,0.827527229324915,0.1,False,yes,lex,NA,NA
+neprocjenjive,hr,0.821151759522036,0.1,False,no,phon,NA,jek
+neuspješni,hr,0.820564652017492,0.36,False,no,phon,NA,jek
+inseecp-a,hr,0.820098623970989,0.1,False,no,named entity,NA,NA
+proslijeđivati,hr,0.819248346495442,0.1,False,no,phon,NA,jek
+31.siječnja,hr,0.815891798952361,0.1,False,yes,lex,NA,NA
+djeco,hr,0.815279371663928,0.1,False,no,phon,NA,jek
+turska-izrael,hr,0.813208256894722,0.1,False,no,named entity,NA,NA
+bezuspješni,hr,0.811984952259809,0.1,False,no,phon,NA,jek
+sjedalice,hr,0.808621287040296,0.19,False,yes,lex,NA,NA
+hurryiet,hr,0.807568814046681,0.1,False,no,named entity,NA,NA
+samokovlije,hr,0.807033053645864,0.1,False,no,named entity,NA,NA
+bezuvjetnoj,hr,0.805377761367708,0.1,False,yes,lex,NA,NA
+podsjetnik,hr,0.80522129677987,0.82,False,no,phon,NA,jek
+alpha-eurobank,hr,0.804122813115828,0.1,False,no,named entity,NA,NA
+slijedom,hr,0.802793449838646,0.1,True,no,phon,NA,jek
+posjećivanja,hr,0.802122470340692,0.1,False,no,phon,NA,jek
+odoljeli,hr,0.802017362974584,0.1,True,no,phon,NA,jek
+eurokluba,hr,0.801591320708394,0.1,False,yes,phon,nonminimal,NA
+udjeli,hr,0.798715174212702,0.18,False,no,phon,NA,jek
+hayssamovog,hr,0.798618453158997,0.1,False,no,named entity,NA,NA
+zamijetivši,hr,0.794634365662932,0.1,False,yes,morph-d,NA,NA
+nasječene,hr,0.794457679253537,0.1,False,no,phon,NA,jek
+dolijevaju,hr,0.792715910612605,0.1,False,no,phon,NA,jek
+eurolige,hr,0.792685446252913,0.34,True,yes,phon,nonminimal,NA
+schuman,hr,0.792670684214681,0.1,False,no,named entity,NA,NA
+ozljeđivati,hr,0.792101274151355,0.1,False,yes,lex,phon,NA
+niederungen,hr,0.790387501940131,0.1,False,no,named entity,NA,NA
+mješovita,hr,0.789194974151906,0.1,False,no,phon,NA,jek
+angjeli,hr,0.789163458067924,0.1,False,yes,spel,NA,NA
+raspodjeli,hr,0.788927343939345,0.52,False,no,phon,NA,jek
+odšteta,hr,0.788589204661548,0.1,True,no,unm,NA,NA
+izblijedio,hr,0.788573874442955,0.1,True,no,phon,NA,jek
+odnijeli,hr,0.787077006684849,0.6,True,no,phon,NA,jek
+spektakularnije,hr,0.786853289486317,0.2,True,no,unm,NA,NA
+dopredsjednice,hr,0.786247972305864,0.1,True,yes,lex,NA,NA
+pobjedio,hr,0.785409483515347,0.24,False,no,phon,NA,jek
+otpjevao,hr,0.784415236366234,0.17,False,no,phon,NA,jek
+pelješki,hr,0.782333471253514,0.1,True,no,named entity,NA,NA
+generiranog,hr,0.780791425425559,0.1,False,yes,morph-d,NA,NA
+saxe-coburga,hr,0.780411126080435,0.1,False,no,named entity,NA,NA
+djeteline,hr,0.779755396861583,0.1,False,no,phon,NA,jek
+samosvjesna,hr,0.779431258051773,0.1,False,no,phon,NA,jek
+objelodanjen,hr,0.778441246598959,0.15,False,no,phon,NA,jek
+proturječi,hr,0.776261239522137,0.1,False,yes,morph-d,phon,NA
+siječanjski,hr,0.775688111328825,0.33,True,yes,lex,NA,NA
+vijećnici,hr,0.775640813547566,0.25,True,no,phon,NA,jek
+zaželjeli,hr,0.774908077702599,0.18,True,no,phon,NA,jek
+provjeren,hr,0.77235738299787,0.1,False,no,phon,NA,jek
+„evrorealisti“,sr,1.06984631290543,0.1,False,yes,phon,nonminimal,NA
+evro-mediteranskog,sr,1.01778339371085,0.1,False,yes,phon,nonminimal,NA
+somelijere,sr,0.890428980439901,0.1,True,yes,spel,NA,NA
+nedelju]“,sr,0.859368420252576,0.1,False,yes,phon,lex,NA
+konstandini,sr,0.858614956773817,0.1,False,no,named entity,NA,NA
+„nepotrebno,sr,0.781966496328823,0.1,False,no,unm,NA,NA
+mašinovođu,sr,0.775029214587994,0.1,False,yes,lex,NA,NA
+neizvesnost“,sr,0.77251218771562,0.1,False,yes,phon,NA,NA
+„neočekivanu“,sr,0.771641087438911,0.1,False,no,unm,NA,NA
+cenzurisanje,sr,0.770348104066215,0.1,False,yes,morph-d,NA,NA
+razmeštenih,sr,0.769077449804172,0.18,False,yes,phon,NA,NA
+penzije“,sr,0.766279530059546,0.1,False,yes,lex,NA,NA
+nezainteresovano,sr,0.765766375709791,0.1,False,yes,morph-d,NA,NA
+komplikovanija,sr,0.746269526500328,0.2,False,yes,morph-d,NA,NA
+evro-skepticizma,sr,0.737173014919972,0.1,False,yes,phon,nonminimal,NA
+preostaju,sr,0.732119680196047,0.1,True,no,unm,NA,NA
+„meni,sr,0.727057050308213,0.1,False,no,unm,NA,NA
+rešenog,sr,0.726370426647079,0.13,True,yes,phon,NA,NA
+finansbanku,sr,0.725877312384546,0.1,False,no,named entity,NA,NA
+organizovanosti,sr,0.724411061964929,0.1,False,yes,morph-d,NA,NA
+bašeskuovim,sr,0.721659550233744,0.1,False,no,named entity,NA,NA
+iskorišćavaju“,sr,0.720385706587695,0.1,False,no,unm,NA,NA
+jirmibesogl,sr,0.717155968816951,0.1,False,no,named entity,NA,NA
+nagoveštavaju'“,sr,0.714788175700232,0.1,False,yes,phon,NA,NA
+vardarlijevim,sr,0.713177343644202,0.1,False,no,named entity,NA,NA
+„rh“,sr,0.711170494533144,0.1,False,no,named entity,NA,NA
+đinđićevoj,sr,0.708261185598317,0.17,True,no,named entity,NA,NA
+„turbofolk“,sr,0.706317648070399,0.1,False,yes,lex,NA,NA
+internešenel“,sr,0.703078218596056,0.1,False,no,named entity,NA,NA
+pobedili“,sr,0.702344367979094,0.1,False,yes,phon,NA,NA
+konzistentniji,sr,0.702274937718175,0.1,True,no,unm,NA,NA
+prošvercovale,sr,0.701365480409004,0.1,False,yes,morph-d,NA,NA
+veruju“,sr,0.698245444212501,0.18,False,yes,phon,NA,NA
+evro”,sr,0.697512309160084,0.1,False,yes,phon,NA,NA
+hrvatsko-slovenačku,sr,0.696966293640435,0.1,False,no,unm,NA,NA
+„daćemo,sr,0.695832920866087,0.1,False,yes,morph-f,NA,NA
+„ponudićemo,sr,0.694963552049012,0.1,False,yes,morph-f,NA,NA
+emošn,sr,0.692887742631137,0.1,False,yes,spel,NA,NA
+kosovo-euleks-srbija,sr,0.692542365437839,0.1,False,no,named entity,NA,NA
+osmomesečne,sr,0.691363026550971,0.1,False,yes,phon,NA,NA
+„ivica,sr,0.691289000678808,0.1,False,yes,lex,NA,NA
+podsmevanju,sr,0.691089133732021,0.1,True,yes,phon,NA,NA
+evroinvent,sr,0.688906150823459,0.1,False,no,named entity,NA,NA
+aktuelizovani,sr,0.687754400866106,0.1,False,yes,morph-d,NA,NA
+„uzbekistan,sr,0.687059397809207,0.1,False,no,unm,NA,NA
+evroskepticima,sr,0.683467908855528,0.1,False,yes,phon,nonminimal,NA
+proevropskog,sr,0.682535004732199,0.23,False,yes,phon,nonminimal,NA
+centralnoevropskom,sr,0.680930223222822,0.1,False,yes,phon,nonminimal,NA
+„neobjavljivanje,sr,0.680841463990509,0.1,False,no,unm,NA,NA
+krajove,sr,0.677110936318059,0.1,False,no,named entity,NA,NA
+kaldrme,sr,0.675485311844386,0.1,False,yes,lex,NA,NA
+prevaru]“,sr,0.673806699039414,0.1,False,no,unm,NA,NA
+inspirišu“,sr,0.672140023106476,0.1,False,yes,morph-d,NA,NA
+vaksincu,sr,0.671827670931816,0.1,False,unknown,unknown,NA,NA
+evra.“,sr,0.671128573338501,0.1,False,yes,phon,NA,NA
+predsedavala,sr,0.66854023557106,0.31,False,yes,phon,NA,NA
+pomešalo,sr,0.668030670424923,0.1,False,yes,phon,NA,NA
+albansko-kosovsko-nemačka,sr,0.666152216936462,0.1,False,yes,phon,NA,NA
+misiju“,sr,0.666061427071691,0.1,False,no,unm,NA,NA
+„razumeo,sr,0.665040030819364,0.1,False,yes,phon,NA,NA
+„talibani,sr,0.664567200311285,0.1,False,no,unm,NA,NA
+nezvaničnom,sr,0.663339893613011,0.1,False,no,unm,NA,NA
+markovićevoj,sr,0.661426087934524,0.1,True,no,named entity,NA,NA
+„etnifikovana“,sr,0.659638593718409,0.1,False,no,morph-d,NA,NA
+obaveštavaju,sr,0.658472179155797,0.15,False,yes,phon,NA,NA
+sveden,sr,0.655483538587578,0.1,True,no,unm,NA,NA
+„spremni“,sr,0.654993743333034,0.1,False,no,unm,NA,NA
+mbombela/nelspruit,sr,0.652380875044037,0.1,False,no,named entity,NA,NA
+„redefinisanje,sr,0.651567484857514,0.1,False,yes,morph-d,NA,NA
+generaicjama“,sr,0.651201773324283,0.1,False,unknown,unknown,NA,NA
+sedmodnevna,sr,0.649138801184017,0.1,True,no,unm,NA,NA
+agrovojvodina,sr,0.647409527512666,0.14,False,no,named entity,NA,NA
+bakojanisove,sr,0.646623136755079,0.1,False,no,named entity,NA,NA
+unutaretnički,sr,0.64558813071344,0.1,False,no,unm,NA,NA
+usledila“,sr,0.643190026842058,0.1,False,yes,phon,NA,NA
+„nezadovoljstvo,sr,0.642131335410522,0.1,False,no,unm,NA,NA
+„podsetio,sr,0.641786835715175,0.1,False,yes,phon,NA,NA
+premešteno,sr,0.6389968697576,0.18,False,yes,phon,NA,NA
+„zadovoljavamo,sr,0.637972791033098,0.1,False,no,unm,NA,NA
+halejevu,sr,0.637129722791724,0.1,False,no,named entity,NA,NA
+funkcioniše“,sr,0.637122017954459,0.25,False,yes,morph-d,NA,NA
+spekulišem,sr,0.635324275146039,0.27,False,yes,morph-d,NA,NA
+"stavove,“",sr,0.634209303686825,0.12,False,no,unm,NA,NA
+neodrživa“,sr,0.632164364971686,0.19,False,no,unm,NA,NA
+travom,sr,0.63145390083082,0.1,True,no,unm,NA,NA
+evakuisana,sr,0.631378739481443,0.1,False,yes,morph-d,NA,NA
+nadahnuti,sr,0.62703888915712,0.1,True,no,unm,NA,NA
+„šengen“,sr,0.625542189646512,0.1,False,no,named entity,NA,NA
+„sramota!“,sr,0.624029362085275,0.1,False,no,unm,NA,NA
+kompjuterizovanog,sr,0.623824383431929,0.1,False,yes,morph-d,phon,NA
+„državnom,sr,0.622994011756964,0.1,False,no,unm,NA,NA
+„odustao,sr,0.622689424362034,0.1,False,no,unm,NA,NA
+nerazumni,sr,0.621925549581647,0.1,True,no,unm,NA,NA
+amabasade,sr,0.620374120696215,0.1,False,no,unm,NA,NA
+„pijaca,sr,0.61967303333804,0.1,False,yes,lex,NA,NA
+legalizovan“,sr,0.616808892739937,0.1,False,yes,morph-d,NA,NA
+skandaloznom,sr,0.614849222381599,0.1,True,no,unm,NA,NA
+jevanđelja,sr,0.614608901839417,0.13,False,yes,phon,NA,NA
+„okupiranim“,sr,0.612757313391194,0.1,False,no,unm,NA,NA
+antiinflacione,sr,0.612470862874761,0.1,False,yes,morph-d,NA,NA
