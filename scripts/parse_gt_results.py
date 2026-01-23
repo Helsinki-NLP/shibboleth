@@ -12,6 +12,7 @@ files = itertools.chain(
     pathlib.Path('models').glob('**/loo_eval.txt'),
 )
 files = pathlib.Path('.').glob('wl_*_eval_gt_instances.txt')
+files = pathlib.Path('shibboleth/models').glob('**/*_results+wl.txt')
 files = list(files)
 print(files)
 
@@ -39,8 +40,11 @@ del df['U-test']
 for float_col in ['Accuracy', 'Precision', 'Recall', 'F1-score', 'AUROC'] + [f'U-test {key}' for key in 'Upf']:
     df[float_col] = df[float_col].apply(float)
 df['Evaluation instances'] = df['Evaluation instances'].apply(int)
-df['lang group'] =  df['Ground truth'].apply(lambda gt: gt.split('/')[1])
+
+df['lang group'] =  df['Ground truth'].apply(lambda gt: gt.split('/')[5])
 df['attrib'] =  df['Predictions'].apply(lambda prd: prd.split('/')[-1])
+
+df.to_csv('auroc_data+wl.csv', index=False)
 
 ## data for display
 df_ = df[~df['Predictions'].str.contains('tok/')][['lang group', 'attrib', 'Accuracy', 'F1-score', 'Precision', 'Recall', 'AUROC', 'U-test p']].rename(columns={'AUROC': 'U-test f'})
