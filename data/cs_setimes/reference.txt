@@ -1,0 +1,3 @@
+Ljubešić, Nikola and Rupnik, Peter, 2022, 
+  The news dataset for discriminating between Bosnian, Croatian and Serbian SETimes.HBS 1.0, Slovenian language resource repository CLARIN.SI, ISSN 2820-4042, 
+  http://hdl.handle.net/11356/1461.
