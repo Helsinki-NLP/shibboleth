@@ -23,7 +23,7 @@ iter_folds
 │   ├── train_iter10_fold1.tsv
 |   ..
 │   └── train_iter10_fold10.tsv
-├── test.tsv
+└── test.tsv
 ```
 
 For the datasets used in experiment 1, the `wordlists` or `lexicons` folder shows how to extract the whitelists and blacklists.
