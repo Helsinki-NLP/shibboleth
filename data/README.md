@@ -26,4 +26,8 @@ iter_folds
 └── test.tsv
 ```
 
-For the datasets used in experiment 1, the `wordlists` or `lexicons` folder shows how to extract the whitelists and blacklists.
+For the datasets used in experiment 1, the `wordlists` or `lexicons` folder shows how to extract the whitelists and blacklists. The `dev` sets are then further annotated with whitelist and blacklist tokens, using the `annotate_with_lexicon.py` script (part of `process.sh`). For example, the sentence *Han købte hende en hund.* (Danish) is annotated as follows:
+
+```
+{"label": "da", "white": ["købte"], "black": ["Han", "hund", "en", "hende"]}
+```
