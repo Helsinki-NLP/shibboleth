@@ -1,0 +1,8 @@
+lists/jodel/list.jodel.attrib=ig_mpd=28_thresh=0.1_docnorm=T_tfidf=F.csv
+lists/jodel/list.jodel.attrib=ig_mpd=28_thresh=0.6_docnorm=T_tfidf=F.csv
+lists/jodel/list.jodel.attrib=lime_mpd=28_thresh=0.1_docnorm=T_tfidf=F.csv
+lists/jodel/list.jodel.attrib=lime_mpd=28_thresh=0.6_docnorm=T_tfidf=F.csv
+lists/jodel/list.jodel.attrib=shap_mpd=28_thresh=0.6_docnorm=T_tfidf=F.csv
+lists/jodel/list.jodel.attrib=shap_mpd=28_thresh=0.1_docnorm=T_tfidf=F.csv
+lists/jodel/list.jodel.attrib=loo_mpd=28_thresh=0.1_docnorm=T_tfidf=F.csv
+lists/jodel/list.jodel.attrib=loo_mpd=28_thresh=0.6_docnorm=T_tfidf=F.csv
