@@ -3,7 +3,7 @@
 For each dataset, there is a `train_explain.sh` script that shows the experimental pipeline. It contains the following items:
 - A SLURM array job is created to run the 10 iterations * 10 folds in parallel.
 - An XLM-R classifier is fine-tuned on the training set.
-- The classifier is evaluated on the held-out test set.
+- The classifier is evaluated on the held-out test set (`eval_test.txt`).
 - The four attribution methods (LOO, IG, SHAP, LIME) are computed on the development set and the instance-level predictions stored as `jsonl` files.
 
 The `train_explain.sh` script produces the following folder structure:
@@ -11,12 +11,14 @@ The `train_explain.sh` script produces the following folder structure:
 ```
 ├── iter1
 │   ├── model_fold1
+|   |   ├── eval_test.txt
 |   |   ├── ig_token.jsonl
 |   |   ├── lime_token.jsonl
 |   |   ├── loo_token.jsonl
 |   |   └── shap_token.jsonl
 |   ..
 │   └── model_fold10
+|   |   ├── eval_test.txt
 |       ├── ig_token.jsonl
 |       ├── lime_token.jsonl
 |       ├── loo_token.jsonl
@@ -24,12 +26,14 @@ The `train_explain.sh` script produces the following folder structure:
 ..
 └── iter10
     ├── model_fold1
+    |   ├── eval_test.txt
     |   ├── ig_token.jsonl
     |   ├── lime_token.jsonl
     |   ├── loo_token.jsonl
     |   └── shap_token.jsonl
     ..
     └── model_fold10
+        ├── eval_test.txt
         ├── ig_token.jsonl
         ├── lime_token.jsonl
         ├── loo_token.jsonl
