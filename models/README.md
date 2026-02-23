@@ -5,6 +5,7 @@ For each dataset, there is a `train_explain.sh` script that shows the experiment
 - An XLM-R classifier is fine-tuned on the training set.
 - The classifier is evaluated on the held-out test set (`eval_test.txt`).
 - The four attribution methods (LOO, IG, SHAP, LIME) are computed on the development set and the instance-level predictions stored as `jsonl` files.
+- For the language groups of experiment 1, the results are evaluated with respect to the ground truth (blacklists only, or whitelists and blacklists, see `METHOD_results.txt` and `METHOD_results+wl.txt` respectively).
 
 The `train_explain.sh` script produces the following folder structure:
 
