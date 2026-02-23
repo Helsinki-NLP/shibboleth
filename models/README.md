@@ -36,4 +36,19 @@ The `train_explain.sh` script produces the following folder structure:
         └── shap_token.jsonl
 ```
 
+Below is an example of the data structure given in the `.jsonl` files (one line per classification instance, pretty-printed here for clarity):
+
+```
+{
+  "correct": true,
+  "pred_label": "sv",
+  "gold_label": "sv",
+  "tokens": ["Jag", "lade", "på", "och", "ringde", "henne", "igen."],
+  "attribs": [0.18516787886619568, 0.6260251402854919, 0.24626116454601288, 0.1792948693037033, 0.4029402583837509, 0.2541979253292084, 0.5724918246269226]
+}
+```
+
+- The fields `pred_label`, `gold_label` and `correct` refer to the variety labels produced by the classifier.
+- `tokens` provides a list of the tokens in the current instance, and `attribs` provides the attribution scores corresponding to each token.
+
 The fine-tuned classifiers, the datasets and the predictions are not made available here due to space limitations.
