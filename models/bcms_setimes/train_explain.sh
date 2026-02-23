@@ -32,6 +32,7 @@ echo "Iteration $ITER - Fold $FOLD"
 
 TRAINFILE=$DATADIR/iter"$ITER"/train_iter"$ITER"_fold"$FOLD".tsv
 DEVFILE=$DATADIR/iter"$ITER"/dev_iter"$ITER"_fold"$FOLD".tsv
+FEATFILE=$DATADIR/iter"$ITER"/dev_iter"$ITER"_fold"$FOLD"_features.jsonl
 TESTFILE=$DATADIR/test.tsv
 MODELDIR=$TRAINDIR/iter"$ITER"/model_fold"$FOLD"
 
@@ -45,15 +46,23 @@ python3 $SCRIPTDIR/eval_label.py $MODELDIR/best $TESTFILE $MODELDIR/eval_test.tx
 echo "Compute attributions"
 echo "- LOO (per token)"
 python3 $SCRIPTDIR/attrib_loo.py $MODELDIR/best $DEVFILE $MODELDIR/loo_token.jsonl $TOK token
+python3 $SCRIPTDIR/eval_instances_groundtruth.py -predictions $MODELDIR/loo_token.jsonl -groundtruth $FEATFILE > $MODELDIR/loo_results.txt
+python3 $SCRIPTDIR/eval_instances_groundtruth.py -predictions $MODELDIR/loo_token.jsonl -groundtruth $FEATFILE -use-whitelist > $MODELDIR/loo_results+wl.txt
 
 echo "- IG"
 python3 $SCRIPTDIR/attrib_ig.py $MODELDIR/best $DEVFILE $MODELDIR/ig_token.jsonl $TOK
+python3 $SCRIPTDIR/eval_instances_groundtruth.py -predictions $MODELDIR/ig_token.jsonl -groundtruth $FEATFILE > $MODELDIR/ig_results.txt
+python3 $SCRIPTDIR/eval_instances_groundtruth.py -predictions $MODELDIR/ig_token.jsonl -groundtruth $FEATFILE -use-whitelist > $MODELDIR/ig_results+wl.txt
 
 echo "- SHAP"
 python3 $SCRIPTDIR/attrib_shap.py $MODELDIR/best $DEVFILE $MODELDIR/shap_token.jsonl $TOK
+python3 $SCRIPTDIR/eval_instances_groundtruth.py -predictions $MODELDIR/shap_token.jsonl -groundtruth $FEATFILE > $MODELDIR/shap_results.txt
+python3 $SCRIPTDIR/eval_instances_groundtruth.py -predictions $MODELDIR/shap_token.jsonl -groundtruth $FEATFILE -use-whitelist > $MODELDIR/shap_results+wl.txt
 
 echo "- LIME"
 python3 $SCRIPTDIR/attrib_lime.py $MODELDIR/best $DEVFILE $MODELDIR/lime_token.jsonl $TOK
+python3 $SCRIPTDIR/eval_instances_groundtruth.py -predictions $MODELDIR/lime_token.jsonl -groundtruth $FEATFILE > $MODELDIR/lime_results.txt
+python3 $SCRIPTDIR/eval_instances_groundtruth.py -predictions $MODELDIR/lime_token.jsonl -groundtruth $FEATFILE -use-whitelist > $MODELDIR/lime_results+wl.txt
 
 echo "Done"
 
