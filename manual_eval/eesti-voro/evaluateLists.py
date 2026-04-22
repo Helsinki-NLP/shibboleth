@@ -1,6 +1,7 @@
 import pandas as pd
+import os
 
-LIST_PATH="../../data/scandinavian/"
+LIST_PATH="../../data/estonian_voro/"
 
 def x_to_bool(s):
 	return s == "x"
@@ -8,26 +9,33 @@ def x_to_bool(s):
 # get rid of warning
 pd.set_option('future.no_silent_downcasting', True)
 
-annotations = pd.read_csv("scandinavian_unique_annotated.csv",
-						  converters={"not a shib": x_to_bool, "not minimal": x_to_bool, "regular morph": x_to_bool, "regular phon/spell": x_to_bool, "NE": x_to_bool, "typo/tok/unk": x_to_bool, "lexical": x_to_bool, "counterex": x_to_bool})
-annotations = annotations.drop(columns=["Unnamed: 4", "Unnamed: 9", "mark", "count"])
-annotations = annotations.rename(columns={"not a shib": "NotShib", "not minimal": "NotMinimal", "regular morph": "Morph", "regular phon/spell": "Phon_Spell", "typo/tok/unk": "Typo_Unk", "lexical": "LexShib", "counterex": "Counterex"})
-annotations = annotations.fillna("")
-annotations["AnyShib"] = annotations["LexShib"] | annotations["NotMinimal"] | annotations["Morph"] | annotations["Phon_Spell"]
+annotations_all = None
+for listname in [x for x in os.listdir(".") if x.startswith("estonian_voro.list")]:
+	annotations = pd.read_csv(listname, sep="\t", header=0)
+	if annotations_all is None:
+		annotations_all = annotations.copy()
+	else:
+		annotations_all = pd.concat([annotations_all, annotations]).drop_duplicates().reset_index(drop=True)
+
+annotations_all["Unk"] = False
+annotations_all.loc[(annotations_all['Unknown'].str.contains('x', na=False) | annotations_all['Other'].str.contains('x', na=False)), "Unk"] = True
+annotations_all["NotShib"] = False
+annotations_all.loc[((annotations_all["Unk"] == False) & annotations_all['Unmarked'].str.contains('x', na=False)), "NotShib"] = True
+annotations_all["AnyShib"] = False
+annotations_all.loc[((annotations_all["Unk"] == False) & (annotations_all["NotShib"] == False) & (annotations_all['Lexicon'].str.contains('x', na=False) | annotations_all['Phon-Morph-infl-Morph-der-Spelling'].str.contains(r'x|s', na=False))), "AnyShib"] = True
+annotations_all = annotations_all.drop(columns=["base form", "cognate", "Phon-Morph-infl-Morph-der-Spelling", "Lexicon", "NE", "Other", "Unmarked", "Unknown", "Comment"])
 
 bl_df = pd.read_csv(LIST_PATH + "filtered_blacklist.txt", sep="\t", names=["token"])
 bl_df["in_black"] = True
-df_join1 = pd.merge(bl_df, annotations, how='right', on=["token"], suffixes=(None, "_b"))
+df_join1 = pd.merge(bl_df, annotations_all, how='right', on=["token"], suffixes=(None, "_b"))
 
 wl_df = pd.read_csv(LIST_PATH + "filtered_whitelist.txt", sep="\t", names=["label", "token"])
 wl_df["in_white"] = True
 df_join = pd.merge(wl_df, df_join1, how='right', on=["token", "label"], suffixes=(None, "_w"))
-df_join = df_join.drop(columns=["cognate_da", "cognate_nb", "cognate_nn", "cognate_sv", "NotMinimal", "Morph", "Phon_Spell", "NE", "Typo_Unk", "Counterex"])
 df_join = df_join.fillna(False)
 
-	
 results = {}
-for label in ("da", "nb", "nn", "sv"):
+for label in ("est", "vro"):
 	df_label = df_join[df_join["label"] == label]
 	results[label] = {
 		"annotated_items": df_label.shape[0],
