@@ -12,7 +12,7 @@
 #SBATCH -A project_2005047
 #SBATCH -t 71:00:00
 
-module load pytorch
+module load pytorch/2.7
 
 DATADIR=/scratch/project_2005047/shibboleth/data/estonian_voro/iter_folds
 SCRIPTDIR=/scratch/project_2005047/shibboleth/scripts
@@ -32,7 +32,6 @@ echo "Iteration $ITER - Fold $FOLD"
 
 TRAINFILE=$DATADIR/iter"$ITER"/train_iter"$ITER"_fold"$FOLD".tsv
 DEVFILE=$DATADIR/iter"$ITER"/dev_iter"$ITER"_fold"$FOLD".tsv
-FEATFILE=$DATADIR/iter"$ITER"/dev_iter"$ITER"_fold"$FOLD"_features.jsonl
 TESTFILE=$DATADIR/test.tsv
 MODELDIR=$TRAINDIR/iter"$ITER"/model_fold"$FOLD"
 

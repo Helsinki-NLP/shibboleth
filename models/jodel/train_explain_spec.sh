@@ -12,7 +12,7 @@
 #SBATCH -A project_2005047
 #SBATCH -t 71:00:00
 
-module load pytorch
+module load pytorch/2.7
 
 DATADIR=/scratch/project_2005047/shibboleth/data/jodel/iter_folds
 SCRIPTDIR=/scratch/project_2005047/shibboleth/scripts
