@@ -5,8 +5,6 @@ This directory presents the aggregated lists from the individual attribution run
 Text from the paper:
 > The method involves selecting the top $m$ word tokens, according to their attributed weight, in each instance of $\mathcal{F}_i^j$. If the same word type is selected as an explanation for the same labeled language variety by a sufficiently large proportion $p$ of classifiers, the word is deemed to be a \textbf{stable} explanation. We then select the top 100 words for each language variety, according to their aggregate attributed weight. In our experiments, we consider two aggregation functions $f_\mathrm{agg}$: summing or averaging across the weights of all instances.
 
-TODO: describe which script parameter corresponds to which variable from the paper.
-
 The file `list.bcms_setimes.attrib=ig_mpd=10_thresh=0.1_docnorm=F_tfidf=T.csv` is created as follows:
 
 ```
@@ -19,3 +17,8 @@ python3 ../scripts/aggregate_sacx.py \
     --tfidf
 ```
 
+The exact commands are provided in `aggregations_exp1.sh` and `aggregations_exp2.sh`.
+
+**TODO:**
+- describe which script parameter corresponds to which variable from the paper.
+- decide where the randomized lists should go (they're currently duplicated here and in manual_eval)

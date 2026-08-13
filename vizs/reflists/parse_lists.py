@@ -33,12 +33,12 @@ with open(args.blacklist, 'r') as istr:
 # given normalization
 whitelist -= blacklist
 
-df = pd.read_csv(
-        args.corpus,
-        sep='\t',
-        header=None,
-        names=['label', 'raw', 'tok'],
-    )
+# df = pd.read_csv(
+#         args.corpus,
+#         sep='\t',
+#         header=None,
+#         names=['label', 'raw', 'tok'],
+#     )
 
 def read_corpus(infile):
     dedup = dict()
@@ -58,7 +58,6 @@ def read_corpus(infile):
 corpus = read_corpus(args.corpus)
 corpus = dict(collections.Counter(corpus))
 
-
 records = []
 for filename in tqdm.tqdm(list(args.filedir.glob('*.csv'))):
     df = pd.read_csv(filename)
@@ -77,4 +76,4 @@ for filename in tqdm.tqdm(list(args.filedir.glob('*.csv'))):
         )
     )
 
-df_records = pd.DataFrame.from_records(records).to_csv(args.outputfile, index=False)
+df_records = pd.DataFrame.from_records(records).sort_values('fname').to_csv(args.outputfile, index=False)
