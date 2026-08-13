@@ -1,8 +1,0 @@
-lists/scandinavian/list.scandinavian.attrib=lime_mpd=6_thresh=0.1_docnorm=T_tfidf=F.csv
-lists/scandinavian/list.scandinavian.attrib=ig_mpd=6_thresh=0.1_docnorm=T_tfidf=F.csv
-lists/scandinavian/list.scandinavian.attrib=shap_mpd=6_thresh=0.1_docnorm=T_tfidf=F.csv
-lists/scandinavian/list.scandinavian.attrib=shap_mpd=6_thresh=0.6_docnorm=T_tfidf=F.csv
-lists/scandinavian/list.scandinavian.attrib=loo_mpd=6_thresh=0.1_docnorm=T_tfidf=F.csv
-lists/scandinavian/list.scandinavian.attrib=loo_mpd=6_thresh=0.6_docnorm=T_tfidf=F.csv
-lists/scandinavian/list.scandinavian.attrib=ig_mpd=6_thresh=0.6_docnorm=T_tfidf=F.csv
-lists/scandinavian/list.scandinavian.attrib=lime_mpd=6_thresh=0.6_docnorm=T_tfidf=F.csv
