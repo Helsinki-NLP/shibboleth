@@ -5,14 +5,14 @@ import collections
 import pandas as pd
 
 records = []
-topdir = pathlib.Path('models')
+topdir = pathlib.Path('../../models')
 files = itertools.chain(
-    pathlib.Path('models').glob('**/ig_eval.txt'),
-    pathlib.Path('models').glob('**/shap_eval.txt'),
-    pathlib.Path('models').glob('**/loo_eval.txt'),
+    pathlib.Path('../../models').glob('**/ig_eval.txt'),
+    pathlib.Path('../../models').glob('**/shap_eval.txt'),
+    pathlib.Path('../../models').glob('**/loo_eval.txt'),
 )
 files = pathlib.Path('.').glob('wl_*_eval_gt_instances.txt')
-files = pathlib.Path('shibboleth/models').glob('**/*_results+wl.txt')
+files = pathlib.Path('../../').glob('**/*_results+wl.txt')
 files = list(files)
 print(files)
 
