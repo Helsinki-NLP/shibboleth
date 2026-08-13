@@ -21,4 +21,3 @@ The exact commands are provided in `aggregations_exp1.sh` and `aggregations_exp2
 
 **TODO:**
 - describe which script parameter corresponds to which variable from the paper.
-- decide where the randomized lists should go (they're currently duplicated here and in manual_eval)

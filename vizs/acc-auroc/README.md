@@ -8,6 +8,5 @@
 The shibboleth detection performance plots are based on the data files `auroc_data.csv`, `auroc_data+wl.csv`, which are created using `parse_gt_results.py`. The accuracy plots are based on the data file `evals_test_all.csv`.
 
 **TODO:**
-
 - `parse_gt_results.py` generates `auroc_data+wl.csv`, but it is not clear to me how `auroc_data.csv` was generated (different script or just different parameter setting).
 - Describe how `evals_test_all.csv` is generated.
