@@ -12,7 +12,7 @@ def worst_in_instance(row):
     tok, attrib, idx = worst
     return {'tok': tok, 'attrib': attrib, 'idx': idx}
 
-base_dir = pathlib.Path('shibboleth/models')
+base_dir = pathlib.Path('../../models')
 for group in tqdm.tqdm(groups, desc='groups'):
     for method in tqdm.tqdm(methods, desc='XAI', leave=False):
         data = []
