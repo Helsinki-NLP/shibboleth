@@ -1,0 +1,17 @@
+method,label,Lexical shibboleths,Non-lexical shibboleths,Non-shibboleths,Other
+ig_0.1,est,44,51,3,2
+ig_0.1,vro,28,63,4,5
+ig_0.6,est,20,74,5,1
+ig_0.6,vro,15,73,11,1
+lime_0.1,est,34,58,2,6
+lime_0.1,vro,21,76,0,3
+lime_0.6,est,12,69,18,1
+lime_0.6,vro,5,71,24,0
+loo_0.1,est,28,62,7,3
+loo_0.1,vro,24,71,0,5
+loo_0.6,est,14,64,21,1
+loo_0.6,vro,4,77,18,1
+shap_0.1,est,35,62,2,1
+shap_0.1,vro,19,74,2,5
+shap_0.6,est,18,76,6,0
+shap_0.6,vro,4,77,18,1
