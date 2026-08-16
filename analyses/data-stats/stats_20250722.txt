@@ -1,0 +1,58 @@
+BCMS SETimes
+Class	 Inst	 Inst	 Inst	 Tok	 Tok	 Tok
+	 Train	 Dev	 Test	 Train	 Dev	 Test
+hr	92400	10267	11407	2329960	258884	289199
+sr	91550	10172	11302	2365832	262870	292037
+--------------
+Estonian_Voro
+Class	 Inst	 Inst	 Inst	 Tok	 Tok	 Tok
+	 Train	 Dev	 Test	 Train	 Dev	 Test
+est	18312	2035	2260	136682	15187	16503
+vro	19076	2120	2354	144396	16044	18200
+--------------
+Scandinavian
+Class	 Inst	 Inst	 Inst	 Tok	 Tok	 Tok
+	 Train	 Dev	 Test	 Train	 Dev	 Test
+da	38162	4240	4711	347667	38630	43102
+nb	23539	2615	2905	323770	35974	39250
+nn	13786	1532	1702	245036	27226	29581
+sv	31028	3448	3830	257853	28650	31716
+--------------
+BCMS Twitter
+Class	 Inst	 Inst	 Inst	 Tok	 Tok	 Tok
+	 Train	 Dev	 Test	 Train	 Dev	 Test
+bs	16515	1835	2038	286077	31786	34634
+hr	30181	3353	3725	470128	52236	57822
+me	13353	1484	1648	249113	27679	28881
+sr	31211	3468	3853	558382	62042	69619
+--------------
+German
+Class	 Inst	 Inst	 Inst	 Tok	 Tok	 Tok
+	 Train	 Dev	 Test	 Train	 Dev	 Test
+AT	13896	1544	1715	515938	57326	63409
+CH	24530	2726	3028	949549	105505	117766
+DE_N	105411	11712	13013	3980354	442262	492211
+DE_S	105411	11712	13013	4027384	447487	496944
+--------------
+Greek
+Class	 Inst	 Inst	 Inst	 Tok	 Tok	 Tok
+	 Train	 Dev	 Test	 Train	 Dev	 Test
+CRE	53178	5909	6565	672545	74727	83241
+CYP	54489	6054	6726	650388	72265	80252
+NOR	2170	241	267	26626	2958	3274
+PON	17324	1925	2138	228200	25356	28177
+--------------
+Finnish
+Class	 Inst	 Inst	 Inst	 Tok	 Tok	 Tok
+	 Train	 Dev	 Test	 Train	 Dev	 Test
+east	966	107	119	13606	1512	1479
+north	981	109	121	14581	1620	1771
+west	992	110	122	13066	1452	1730
+--------------
+Middle Low Saxon
+Class	 Inst	 Inst	 Inst	 Tok	 Tok	 Tok
+	 Train	 Dev	 Test	 Train	 Dev	 Test
+classical	18879	2098	2330	150009	16668	18121
+postclassical	13694	1522	1690	127971	14219	15866
+preclassical	13949	1550	1722	120746	13416	14795
+--------------

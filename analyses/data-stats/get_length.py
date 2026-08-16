@@ -1,11 +1,11 @@
-import argparse
-import collections
-import itertools
-import pathlib
+# import argparse
+# import collections
+# import itertools
+# import pathlib
 import string
 
-import pandas as pd
-import tqdm
+# import pandas as pd
+# import tqdm
 import numpy as np
 
 
@@ -29,12 +29,12 @@ def lens_from_corpus(infile):
                 dedup[raw] = tuple(map(normalize, tokens))
     return np.array(list(map(len, dedup.values())))
 
-
+DATADIR = '../../data'
 
 fnames = {
-    'estonian_voro': 'shibboleth/data/estonian_voro/pkev_all_tok.csv',
-    'scandinavian': 'shibboleth/data/scandinavian/slide_sl_all_tok.csv',
-    'BCMS setimes': 'explainability/data_groundtruth/bcms/setimes_large/all_tok.csv',
+    'estonian_voro': DATADIR+'/estonian_voro/pkev_all_tok.csv',
+    'scandinavian': DATADIR+'/scandinavian/slide_sl_all_tok.csv',
+    'BCMS setimes': DATADIR+'/cs_setimes/all_tok.tsv',
 }
 
 

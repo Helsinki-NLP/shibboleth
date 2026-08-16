@@ -1,12 +1,12 @@
-import argparse
-import collections
-import itertools
-import pathlib
+# import argparse
+# import collections
+# import itertools
+# import pathlib
 import string
 import pprint
 
-import pandas as pd
-import tqdm
+# import pandas as pd
+# import tqdm
 import numpy as np
 
 
@@ -30,15 +30,17 @@ def lens_from_corpus(infile):
                 dedup[raw] = tuple(map(normalize, tokens))
     return np.array(list(map(len, dedup.values())))
 
+DATADIR = '../../data'
+
 fnames = {
-    'estonian_voro': 'shibboleth/data/estonian_voro/pkev_all_tok.csv',
-    'scandinavian': 'shibboleth/data/scandinavian/slide_sl_all_tok.csv',
-    'BCMS setimes': 'explainability/data_groundtruth/bcms/setimes_large/all_tok.csv',
-    'BCMS twitter': 'explainability/data_groundtruth/bcms/twitter/all_tok.csv',
-    'finnish': 'explainability/data/finnish/murre24_may/s24_sent.tsv',
-    'greek': 'shibboleth/data/greek/grdc_all.csv',
-    'german': 'shibboleth/data/jodel/jodel_all_tok.csv',
-    'MLS': 'shibboleth/data/middle_low_saxon/ReN_northsaxon_all.txt',
+    'estonian_voro': DATADIR+'/estonian_voro/pkev_all_tok.csv',
+    'scandinavian': DATADIR+'/scandinavian/slide_sl_all_tok.csv',
+    'BCMS setimes': DATADIR+'/cs_setimes/all_tok.tsv',
+    'BCMS twitter': DATADIR+'/bcms_twitter/all_tok.tsv',
+    'finnish': DATADIR+'/finnish/suomi24_all_tok.csv',
+    'greek': DATADIR+'/greek/grdc_all.csv',
+    'german': DATADIR+'/jodel/jodel_all_tok.csv',
+    'MLS': DATADIR+'/middle_low_saxon/ReN_northsaxon_all.txt'
 }
 
 lens = {k: lens_from_corpus(v) for k, v in fnames.items()}
