@@ -3,6 +3,8 @@
 ### todo
 practical cleaning steps for the repo worth doing at some point:
  - move unused scripts to e.g. `scripts/archival/` or `scripts/old/` or `scripts/unused/`
+    - moved to `scripts/unused/` - please check that nothing important has been moved
+	- there are also some random scripts and files in `other_stuff` - please check if there's anything worth keeping
  - move `manual_eval/*ipynb` to `vizs/` (maybe create subdirectories in `vizs/` to differentiate between the different sections we're considering)
    - renamed `vizs` to `analyses` and created subdirectories roughly corresponding to the paper sections
    - the notebooks, CSVs and PDFS originally in `manual_eval` were moved to `analyses/shib-eval-contents`
