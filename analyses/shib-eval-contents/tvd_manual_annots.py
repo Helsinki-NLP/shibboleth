@@ -31,20 +31,26 @@ def tvd(dist_a: dict, dist_b:dict) -> float:
     
     return 0.5 * abs(dist_a - dist_b).sum()
 
-
-data_cs = pd.read_csv('cs_setimes.csv').rename(columns={'Unnamed: 0': 'cfg', 'Unnamed: 1': 'lbl'})
-counts_cs = {cfg: {} for cfg in data_cs.cfg.unique()}
-for record in data_cs.to_dict(orient='records'):
-    counts_cs[record['cfg']][record['lbl']] = [record['Lexical'],record['Non-lexical'],record['Non shibboleth'],record['Other']]
-with open('cs_setimes.pkl', 'wb') as f:
-    pickle.dump(counts_cs, f)
+groups = ['bcms_twitter', 'finnish_suomi24', 'german_jodel', 'greek_dialects',  'scandinavian_slide', 'estonian_voro', 'bcms_setimes']
 
 records = []
 
-groups = ['bcms_twitter', 'finnish_suomi24', 'german_jodel', 'greek_dialects',  'scandinavian_slide', 'estonian_voro', 'cs_setimes']
 for group in groups:
-    with open(f'{group}.pkl', 'rb') as f:
-        counts = pickle.load(f)
+    data_df = pd.read_csv(f'tables/{group}_perclass.csv').rename(columns={'method': 'cfg', 'label': 'lbl', 'Lexical shibboleths': 'Lexical', 'Non-lexical shibboleths': 'Non-lexical', 'Non-shibboleths': 'Non shibboleth'})
+    counts = {cfg: {} for cfg in data_df.cfg.unique()}
+    for record in data_df.to_dict(orient='records'):
+        counts[record['cfg']][record['lbl']] = [record['Lexical'],record['Non-lexical'],record['Non shibboleth'],record['Other']]
+
+# data_cs = pd.read_csv('cs_setimes.csv').rename(columns={'Unnamed: 0': 'cfg', 'Unnamed: 1': 'lbl'})
+# counts_cs = {cfg: {} for cfg in data_cs.cfg.unique()}
+# for record in data_cs.to_dict(orient='records'):
+#     counts_cs[record['cfg']][record['lbl']] = [record['Lexical'],record['Non-lexical'],record['Non shibboleth'],record['Other']]
+# with open('cs_setimes.pkl', 'wb') as f:
+#     pickle.dump(counts_cs, f)
+
+# for group in groups:
+#     with open(f'{group}.pkl', 'rb') as f:
+#         counts = pickle.load(f)
 
     records += [
         {
@@ -60,4 +66,4 @@ for group in groups:
     ]
 
 df = pd.DataFrame.from_records(records)
-
+df.to_csv('tables/tvd_results.csv')
