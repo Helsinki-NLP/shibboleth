@@ -6,3 +6,6 @@ This directory assembles various analyses of the data as well as the correspondi
 - `reflists-quality` compares the automatically derived truelists and falselists with the manual annotations (§4.2.3).
 - `reflists-low-attribs` analyzes the words with the lowest attribution scores (Appendix B).
 - `shib-eval-contents` provides various analyses of the manually annotated lists and the distribution of different shibboleth categories across language varieties, aggregation methods, and levels of linguistic analysis (§4.2.3, §5.3.2, Appendix C).
+
+**TODO:**
+- Describe how `ne_code_file1.csv` is generated
